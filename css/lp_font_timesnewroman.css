@@ -1,0 +1,11 @@
+body
+	{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	}
+
+.smallBullet
+	{
+	font-size: 14px;
+	font-weight: bold;
+	}
