@@ -1,0 +1,131 @@
+a, a:visited {color: #78542F;text-decoration: none;}
+a:hover {color: #0000FF;text-decoration: underline;}
+
+body, #pHeader, #ddmenuspan
+	{
+	background-image: url(lp_brownbubble.jpg);
+	color: #000;
+	}
+
+	#menu ul
+	 {
+		width: 400px;
+		height: 16px;
+		margin-left: 625px;
+		padding-right: 10px;
+		padding-top: 10px;
+		border-radius: 10px;
+	 }
+
+.reportBody, #rBody, #pHeader, #ddmenuspan
+	{
+	border-color: #3F270F;
+	}
+
+	#menu ul
+	{
+	font-size: 15px;
+	text-align: left;
+	}
+
+.tocLinksTitle, .tocTitle, .tocIntroTitle, .tocContactTitle, .tocAuthor, #dDMButton
+	{
+	text-shadow: #a4a4a4 2px 2px 5px;
+	}
+
+ .pageTitle, #pTitle
+  {
+	font-size: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	}
+
+
+
+.idxBar
+	{
+	border-color: #3F270F;
+	background-color: #C5B19A;
+	text-shadow: #888 2px 3px 2px;
+	}
+
+.idxSur, .srcEntry, .fhName
+	{
+	color: #4D3300;
+	text-shadow: #888 2px 3px 2px;
+	border-color: #3F270F;
+	}
+
+.srcIndex
+	{
+	color: #888;
+	}
+
+.srcIndex a
+	{
+	color: #ccc;
+	}
+
+.psRecord, .psMRecord, .psFRecord
+	{
+	border-color: #3F270F;
+	}
+
+/* web cards */
+.wcParentName, .wcChildName
+	{
+	color: #909090;
+	}
+
+.wcHusband, .wcWife, .wcFHusband, .wcMWife,
+.wcHFather, .wcWFather, .wcHMother, .wcWMother,
+.wcHFacts, .wcWFacts,
+.wcChildren, .wcChild, .wcMChild, .wcFChild,
+.wcChildBold, .wcMChildBold, .wcFChildBold
+	{
+	border-color: #3F270F;
+	}
+
+.wcHusband, .wcMWife,
+.wcHFather, .wcWFather, .wcHFacts, .wcMChild, .wcMChildBold, table#results td.m,
+.wcHFactsWrapper .wcFactPicture img
+	{
+	background-color: #f0f2ff;
+	}
+
+.wcWife, .wcFHusband,
+.wcHMother, .wcWMother, .wcWFacts, .wcFChild, .wcFChildBold, table#results td.f,
+.wcWFactsWrapper .wcFactPicture img
+	{
+	background-color: #fff0fb;
+	}
+
+.wcChild, .wcChildBold, table#results td.u
+	{
+	background-color: #ffffdd;
+	}
+
+.wcHSpouses, .wcWSpouses, .psFooterRecord
+	{
+	color: #3F270F;
+	border-color: #3F270F;
+	}
+
+.psEvent, .psFact, .psParent, .psOtherSpouses, .psName,
+.psSpouse, .fhItem
+	{
+	border-color: #3F270F;
+	color: #3F270F;
+	}
+
+
+.wcChildrenTitle
+	{
+	color: #fff;
+	text-shadow: #666 2px 3px 2px;
+	}
+
+.psSpousesTitle, .psNotesTitle, .psChildren
+	{
+	color: #3F270F;
+	}
