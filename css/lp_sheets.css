@@ -2,6 +2,7 @@ a img {	border-style: none; margin: 0px 3px; }
 
 .pageBody, #pBody
 	{
+	padding-top: 75px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 760px;
@@ -10,7 +11,7 @@ a img {	border-style: none; margin: 0px 3px; }
 	/*The below instruction for the "body" establishes and modifies the border surrounding the content*/
 	.reportBody, #rBody
 		{
-		padding: 30px;
+		padding-top: 50px;
 		border-style: solid;
 		border-radius: 15px;
 		}

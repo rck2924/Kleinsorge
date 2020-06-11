@@ -10,6 +10,7 @@ a img {	border-style:none; margin: 0px; }
 
 .pageBody, #pBody
 	{
+	padding-top: 100px;
 	margin-right: auto;
 	margin-bottom: 50px;
 	margin-left: auto;
@@ -60,7 +61,7 @@ a img {	border-style:none; margin: 0px; }
 
 .wcChildDate, .wcChildStatus
 	{
-	
+
 	margin-left: 0.2em;
 	}
 

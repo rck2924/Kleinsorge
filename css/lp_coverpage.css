@@ -1,9 +1,22 @@
 /*This is the title at the top of the Main page*/
+body
+    {
+    padding-bottom:200px;
+    }
+
+.bigger
+    {
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    margin-left: 700px;
+    margin-right: 700px;
+    }
+
 .tocTitle
   	{
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 50px;
-    text-shadow: 3px 2px black;
    	height: .5em;
     width: 20em;
     border: outset Dimgray 10px;
@@ -80,6 +93,7 @@
 	border-top: solid;
 	border-width: 5px;
 	font-size: 15px;
+  font-weight: bolder;
   }
 
 /*This instruction adjust the size, color and position of the letter in the alphabet identifying the Surnames*/
@@ -184,6 +198,7 @@ transition: 1s ease;
 /*This will grow the image if you change the class associated with the image to grow*/
 .grow img{
 transition: 1s ease;
+align-self: auto;
 }
 
 .grow img:hover{
@@ -288,7 +303,7 @@ transition: 1s ease;
 
 .column
  {
-  float: left;
+  float: right;
   width: 16.0%;
   padding: 5px;
  }
@@ -303,4 +318,57 @@ transition: 1s ease;
 .para
 {
 font-size: 20px;
+text-align: center;
+}
+
+/*This instruction will cause all <p> (paragraph) elements to fade in and out on 2 second intervals*/
+div p {
+padding: 5px;
+border: 10px;
+border-radius: 15px;
+font-family: 'Montserrat';
+background-color: #FFF700;
+width: 6em;
+font-size: 50px;
+color: #299617;
+text-transform: none;
+opacity: 0.0;
+animation: fadeIn 2s infinite alternate;
+-webkit-animation: fadeIn 2s infinite alternate;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+.end
+{
+  font-size:2.5em;
+  text-align: center;
+  color:#832A0D;
+  font-style: italic;
+  text-decoration: underline;
+  font-family: cursive;
+  font-weight: bolder;
 }

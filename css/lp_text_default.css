@@ -1,10 +1,10 @@
-.pageTitle, .tocTitle, #pTitle
+.pageTitle, #pTitle
 	{
 	font-size: 1.7em;
 	font-weight: bold;
 	}
 
-.pageTitle, .tocTitle
+.pageTitle
 	{
 	text-align: center;
 	}
@@ -12,8 +12,8 @@
 /*This adjust the Title at the top of the cover page*/
 .tocTitle
 	{
-    font: italic bold 55px/5px Georgia, serif;
-		background-color: #665233;
+	  font: italic bold 55px/5px Georgia, serif;
+	  background-color: #665233;
 	}
 
 .tocIntroTitle
@@ -27,6 +27,7 @@
 	}
 
 .psTitle
+  {
 	font-size: 1.2em;
 	text-align: right;
 	}

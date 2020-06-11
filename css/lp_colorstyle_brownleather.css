@@ -9,12 +9,9 @@ body, #pHeader, #ddmenuspan
 
 	#menu ul
 	 {
-		width: 400px;
-		height: 16px;
-		margin-left: 625px;
-		padding-right: 10px;
-		padding-top: 10px;
-		border-radius: 10px;
+		width: 500px;
+		margin-left: 545px;
+		padding-top: 30px;
 	 }
 
 .reportBody, #rBody, #pHeader, #ddmenuspan
@@ -24,8 +21,7 @@ body, #pHeader, #ddmenuspan
 
 	#menu ul
 	{
-	font-size: 15px;
-	text-align: left;
+	font-size: 20px;
 	}
 
 .tocLinksTitle, .tocTitle, .tocIntroTitle, .tocContactTitle, .tocAuthor, #dDMButton
