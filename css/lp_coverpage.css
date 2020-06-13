@@ -113,7 +113,7 @@ body
   /*padding-top: 13px*/
   margin-top: 10px;
   width: 700px;
-  height:95px;
+  height:95 px;
   font-size:30px;
   border: 3px solid black;
   border-radius: 10px;
@@ -301,20 +301,13 @@ filter: gray;
 filter: none;
 transition: 1s ease;
 }
-
+/*The column instruction will align elements into colums based on the width percentage*/
 .column
  {
   float: right;
   width: 16.0%;
   padding: 5px;
  }
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 .para
 {
@@ -362,6 +355,58 @@ animation: fadeIn 2s infinite alternate;
 0% {opacity:0;}
 100% {opacity:1;}
 }
+/*This instruction will cause all <p> (paragraph) elements or image elements to fade in and out on 5 second intervals*/
+.fade-out {
+  animation: fadeOut ease 5s infinite alternate;
+  -webkit-animation: fadeOut ease 5s infinite alternate;
+  -moz-animation: fadeOut ease 5s;
+  -o-animation: fadeOut ease 5s;
+  -ms-animation: fadeOut ease 5s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+}
+
 
 .end
 {
