@@ -110,10 +110,9 @@ body
 .contactInfo
   {
   background-color: #FFF700;
-  /*padding-top: 13px*/
-  margin-top: 10px;
+  margin-top: 5px;
   width: 700px;
-  height:95 px;
+  height:95px;
   font-size:30px;
   border: 3px solid black;
   border-radius: 10px;
@@ -363,7 +362,8 @@ animation: fadeIn 2s infinite alternate;
   -o-animation: fadeOut ease 5s;
   -ms-animation: fadeOut ease 5s;
 }
-@keyframes fadeOut {
+@keyframes fadeOut
+{
   0% {
     opacity:1;
   }
@@ -372,7 +372,8 @@ animation: fadeIn 2s infinite alternate;
   }
 }
 
-@-moz-keyframes fadeOut {
+@-moz-keyframes fadeOut
+ {
   0% {
     opacity:1;
   }
@@ -381,7 +382,8 @@ animation: fadeIn 2s infinite alternate;
   }
 }
 
-@-webkit-keyframes fadeOut {
+@-webkit-keyframes fadeOut
+{
   0% {
     opacity:1;
   }
@@ -390,7 +392,8 @@ animation: fadeIn 2s infinite alternate;
   }
 }
 
-@-o-keyframes fadeOut {
+@-o-keyframes fadeOut
+{
   0% {
     opacity:1;
   }
@@ -399,14 +402,15 @@ animation: fadeIn 2s infinite alternate;
   }
 }
 
-@-ms-keyframes fadeOut {
+@-ms-keyframes fadeOut
+{
   0% {
     opacity:1;
   }
   100% {
     opacity:0;
+  }
 }
-
 
 .end
 {
