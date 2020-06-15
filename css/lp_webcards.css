@@ -1,4 +1,4 @@
-a img {	border-style:none; margin: 0px; }
+a img {	border-style:none; margin:0px;}
 
 /*The below instruction for the "body" establishes and modifies the border surrounding the content*/
 .reportBody, #rBody
@@ -149,7 +149,7 @@ a img {	border-style:none; margin: 0px; }
 .wcFactPicture img
 	{
 	float: right;
-	width: 36px;
+	width: 130px;
 	height: auto;
 	}
 
