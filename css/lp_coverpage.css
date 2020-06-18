@@ -2,6 +2,7 @@
 body
     {
     padding-bottom:200px;
+    padding-top: 50px;
     }
 
 .tocTitle
@@ -31,7 +32,7 @@ body
 /*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
 .gotobutton
   {
-    padding: 10px;
+  padding: 10px;
   margin-top: 25px;
   border: 2px solid black;
   font-size: 3.0em;
@@ -101,8 +102,9 @@ body
 .contactInfo
   {
   background-color: #FFF700;
-  margin-top: 5px;
-  width: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 550px;
   height:95px;
   font-size:30px;
   border: 3px solid black;
@@ -307,18 +309,18 @@ text-align: center;
 
 /*This instruction will cause all <p> (paragraph) elements to fade in and out on 2 second intervals*/
 div p {
-padding: 5px;
+padding: 6px;
 border: 10px;
 border-radius: 15px;
 font-family: 'Montserrat';
 background-color: #FFF700;
-width: 6em;
+width: 20em;
 font-size: 50px;
 color: #299617;
 text-transform: none;
 opacity: 0.0;
-animation: fadeIn 2s infinite alternate;
--webkit-animation: fadeIn 2s infinite alternate;
+animation: fadeIn 6s infinite alternate;
+-webkit-animation: fadeIn 6s infinite alternate;
 }
 
 @keyframes fadeIn {
@@ -411,4 +413,30 @@ animation: fadeIn 2s infinite alternate;
   font-style: italic;
   font-family: cursive;
   font-weight: bolder;
+}
+/*This instruction will cause the greeting at the top to change when a pointer is hovered on the word "Translation"*/
+.tooltip {
+    display:inline-block;
+    position:relative;
+    text-align:center;
+}
+
+.tooltip .top {
+    min-width:200px;
+    height:3em;
+    width:9.5em;
+    margin-left: -175px;
+    margin-right: 10px;
+    margin-bottom: 75px;
+    padding-bottom: 50px;
+    transform:translate(-50%, -100%);
+    font-size:50px;
+    border-radius:15px;
+    position:absolute;
+    z-index:99999999;
+    display:none;
+}
+
+.tooltip:hover .top {
+    display:block;
 }
