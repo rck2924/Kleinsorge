@@ -53,7 +53,7 @@ body
   transform: translateY(4px);
   }
 
-    /*This is the title in the middle of the Main page that talks about 500 people*/
+/*This is the title in the middle of the Main page that talks about 500 people*/
     .tocIntro
     {
     margin-top: 20px;
@@ -415,28 +415,33 @@ animation: fadeIn 6s infinite alternate;
   font-weight: bolder;
 }
 /*This instruction will cause the greeting at the top to change when a pointer is hovered on the word "Translation"*/
-.tooltip {
-    display:inline-block;
-    position:relative;
-    text-align:center;
-}
-
-.tooltip .top {
+.welcome
+  {
+   display:inline-block;
+   text-align:center;
+   font-size: 25px;
+   color:blue;
+   padding:5px;
+   border-width: 2px;
+   border-radius:5px;
+   background-color: white;
+  }
+.top
+   {
     min-width:200px;
     height:3em;
     width:9.5em;
-    margin-left: -175px;
+    margin-left: -91px;
     margin-right: 10px;
     margin-bottom: 75px;
     padding-bottom: 50px;
     transform:translate(-50%, -100%);
     font-size:50px;
-    border-radius:15px;
     position:absolute;
-    z-index:99999999;
     display:none;
-}
+   }
 
-.tooltip:hover .top {
+.welcome:hover .top
+   {
     display:block;
-}
+   }
