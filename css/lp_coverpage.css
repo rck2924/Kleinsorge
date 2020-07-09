@@ -120,10 +120,9 @@ body
     }
     .image1
       {
-      width: 500px;
-      height: 600px;
-      border: 25px ridge #736A62;
-      border-radius: 20px;
+      width: 350px;
+      height: 200px;
+      padding: 100px;
       }
 
   /* The overlay effect (full height and width) - lays on top of the container and over the image */
@@ -291,7 +290,7 @@ filter: grayscale(0%);
 filter: gray;
 -webkit-filter: grayscale(0%);
 filter: none;
-transition: 1s ease;
+transition: .5s ease;
 }
 /*The column instruction will align elements into colums based on the width percentage*/
 .column
@@ -307,7 +306,7 @@ font-size: 20px;
 text-align: center;
 }
 
-/*This instruction will cause all <p> (paragraph) elements to fade in and out on 2 second intervals*/
+/*This instruction will cause all <p> (paragraph) elements to fade in and out on 6.5 second intervals*/
 div p {
 padding: 6px;
 border: 10px;
@@ -319,8 +318,8 @@ font-size: 50px;
 color: #299617;
 text-transform: none;
 opacity: 0.0;
-animation: fadeIn 6s infinite alternate;
--webkit-animation: fadeIn 6s infinite alternate;
+animation: fadeIn 6.5s infinite alternate;
+-webkit-animation: fadeIn 6.5s infinite alternate;
 }
 
 @keyframes fadeIn {
@@ -414,7 +413,7 @@ animation: fadeIn 6s infinite alternate;
   font-family: cursive;
   font-weight: bolder;
 }
-/*This instruction will cause the greeting at the top to change when a pointer is hovered on the word "Translation"*/
+/*This instruction will cause the greeting at the top to change when a pointer is hovered on the phrase "German to English translation?"*/
 .welcome
   {
    display:inline-block;
@@ -444,4 +443,5 @@ animation: fadeIn 6s infinite alternate;
 .welcome:hover .top
    {
     display:block;
+    cursor:wait;
    }
