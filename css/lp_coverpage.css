@@ -2,7 +2,7 @@
 body
     {
     padding-bottom:200px;
-    padding-top: 50px;
+    padding-top: 10px;
     }
 
 .tocTitle
@@ -23,7 +23,7 @@ body
   	}
 
   	/*This is the instruction that puts a border around the picture on the Main page*/
-  .tocImage img
+  /*.tocImage img
   	{
   		max-width:70%;
       border: 30px inset #040404;
@@ -417,11 +417,9 @@ animation: fadeIn 6.5s infinite alternate;
 .welcome
   {
    display:inline-block;
-   text-align:center;
    font-size: 25px;
    color:blue;
-   padding:5px;
-   border-width: 2px;
+   padding:2px;
    border-radius:5px;
    background-color: white;
   }
@@ -443,5 +441,4 @@ animation: fadeIn 6.5s infinite alternate;
 .welcome:hover .top
    {
     display:block;
-    cursor:wait;
    }
