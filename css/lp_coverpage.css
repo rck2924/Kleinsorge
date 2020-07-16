@@ -62,7 +62,11 @@ body
     width: 68%;
     border: outset Dimgray 9px;background-color:LightGray;	padding: 2px;
     }
-
+    .tocIntro:hover
+    {
+    background-color: lightblue;
+    transition-delay: .5s;
+    }
 /*This instruction establishes the title "Family Surnames" in the middle of the page*/
 .surNames
     {
@@ -194,9 +198,9 @@ align-self: auto;
 }
 
 .grow img:hover{
--webkit-transform: scale(2.2);
--ms-transform: scale(2.2);
-transform: scale(2.2);
+-webkit-transform: scale(1.4);
+-ms-transform: scale(1.4);
+transform: scale(1.4);
 transition: 1s ease;
 }
 /*This will shrink the image if you change the class associated with the image to "shrink"*/
