@@ -114,7 +114,10 @@ body
   border: 3px solid black;
   border-radius: 10px;
   }
-
+  .contactInfo:hover
+  {cursor: url("img/Heart.png"), auto;
+  background-color: lightblue;
+  }
 
   /*Container needed to position the overlay. Adjust the width as needed */
   .container
@@ -193,14 +196,14 @@ transition: 1s ease;
 }
 /*This will grow the image if you change the class associated with the image to grow*/
 .grow img{
-transition: 1s ease;
-align-self: auto;
+/*transition: 1s ease;
+align-self: auto;*/
 }
 
 .grow img:hover{
--webkit-transform: scale(1.4);
--ms-transform: scale(1.4);
-transform: scale(1.4);
+-webkit-transform: scale(1.6);
+-ms-transform: scale(1.6);
+transform: scale(1.6);
 transition: 1s ease;
 }
 /*This will shrink the image if you change the class associated with the image to "shrink"*/
