@@ -24,16 +24,31 @@ background-color: lightblue;
 <style>
 .BIGPIX
     {
-    width: 1000px;
-    height: 1000px;
+    width: 900px;
+    height: 900px;
     background: url("img/Theodor Kleinsorge with Family.jpg") no-repeat;
-    margin-left:250px;
+    margin-left:150px;
     margin-top: 25px;
-    margin-bottom: -150px;
+    margin-bottom: -50px;
     transition: 1s ease;
     }
 .BIGPIX:hover
     {background: url("img/Theodor Kleinsorge Family.jpg") no-repeat;}
+</style>
+
+<style>
+.BIGPIX1
+    {
+      width: 600px;
+      height: 600px;
+      background: url("img/Theodor Kleinsorge.jpg") no-repeat;
+      margin-left:275px;
+      margin-top: 25px;
+      margin-bottom: -200px;
+      transition: 1.5s ease;
+    }
+.BIGPIX1:hover
+    {background: url("img/Catherine Kloer.jpg") no-repeat;}
 </style>
 
 </head>
@@ -53,11 +68,12 @@ background-color: lightblue;
 <!--<div class="tocImage">-->
 
 <div class="BIGPIX"></div>
-
-<div>
+<div class="BIGPIX1"></div>
+<!--<div>
   <p>
   <b>Photo is from 1903. When you pass the pointer over the photo it changes to a photo from 1915! </p>
-</div>
+</div>-->
+<span style="color: #ffff00; font-size: 40px;text-decoration: underline;text-shadow:3px 1px blue;word-spacing:15px;">Move your mouse pointer over the photos</span>
 
 <div class="tocIntro">
  This is the Kleinsorge Family Tree<br> There are more than 500 individuals on the tree.<br>See if you can find yourself on the tree using Family Surnames below.<br>HINT: When you locate your information card, click on the <sub>small</sub> <font color=green>GREEN</font> tree to the right of your name!
@@ -129,6 +145,7 @@ onClick="window.open('https://sites.google.com/view/the-kleinsorge-family-tree/h
 <div class="surRecord"></div>
 
 <!--Change the database info down to this point-->
+<span style="color: #ffff00; font-size: 30px;text-decoration: underline;text-shadow:3px 1px blue;word-spacing:15px;">Move your mouse pointer over the photos</span>
 <br>
 <br>
 <div class="container1">
@@ -176,6 +193,13 @@ onClick="window.open('https://sites.google.com/view/the-kleinsorge-family-tree/h
   <div class="end">The six couples above were the beginnng of this <span style="font-size:50px;color:green;">Family Tree</span> in America over 100 years ago.</div>
   <br>
 <div align="center">
+
+  <div class="container">
+    <div class="grow"><img src="img/Wilhelm Kloer and Maria Sickman.jpg" class="image3"></div>
+    <div class="overlay">
+      <div class="text">Catherine Kloer's parents<br>Wilhelm Kloer and Maria Sickman<br>Photo from 1867</div>
+    </div>
+  </div>
   <div class="container">
     <div class="grow"><img src="img/Theodore Kleinsorge on the farm.jpg" class="image1"></div>
     <div class="overlay">
@@ -189,3 +213,15 @@ onClick="window.open('https://sites.google.com/view/the-kleinsorge-family-tree/h
 </div>
 
 </body></html>
+<!--
+Affecting the Text's Background Color:
+Use This Format:
+<SPAN STYLE="background-color: #ffffcc">Here's What You Get</SPAN>
+Here's What You Get
+Affecting Text Color and Size:
+Use This Format:
+<SPAN STYLE="color: green; font-size: 10pt">Here's What You Get</SPAN>
+Here's What You Get
+Adding A Background Image to the Text:
+<SPAN STYLE="background-image: url(/img/background2.gif)">Here's What You Get</SPAN>
+Here's What You Get
