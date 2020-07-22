@@ -1,7 +1,7 @@
 /*This is the title at the top of the Main page*/
 body
     {
-    padding-bottom:200px;
+    padding-bottom:100px;
     padding-top: 10px;
     }
 
@@ -114,10 +114,6 @@ body
   border: 3px solid black;
   border-radius: 10px;
   }
-  .contactInfo:hover
-  {cursor: url("img/Heart.png"), auto;
-  background-color: lightblue;
-  }
 
   /*Container needed to position the overlay. Adjust the width as needed */
   .container
@@ -125,12 +121,7 @@ body
     position: relative;
     width: 50%;
     }
-    .image1
-      {
-      width: 350px;
-      height: 200px;
-      padding: 100px;
-      }
+
 
   /* The overlay effect (full height and width) - lays on top of the container and over the image */
   .overlay
@@ -148,6 +139,7 @@ body
   .container:hover .overlay
     {
     transform: scale(1.0);
+    transition: all 3s ease;
     }
 
   /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
@@ -156,7 +148,7 @@ body
     border-radius: 10px;
     background-color: white;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
     position: absolute;
     top: 50%;
@@ -170,19 +162,35 @@ body
       width: 50%;
       }
       /* This puts a frame around Theodor and Cathrine Wedding picture */
-      .image2
-        {
-        width: 500px;
-        height: 600px;
-        border: 25px ridge #2D383A;
-        border-radius: 20px;
-        }
+
 
     /* When you mouse over the container, the overlay text will "zoom" in display */
     .container1:hover .overlay
       {
       transform: scale(1.0);
       }
+      /*Theodor on the Farm Photo*/
+        .image1
+          {
+          width: 350px;
+          height: 200px;
+          padding: 100px;
+          }
+/*Theodor and Catherine wedding photo*/
+          .image2
+            {
+            width: 300px;
+            height: 400px;
+            border: 25px ridge #2D383A;
+            border-radius: 20px;
+            }
+/*Wilhelm and Maria Phota*/
+            .image3
+              {
+              width: 200px;
+              height: 250px;
+              padding: 100px;
+              }
 
 /*This will fade-in the image if you change the class associated with the image to "fadein"*/
 .fadein img{
@@ -201,21 +209,11 @@ align-self: auto;*/
 }
 
 .grow img:hover{
--webkit-transform: scale(1.6);
--ms-transform: scale(1.6);
-transform: scale(1.6);
-transition: 1s ease;
-}
-/*This will shrink the image if you change the class associated with the image to "shrink"*/
-.shrink img {
-transition: 1s ease;
-}
-
-.shrink img:hover{
--webkit-transform: scale(0.8);
--ms-transform: scale(0.8);
-transform: scale(0.8);
-transition: 1s ease;
+-webkit-transform: scale(2.0);
+-ms-transform: scale(2.0);
+transform: scale(2.0);
+/*transition-duration: 2s;*/
+transition: 2s ease;
 }
 /*This will circle the image if you change the class associated with the image to "circle"*/
 .circle img {
@@ -225,23 +223,6 @@ transition: 1s ease;
 .circle img:hover {
 border-radius:50%;
 transition: 1s ease;
-}
-/*This will shadow the image if you change the class associated with the image to "shadow"*/
-.shadow img {
-transition: .5s ease;
-}
-
-.shadow img:hover{
-box-shadow:
-1px 1px #373737,
-2px 2px #373737,
-3px 3px #373737,
-4px 4px #373737,
-5px 5px #373737,
-6px 6px #373737;
--webkit-transform: translateX(-3px);
-transform: translateX(-3px);
-transition: .5s ease;
 }
 /*This will put a border around the image if you change the class associated with the image to "border"*/
 .border img {
@@ -259,17 +240,6 @@ transition: 1s ease;
 
 .blur img:hover {
 -webkit-filter: blur(5px);
-transition: 1s ease;
-}
-/*This will rotate the image if you change the class associated with the image to "rotate"*/
-.rotate img{
-transition: 1s ease;
-}
-
-.rotate img:hover{
--webkit-transform: rotateZ(-10deg);
--ms-transform: rotateZ(-10deg);
-transform: rotateZ(-10deg);
 transition: 1s ease;
 }
 /*This will brighten the image if you change the class associated with the image to "brighten"*/
@@ -410,8 +380,8 @@ animation: fadeIn 6.5s infinite alternate;
     opacity:0;
   }
 }
-
-.end
+/*This instruction relates to the verbage at the bottem referring to six couples*/
+.six_couples
 {
   font-size:2.5em;
   text-align: center;
