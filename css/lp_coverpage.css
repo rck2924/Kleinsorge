@@ -143,22 +143,22 @@ body
   /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
   .text
     {
-      border-radius: 10px;
+    border-radius: 10px;
     background-color: white;
     color: black;
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+    }
 
     .container1
       {
-        position: relative;
+      position: relative;
       width: 50%;
-    }
+      }
       /* This puts a frame around Theodor and Cathrine Wedding picture */
 
 
@@ -167,28 +167,28 @@ body
       {
         transform: scale(1.0);
       }
-      /*Theodor on the Farm Photo*/
+      /*Theodor on the Farm photo*/
         .image1
           {
-            width: 350px;
+          width: 350px;
           height: 200px;
           padding: 100px;
-        }
+          }
 /*Theodor and Catherine wedding photo*/
           .image2
             {
-              width: 300px;
+            width: 300px;
             height: 400px;
             border: 25px ridge #2D383A;
             border-radius: 20px;
-          }
-/*Wilhelm and Maria Phota*/
+            }
+/*Wilhelm and Maria photo*/
             .image3
               {
-                width: 200px;
+              width: 200px;
               height: 250px;
               padding: 100px;
-            }
+              }
 
 /*This will fade-in the image if you change the class associated with the image to "fadein"*/
 .fadein img
@@ -288,7 +288,6 @@ filter: grayscale(0%);
   width: 16.0%;
   padding: 5px;
  }
-
 .para
 {
 font-size: 20px;
