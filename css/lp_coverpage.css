@@ -16,23 +16,9 @@ body
     /*This puts a space above the picture on the Main page*/
   .tocImage
   	{
-      margin-top: 10px;
+    margin-top: 10px;
   	padding-top: 15px;
-  }
-
-  img{
-  max-width:75%;
-  max-height:75%;
-  object-fit: contain;
-  }
-
-
-  	/*This is the instruction that puts a border around the picture on the Main page*/
-  /*.tocImage img
-  	{
-  		max-width:70%;
-      border: 30px inset #040404;
-  	}
+   }   
 
 /*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
 .gotobutton
