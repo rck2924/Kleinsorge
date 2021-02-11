@@ -1,24 +1,27 @@
 /*This is the title at the top of the Main page*/
-body
-    {padding-bottom:100px;
-     padding-top: 10px;}
+body {
+    padding-bottom:100px;
+    padding-top: 10px;
+}
 
-.tocTitle
-  	{margin-top: 50px;
+.tocTitle {
+  	margin-top: 50px;
     padding: 50px;
    	height: .5em;
     width: 20em;
     border: outset Dimgray 10px;
-    background: top url(titleGradient.png);}
+    background: top url(titleGradient.png);
+}
 
     /*This puts a space above the picture on the Main page*/
-  .tocImage
-  	{margin-top: 10px;
-  	padding-top: 15px;}
+.tocImage {
+  	margin-top: 10px;
+  	padding-top: 15px;
+}
 
 /*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
-.gotobutton
-  {padding: 10px;
+.gotobutton {
+  padding: 10px;
   margin-top: 25px;
   border: 2px solid black;
   font-size: 3.0em;
@@ -26,88 +29,100 @@ body
   cursor: pointer;
   color: black;
   background-color: lightgrey;
-  border-radius: 15px;}
-.gotobutton:hover
-  {background-color: black;}
-.gotobutton:active
-  {background-color: grey;
+  border-radius: 15px;
+}
+.gotobutton:hover {
+  background-color: black;
+}
+.gotobutton:active {
+  background-color: grey;
   box-shadow: 0 5px #666;
-  transform: translateY(4px);}
+  transform: translateY(4px);
+}
 
 /*This is the title in the middle of the Main page that talks about 500 people*/
-    .tocIntro
-    {margin-top: 20px;
+.tocIntro {
+    margin-top: 20px;
     font-size: 25px;
     color: black;
     width: 68%;
-    border: outset Dimgray 9px;background-color:LightGray;	padding: 2px;}
-    .tocIntro:hover
-    {background-color: lightblue;
-    transition-delay: .5s;}
+    border: outset Dimgray 9px;background-color:LightGray;	padding: 2px;
+}
+    .tocIntro:hover {
+    background-color: lightblue;
+    transition-delay: .5s;
+}
 /*This instruction establishes the title "Family Surnames" in the middle of the page*/
-.surNames
-    {font-family:serif;
+.surNames {
+    font-family:serif;
     font-style: italic;
     color:#b67116;
     font-size: 4.5em;
     text-shadow: 3px 4px black;
     width: 50%;
-    letter-spacing:10px;}
+    letter-spacing:10px;
+}
 
 /*This instruction positions the alphbetically listed Family Surnames*/
-.surRecord
-	{text-align:center;
-  width: 67.8%;
-	margin: 2em;
-	padding-top: .5em;
-	border-top: solid;
-	border-width: 5px;
-	font-size: 15px;
-  font-weight: bolder;}
+.surRecord {
+	  text-align:center;
+    width: 67.8%;
+	  margin: 2em;
+	  padding-top: .5em;
+	  border-top: solid;
+	  border-width: 5px;
+	  font-size: 15px;
+    font-weight: bolder;
+}
 
 /*This instruction adjust the size, color and position of the letter in the alphabet identifying the Surnames*/
-.surLetter
-  {float: left;
-  margin-top: 10px;
-  font-size: 1.5em;
-	width: 2em;
-  border-radius: 10px;
-  background-color: LightGray;}
+.surLetter {
+    float: left;
+    margin-top: 10px;
+    font-size: 1.5em;
+	  width: 2em;
+    border-radius: 10px;
+    background-color: LightGray;
+}
 
-.contactInfo
-  {background-color: #FFF700;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 550px;
-  height:95px;
-  font-size:30px;
-  border: 3px solid black;
-  border-radius: 10px;}
+.contactInfo {
+    background-color: #FFF700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 550px;
+    height:95px;
+    font-size:30px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
 
   /*Container needed to position the overlay. Adjust the width as needed */
-  .container
-    {position: relative;
-    width: 50%;}
+.container {
+    position: relative;
+    width: 50%;
+}
 
 
   /* The overlay effect (full height and width) - lays on top of the container and over the image */
-  .overlay
-    {position: absolute;
+.overlay {
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     height: 45%;
     transform: scale(0);
-    transition: 2.25s ease;}
+    transition: 2.25s ease;
+}
 
   /* When you mouse over the container, the overlay text will "zoom" in display */
-  .container:hover .overlay
-    {transform: scale(1.0);
-    transition: all 3s ease;}
+.container:hover .overlay {
+    transform: scale(1.0);
+    transition: all 3s ease;
+}
 
   /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-  .text
-    {border-radius: 10px;
+.text {
+    border-radius: 10px;
     background-color: white;
     color: black;
     font-size: 15px;
@@ -115,144 +130,157 @@ body
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);}
-
-    .container1
-      {position: relative;
-      width: 50%;}
-      /* This puts a frame around Theodor and Cathrine Wedding picture */
-
-
-    /* When you mouse over the container, the overlay text will "zoom" in display */
-    .container1:hover .overlay
-      {transform: scale(1.0);}
-      /*Theodor on the Farm photo*/
-        .image1
-          {width: 350px;
-          height: 200px;
-          padding: 100px;}
-/*Theodor and Catherine wedding photo*/
-          .image2
-            {width: 300px;
-            height: 400px;
-            border: 25px ridge #2D383A;
-            border-radius: 20px;}
-/*Wilhelm and Maria photo*/
-            .image3
-              {width: 200px;
-              height: 250px;
-              padding: 100px;}
-
-/*This will fade-in the image if you change the class associated with the image to "fadein"*/
-.fadein img
-  {opacity:0.5;
-  transition: 1s ease;}
-
-.fadein img:hover
-{opacity:1;
-  transition: 1s ease;}
-/*This will grow the image if you change the class associated with the image to grow*/
-.grow img
-{
-  /*transition: 1s ease;
-align-self: auto;*/
+    transform: translate(-50%, -50%);
 }
 
-.grow img:hover
-{-webkit-transform: scale(2.0);
-  -ms-transform: scale(2.0);
-  transform: scale(2.0);
-/*transition-duration: 2s;*/
-  transition: 2s ease;}
+.container1 {
+    position: relative;
+    width: 50%;
+}
+      /* This puts a frame around Theodor and Cathrine Wedding picture */
+
+    /* When you mouse over the container, the overlay text will "zoom" in display */
+.container1:hover .overlay {
+    transform: scale(1.0);
+}
+      /*Theodor on the Farm photo*/
+.image1 {
+    width: 350px;
+    height: 200px;
+    padding: 100px;
+}
+/*Theodor and Catherine wedding photo*/
+.image2 {
+    width: 300px;
+    height: 400px;
+    border: 25px ridge #2D383A;
+    border-radius: 20px;
+}
+/*Wilhelm and Maria photo*/
+.image3 {
+    width: 200px;
+    height: 250px;
+    padding: 100px;
+}
+
+/*This will fade-in the image if you change the class associated with the image to "fadein"*/
+.fadein img {
+    opacity:0.5;
+    transition: 1s ease;
+}
+
+.fadein img:hover {
+    opacity:1;
+    transition: 1s ease;
+}
+/*This will grow the image if you change the class associated with the image to grow*/
+.grow img {
+}
+
+.grow img:hover {
+    -webkit-transform: scale(2.0);
+    -ms-transform: scale(2.0);
+    transform: scale(2.0);
+    transition: 2s ease;
+}
 
 /*This will brighten the image if you change the class associated with the image to "brighten"*/
-.brighten img
-{-webkit-filter: brightness(50%);
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
--ms-transition: all 1s ease;
-transition: all 1s ease;}
+.brighten img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
 
-.brighten img:hover
-{-webkit-filter: brightness(100%);}
+.brighten img:hover {
+    -webkit-filter: brightness(100%);
+}
 
-.color img
-{filter: grayscale(100%);
- -webkit-filter: grayscale(100%);
- -webkit-transition: all 1s ease;}
+.color img {
+     filter: grayscale(100%);
+     -webkit-filter: grayscale(100%);
+     -webkit-transition: all 1s ease;
+}
 
-.color img:hover
-{filter: grayscale(0%);
- filter: gray;
- -webkit-filter: grayscale(0%);
- filter: none;
- transition: .5s ease;}
+.color img:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+ transition: .5s ease;
+}
 /*The column instruction will align elements into colums based on the width percentage*/
-.column
- {float: right;
-  width: 16.0%;
-  padding: 5px;}
-.para
-{font-size: 20px;
-text-align: center;}
+.column {
+    float: right;
+    width: 16.0%;
+    padding: 5px;
+}
+.para {
+    font-size: 20px;
+    text-align: center;
+}
 
 /*This instruction will cause "Welcome message at the top to fade-in"*/
-div p
-{padding: 6px;
-border: 10px;
-border-radius: 15px;
-font-family: 'Montserrat';
-background-color: #FFF700;
-width: 20em;
-font-size: 50px;
-color: #299617;
-text-transform: none;
-opacity: 0.0;
-animation: fadeIn 6.5s infinite alternate;
--webkit-animation: fadeIn 6.5s infinite alternate;}
+div p {
+    padding: 6px;
+    border: 10px;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    background-color: #FFF700;
+    width: 20em;
+    font-size: 50px;
+    color: #299617;
+    text-transform: none;
+    opacity: 0.0;
+    animation: fadeIn 6.5s infinite alternate;
+    -webkit-animation: fadeIn 6.5s infinite alternate;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+/*This instruction will cause the greeting at the top to change
+ when a pointer is hovered on the phrase "German to English translation?"*/
+.welcome {
+     display:inline-block;
+     font-size: 25px;
+     color:blue;
+     padding:2px;
+     border-radius:5px;
+     background-color: white;
+}
+.top {
+     min-width:200px;
+     height:3em;
+     width:9.5em;
+     margin-left: -91px;
+     margin-right: 10px;
+     margin-bottom: 75px;
+     padding-bottom: 50px;
+     transform:translate(-50%, -100%);
+     font-size:50px;
+     position:absolute;
+     display:none;
+}
 
-@keyframes fadeIn
-{0% {opacity:0;}
-100% {opacity:1;}}
-
-@-moz-keyframes fadeIn
-{0% {opacity:0;}
-100% {opacity:1;}}
-
-@-webkit-keyframes fadeIn
-{0% {opacity:0;}
-100% {opacity:1;}}
-
-@-o-keyframes fadeIn
-{0% {opacity:0;}
-100% {opacity:1;}}
-
-@-ms-keyframes fadeIn
-{0% {opacity:0;}
-100% {opacity:1;}}
-
-
-/*This instruction will cause the greeting at the top to change when a pointer is hovered on the phrase "German to English translation?"*/
-.welcome
-  {display:inline-block;
-  font-size: 25px;
-  color:blue;
-  padding:2px;
-  border-radius:5px;
-  background-color: white;}
-.top
-   {min-width:200px;
-    height:3em;
-    width:9.5em;
-    margin-left: -91px;
-    margin-right: 10px;
-    margin-bottom: 75px;
-    padding-bottom: 50px;
-    transform:translate(-50%, -100%);
-    font-size:50px;
-    position:absolute;
-    display:none;}
-
-.welcome:hover .top
-   {display:block;}
+.welcome:hover .top {
+     display:block;
+}
