@@ -5,7 +5,7 @@ body
 
 .tocTitle
   	{
-      margin-top: 50px;
+    margin-top: 50px;
     padding: 50px;
    	height: .5em;
     width: 20em;
@@ -18,7 +18,7 @@ body
   	{
     margin-top: 10px;
   	padding-top: 15px;
-   }   
+   }
 
 /*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
 .gotobutton
