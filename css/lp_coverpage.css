@@ -36,7 +36,7 @@ body {
   border: 2px solid black;
   font-size: 3.0em;
   width: 30%;
-  cursor: pointer;
+  cursor: progress;
   color: black;
   background-color: lightgrey;
   border-radius: 15px;
@@ -44,12 +44,6 @@ body {
 .gotobutton:hover {
   background-color: black;
 }
-.gotobutton:active {
-  background-color: grey;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
 /*This is the title in the middle of the Main page that talks about 500 people*/
 .tocIntro {
     margin-top: 20px;
@@ -64,12 +58,11 @@ body {
 /*This instruction establishes the title "Family Surnames" in the middle of the page*/
 .surNames {
     font-family:serif;
-    font-style: italic;
-    font-weight: bolder;
+    font-style: normal;
     color:#b67116;
     font-size: 4.5em;
-    text-shadow: 3px 4px black;
-    width: 50%;
+    text-shadow: 2px 3px black;
+    width: 38%;
     letter-spacing:10px;
 }
 
@@ -92,36 +85,45 @@ body {
     font-size: 1.5em;
 	  width: 2em;
     border-radius: 10px;
-    background-color: LightGray;
+    background-color: white;
 }
-
-.contactInfo {
-    background-color: #FFF700;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 550px;
-    height:95px;
-    font-size:30px;
-    border: 3px solid black;
-    border-radius: 10px;
-}
-
-  /*Container needed to position the overlay. Adjust the width as needed */
+/*Container needed to position the overlay. Used for the Theodor wedding picture */
 .container {
     position: relative;
-    width: 50%;
+    width:500px;
 }
-  /* This overlay is for the wedding picture Theodor from 1886 */
+/*PIX_BOX is a container needed to position the overlay. Used for the 3 pictures near bottom */
+.PIX_BOX {
+    height: 400px;
+}
+  /* These overlays are for the small pictures near the bottom of the coverpage. */
 .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 25%;
+  position: relative;
   transform: scale(0);
 }
 .container:hover .overlay{
     transform: scale(1.0);
+    transition-timing-function:linear;
+    transition: 5.0s;
+}
+.overlay1 {
+  position: relative;
+  bottom: -116px;
+  transform: scale(0);
+}
+.container:hover .overlay1{
+    transform: scale(1.0);
+    transition-timing-function:linear;
+    transition: 5.0s;
+}
+.overlay2 {
+  position: relative;
+  bottom: -172px;
+  transform: scale(0);
+}
+.container:hover .overlay2{
+    transform: scale(1.0);
+    transition-timing-function:linear;
     transition: 5.0s;
 }
 /* This text is for the wedding picture Theodor from 1886 */
@@ -135,23 +137,12 @@ body {
   position: relative;
   top: 50%;
 }
-/* This text is for the 3 pictures below the 6 pictures near the bottom */
-.text1 {
-  margin-left: 50px;
-  width: 300px;
-  border-radius: 10px;
-  background-color: white;
-  color: black;
-  font-size: 15px;
-  padding: 10px;
-  position: relative;
-  top: 50%;
-}
-      /*Theodor on the Farm photo*/
+      /*Theodor on the Farm and birthplace photos*/
 .image1 {
-    width: 300px;
-    height: auto;
-    padding: 60px;
+    width: 275px;
+    height: 170px;
+    margin-right: 60px;
+    padding-top:  60px;
 }
 /*Theodor and Catherine wedding photo*/
 .image2 {
@@ -163,37 +154,35 @@ body {
 /*Wilhelm and Maria photo*/
 .image3 {
     width: 225px;
-    height: auto;
-    padding: 60px;
+    height:auto;
+    padding-top: 60px;
 }
 
 /*This will fade-in the image if you change the class associated with the image to "fadein"*/
 .fadein img {
-    opacity:0.5;
-    transition: 1s ease;
+    transition: 7s ease;
 }
 
 .fadein img:hover {
-    opacity:1;
-    transition: 1s ease;
+    transition: 7s ease;
 }
 /*This will grow the image if you change the class associated with the image to grow*/
 .grow img:hover {
     -webkit-transform: scale(2.0);
     -ms-transform: scale(2.0);
     transform: scale(2.0);
-    transition: 2s;
+    transition: 3s;
     transition-timing-function: ease-in-out;
 }
 
 /*This will brighten the image if you change the class associated with the image to "brighten"*/
 .brighten img {
-    -webkit-filter: brightness(50%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-filter: brightness(30%);
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    transition: all 3s ease;
 }
 
 .brighten img:hover {
@@ -216,23 +205,21 @@ body {
 /*The column instruction will align elements into colums based on the width percentage*/
 .column {
   float: right;
-  width: 16.0%;
-  padding: 5px;
+  width: 16.66%;
 }
 .column2 {
   float: right;
-  width: 32.0%;
-  padding: 5px;
+  width: 33.3.0%;
 }
 
 .para
 {
 font-size: 20px;
+font-style: italic;
 text-align: center;
+margin-top: -50px;
 }
-
-/*This instruction will cause "Welcome message to fade-in"*/
-div p {
+p {
     padding: 6px;
     border: 10px;
     border-radius: 15px;
@@ -240,45 +227,32 @@ div p {
     background-color:darkgreen;
     width: 20em;
     font-size: 50px;
-    animation: fadeIn 3.0s infinite alternate;
-    -webkit-animation: fadeIn 3.0s infinite alternate;
 }
-/*@keyframes fadeIn {
-  0% {color: black;}
-  25% {color: black;}
-  50% {color: white;}
-  75% {color: white;}
+/*This instruction will cause "Welcome message to fade-in"*/
+.fade-in {
+  animation:fadein 3s infinite alternate;
+  -webkit-animation:fadein 3s infinite alternate;
+  -moz-animation:fadein 3s infinite alternate;
+  -o-animation:fadein 3s infinite alternate;
+  -ms-animation:fadein 3s infinite alternate;
+}
+@keyframes  fadein {
+  0% {opacity:0;}
   100% {opacity:1;}
 }
-@-moz-keyframes fadeIn {
-  0% {color: black;}
-  25% {color: black;}
-  50% {color: white;}
-  75% {color: white;}
+@-moz-keyframes fadein {
+  0% {opacity:0;}
   100% {opacity:1;}
 }
-@-webkit-keyframes fadeIn {
-    0% {color: black;}
-    25% {color: black;}
-    50% {color: white;}
-    75% {color: white;}
-    100% {opacity:1;}
+@-webkit-keyframes fadein {
+  0% {opacity:0;}
+  1000% {opacity:1;}
 }
-@-o-keyframes fadeIn {
-  0% {color: black;}
-  25% {color: black;}
-  50% {color: white;}
-  75% {color: white;}
+@-o-keyframes fadein {
+  0% {opacity:0;}
   100% {opacity:1;}
 }
-@-ms-keyframes fadeIn {
-  0% {color: black;}
-  25% {color: black;}
-  50% {color: white;}
-  75% {color: white;}
+@-ms-keyframes fadein {
+  0% {opacity:0;}
   100% {opacity:1;}
-}*/
-.PIX_BOX {
-    height: 400px;
-    width: auto;
 }
