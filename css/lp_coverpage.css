@@ -11,6 +11,17 @@ body {
     border: outset Dimgray 10px;
     background: top url(titleGradient.png);
 }
+/*This is for the verbage below the 6 wedding pictures near the bottom of the cover page.*/
+.six_couples {
+  margin-top: auto;
+  border-bottom: outset 5px #832A0D;
+  font-size:2.5em;
+  text-align: center;
+  color:#832A0D;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bolder;
+}
 /*This instruction will cause the welcome greeting to change
  when a pointer is hovered on the phrase "Translation?"*/
  .welcome {
@@ -52,7 +63,7 @@ body {
     width: 68%;
     border: outset Dimgray 9px;background-color:LightGray;	padding: 2px;
 }
-    .tocIntro:hover {
+.tocIntro:hover {
     background-color: lightblue;
 }
 /*This instruction establishes the title "Family Surnames" in the middle of the page*/
@@ -94,7 +105,7 @@ body {
 }
 /*PIX_BOX is a container needed to position the overlay. Used for the 3 pictures near bottom */
 .PIX_BOX {
-    height: 400px;
+    height: 30em;
 }
   /* These overlays are for the small pictures near the bottom of the coverpage. */
 .overlay {
@@ -126,23 +137,34 @@ body {
     transition-timing-function:linear;
     transition: 5.0s;
 }
-/* This text is for the wedding picture Theodor from 1886 */
+/*This text is for the wedding picture Theodor from 1886 */
 .text {
-  width: 300px;
+  width: 350px;
   border-radius: 10px;
   background-color: white;
   color: black;
   font-size: 15px;
-  padding: 10px;
-  position: relative;
-  top: 50%;
+  margin-top: -1.0em;
 }
-      /*Theodor on the Farm and birthplace photos*/
+/*This text is for the group of three photos near the bottom.*/
+.text1 {
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-size: 1em;
+  margin-left: -11em;
+  margin-top: -2.0em;
+}
+/*Theodor on the Farm and birthplace photos*/
 .image1 {
     width: 275px;
-    height: 170px;
-    margin-right: 60px;
-    padding-top:  60px;
+    height: 175px;
+    margin-right: 13em;
+    margin-top: 5.5em;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
 }
 /*Theodor and Catherine wedding photo*/
 .image2 {
@@ -155,7 +177,11 @@ body {
 .image3 {
     width: 225px;
     height:auto;
-    padding-top: 60px;
+    margin-top: 5em;
+    margin-left: -13em;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
 }
 
 /*This will fade-in the image if you change the class associated with the image to "fadein"*/
@@ -212,12 +238,10 @@ body {
   width: 33.3.0%;
 }
 
-.para
-{
+/*This instruction is for the subtitles below the 7 wedding pictures*/
+.para {
 font-size: 20px;
 font-style: italic;
-text-align: center;
-margin-top: -50px;
 }
 p {
     padding: 6px;
