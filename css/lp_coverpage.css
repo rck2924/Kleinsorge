@@ -1,264 +1,286 @@
 body {
     padding-bottom:100px;
-    padding-top: 10px;
+    padding-top:10px;
 }
 /*This is the title at the top of the Main page*/
 .tocTitle {
-  	margin-top: 75px;
-    padding: 50px;
-   	height: .5em;
-    width: 21em;
-    border: outset Dimgray 10px;
-    background: top url(titleGradient.png);
+  	margin-top:75px;
+    padding:50px;
+   	height:.5em;
+    width:21em;
+    border:outset Dimgray 10px;
+    background:top url(titleGradient.png);
 }
 /*This is for the verbage below the 6 wedding pictures near the bottom of the cover page.*/
 .six_couples {
-  margin-top: auto;
-  border-bottom: outset 5px #832A0D;
-  font-size:2.5em;
-  text-align: center;
+  border-bottom:outset 5px #832A0D;
+  font-size:3em;
   color:#832A0D;
-  font-style: italic;
-  font-family: cursive;
-  font-weight: bolder;
+  font-style:italic;
 }
 /*This instruction will cause the welcome greeting to change
  when a pointer is hovered on the phrase "Translation?"*/
  .welcome {
      display:inline-block;
-     font-size: 30px;
+     font-size:30px;
 }
 .top {
      height:2.5em;
      width:9.5em;
-     margin-left: -363px;
-     padding-bottom: 90px;
+     margin-left:-363px;
+     padding-bottom:90px;
      transform:translate(-50%, -100%);
      position:absolute;
-     display: none;
+     display:none;
 }
 .welcome:hover .top{
-     display: inline-block;
+     display:inline-block;
 }
 /*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
 .gotobutton {
-  padding: 10px;
-  margin-top: 25px;
-  border: 2px solid black;
-  font-size: 3.0em;
-  width: 30%;
-  cursor: progress;
-  color: black;
-  background-color: lightgrey;
-  border-radius: 15px;
+  padding:10px;
+  margin-top:25px;
+  border:2px solid black;
+  font-size:3.0em;
+  width:30%;
+  cursor:progress;
+  color:black;
+  background-color:lightgrey;
+  border-radius:15px;
 }
 .gotobutton:hover {
-  background-color: black;
+  background-color:black;
 }
 /*This is the title in the middle of the Main page that talks about 500 people*/
 .tocIntro {
-    margin-top: 20px;
-    font-size: 25px;
-    color: black;
-    width: 68%;
-    border: outset Dimgray 9px;background-color:LightGray;	padding: 2px;
+    margin-top:20px;
+    font-size:25px;
+    color:black;
+    width:68%;
+    border:outset Dimgray 9px;background-color:LightGray;padding:2px;
 }
 .tocIntro:hover {
-    background-color: lightblue;
+    background-color:lightblue;
 }
 /*This instruction establishes the title "Family Surnames" in the middle of the page*/
 .surNames {
     font-family:serif;
-    font-style: normal;
+    font-style:normal;
     color:#b67116;
-    font-size: 4.5em;
-    text-shadow: 2px 3px black;
-    width: 38%;
+    font-size:4.5em;
+    text-shadow:2px 3px black;
+    width:38%;
     letter-spacing:10px;
 }
 
 /*This instruction positions the alphbetically listed Family Surnames*/
 .surRecord {
 	  text-align:center;
-    width: 67.8%;
-	  margin: 2em;
-	  padding-top: .5em;
-	  border-top: solid;
-	  border-width: 5px;
-	  font-size: 15px;
-    font-weight: bolder;
+    width:67.8%;
+	  margin:2em;
+	  padding-top:.5em;
+	  border-top:solid;
+	  border-width:5px;
+	  font-size:15px;
+    font-weight:bolder;
 }
 
 /*This instruction adjust the size, color and position of the letter in the alphabet identifying the Surnames*/
 .surLetter {
-    float: left;
-    margin-top: 10px;
-    font-size: 1.5em;
-	  width: 2em;
-    border-radius: 10px;
-    background-color: white;
+    float:left;
+    margin-top:10px;
+    font-size:1.5em;
+	  width:2em;
+    border-radius:10px;
+    background-color:white;
 }
 /*Container needed to position the overlay. Used for the Theodor wedding picture */
 .container {
-    position: relative;
+    position:relative;
     width:500px;
 }
 /*PIX_BOX is a container needed to position the overlay. Used for the 3 pictures near bottom */
 .PIX_BOX {
-    height: 30em;
+    height:30em;
 }
   /* These overlays are for the small pictures near the bottom of the coverpage. */
 .overlay {
-  position: relative;
-  transform: scale(0);
+  position:relative;
+  transform:scale(0);
 }
 .container:hover .overlay{
-    transform: scale(1.0);
+    transform:scale(1.0);
     transition-timing-function:linear;
-    transition: 5.0s;
+    transition:5.0s;
 }
 .overlay1 {
-  position: relative;
-  bottom: -116px;
-  transform: scale(0);
+  position:relative;
+  bottom:-116px;
+  transform:scale(0);
 }
 .container:hover .overlay1{
-    transform: scale(1.0);
+    transform:scale(1.0);
     transition-timing-function:linear;
-    transition: 5.0s;
+    transition:5.0s;
 }
 .overlay2 {
-  position: relative;
-  bottom: -172px;
+  position:relative;
+  bottom:-172px;
   transform: scale(0);
 }
 .container:hover .overlay2{
-    transform: scale(1.0);
+    transform:scale(1.0);
     transition-timing-function:linear;
-    transition: 5.0s;
+    transition:5.0s;
 }
-/*This text is for the wedding picture Theodor from 1886 */
+/*This text is for the overlay on the wedding picture Theodor from 1886 */
 .text {
-  width: 350px;
-  border-radius: 10px;
-  background-color: white;
-  color: black;
-  font-size: 15px;
-  margin-top: -1.0em;
+  width:350px;
+  border-radius:10px;
+  background-color:white;
+  color:black;
+  font-size:1.5em;
+  margin-top:-1.0em;
 }
-/*This text is for the group of three photos near the bottom.*/
+/*This text is for overlay on the group of three photos near the bottom.*/
 .text1 {
-  width: 300px;
-  border-radius: 10px;
-  background-color: white;
-  color: black;
-  font-size: 1em;
-  margin-left: -11em;
-  margin-top: -2.0em;
+  width:300px;
+  border-radius:10px;
+  background-color:white;
+  color:black;
+  font-size:1em;
+  margin-top:-2.0em;
+}
+/*This text is for overlay on the Locust Point photo.*/
+.text2 {
+  width:400px;
+  height:auto;
+  border-radius:10px;
+  background-color:white;
+  color:red;
+  font-size:1.5em;
+  margin-top:3em;
+}
+/*This instruction is for the subtitles below the 6 wedding pictures*/
+.para {
+font-size:20px;
+font-style:italic;
+}
+/*This instruction is for the subtitle below the Theodor wedding pictures*/
+.para1 {
+font-size:20px;
+font-style:italic;
+margin-top:-1.0em;
+}
+/*This instruction is for the subtitle below the Locust Point picture*/
+.para2 {
+font-size:20px;
+font-style:italic;
+margin-top:-3.55em;
 }
 /*Theodor on the Farm and birthplace photos*/
 .image1 {
-    width: 275px;
-    height: 175px;
-    margin-right: 13em;
-    margin-top: 5.5em;
-    border: solid;
-    border-radius: 10px;
-    border-color: black;
+    width:275px;
+    height:175px;
+    margin-top:5.5em;
+    border:solid;
+    border-radius:10px;
+    border-color:black;
 }
 /*Theodor and Catherine wedding photo*/
 .image2 {
-    width: 300px;
-    height: 400px;
-    border: 25px ridge #2D383A;
-    border-radius: 20px;
+    width:300px;
+    height:400px;
+    border:25px ridge #2D383A;
+    border-radius:20px;
 }
 /*Wilhelm and Maria photo*/
 .image3 {
-    width: 225px;
+    width:225px;
     height:auto;
-    margin-top: 5em;
-    margin-left: -13em;
-    border: solid;
-    border-radius: 10px;
-    border-color: black;
+    margin-top:5em;
+    border:solid;
+    border-radius:10px;
+    border-color:black;
+}
+
+/*Locust Point photo*/
+.image4 {
+    width:350px;
+    height:250px;
+    border:solid;
+    border-radius:10px;
 }
 
 /*This will fade-in the image if you change the class associated with the image to "fadein"*/
 .fadein img {
-    transition: 7s ease;
+    transition:7s ease;
 }
 
 .fadein img:hover {
-    transition: 7s ease;
+    transition:7s ease;
 }
 /*This will grow the image if you change the class associated with the image to grow*/
 .grow img:hover {
-    -webkit-transform: scale(2.0);
-    -ms-transform: scale(2.0);
-    transform: scale(2.0);
-    transition: 3s;
-    transition-timing-function: ease-in-out;
+    -webkit-transform:scale(2.0);
+    -ms-transform:scale(2.0);
+    transform:scale(2.0);
+    transition:3s;
+    transition-timing-function:ease-in-out;
 }
 
 /*This will brighten the image if you change the class associated with the image to "brighten"*/
 .brighten img {
-    -webkit-filter: brightness(30%);
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    transition: all 3s ease;
+    -webkit-filter:brightness(30%);
+    -webkit-transition:all 3s ease;
+    -moz-transition:all 3s ease;
+    -o-transition:all 3s ease;
+    -ms-transition:all 3s ease;
+    transition:all 3s ease;
 }
 
 .brighten img:hover {
-    -webkit-filter: brightness(100%);
+    -webkit-filter:brightness(100%);
 }
 
 .color img {
-     filter: grayscale(100%);
+     filter:grayscale(100%);
      -webkit-filter: grayscale(100%);
-     -webkit-transition: all 1s ease;
+     -webkit-transition:all 1s ease;
 }
 
 .color img:hover {
-    filter: grayscale(0%);
-    filter: gray;
+    filter:grayscale(0%);
+    filter:gray;
     -webkit-filter: grayscale(0%);
-    filter: none;
- transition: .5s ease;
+    filter:none;
+ transition:.5s ease;
 }
 /*The column instruction will align elements into colums based on the width percentage*/
 .column {
-  float: right;
-  width: 16.66%;
+  float:right;
+  width:16.66%;
 }
 .column2 {
-  float: right;
-  width: 33.3.0%;
-}
-
-/*This instruction is for the subtitles below the 7 wedding pictures*/
-.para {
-font-size: 20px;
-font-style: italic;
+  float:right;
+  width:33.3%;
 }
 p {
-    padding: 6px;
-    border: 10px;
-    border-radius: 15px;
-    font-family: 'Montserrat';
+    padding:6px;
+    border:10px;
+    border-radius:15px;
+    font-family:'Montserrat';
     background-color:darkgreen;
-    width: 20em;
-    font-size: 50px;
+    width:20em;
+    font-size:50px;
 }
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in {
-  animation:fadein 3s infinite alternate;
-  -webkit-animation:fadein 3s infinite alternate;
-  -moz-animation:fadein 3s infinite alternate;
-  -o-animation:fadein 3s infinite alternate;
-  -ms-animation:fadein 3s infinite alternate;
+  animation:fadein 2s infinite alternate;
+  -webkit-animation:fadein 2s infinite alternate;
+  -moz-animation:fadein 2s infinite alternate;
+  -o-animation:fadein 2s infinite alternate;
+  -ms-animation:fadein 2s infinite alternate;
 }
 @keyframes  fadein {
   0% {opacity:0;}
