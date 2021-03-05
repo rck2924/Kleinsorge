@@ -94,14 +94,9 @@ body {
     border-radius:10px;
     background-color:white;
 }
-/*Container needed to position the overlay. Used for the Theodor wedding picture */
-.container {
-    position:relative;
-    width:500px;
-}
-/*PIX_BOX is a container needed to position the overlay. Used for the 3 pictures near bottom */
+/*PIX_BOX is a container needed to position the 3 pictures above the BIGPIX2 near bottom */
 .PIX_BOX {
-    height:30em;
+   height:800px;
 }
   /* These overlays are for the small pictures near the bottom of the coverpage. */
 .overlay {
@@ -257,13 +252,17 @@ margin-top:-3.55em;
  transition:.5s ease;
 }
 /*The column instruction will align elements into colums based on the width percentage*/
-.column {
+.column6 {
   float:right;
   width:16.66%;
 }
+.column3 {
+  float:left;
+  width:33.3%;
+}
 .column2 {
   float:right;
-  width:33.3%;
+  width:50.0%;
 }
 p {
     padding:6px;
@@ -274,13 +273,44 @@ p {
     width:20em;
     font-size:50px;
 }
-/*This instruction will cause "Welcome message to fade-in"*/
+/*This instruction will cause pictures to fade-in"*/
 .fade-in {
-  animation:fadein 2s infinite alternate;
-  -webkit-animation:fadein 2s infinite alternate;
-  -moz-animation:fadein 2s infinite alternate;
-  -o-animation:fadein 2s infinite alternate;
-  -ms-animation:fadein 2s infinite alternate;
+  animation:fadein 2.5s infinite alternate;
+  -webkit-animation:fadein 2.5s infinite alternate;
+  -moz-animation:fadein 2.5s infinite alternate;
+  -o-animation:fadein 2.5s infinite alternate;
+  -ms-animation:fadein 2.5s infinite alternate;
+}
+@keyframes  fadein {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-moz-keyframes fadein {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-webkit-keyframes fadein {
+  0% {opacity:0;}
+  1000% {opacity:1;}
+}
+@-o-keyframes fadein {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-ms-keyframes fadein {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+/*.bottom {
+  width:60%;
+}
+/*This instruction will cause "Welcome message to fade-in"*/
+.fade-in1 {
+  animation:fadein 5s infinite alternate;
+  -webkit-animation:fadein 5s infinite alternate;
+  -moz-animation:fadein 5s infinite alternate;
+  -o-animation:fadein 5s infinite alternate;
+  -ms-animation:fadein 5s infinite alternate;
 }
 @keyframes  fadein {
   0% {opacity:0;}
