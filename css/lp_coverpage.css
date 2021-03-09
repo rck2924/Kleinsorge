@@ -94,50 +94,82 @@ body {
     border-radius:10px;
     background-color:white;
 }
-/*PIX_BOX is a container needed to position the 3 pictures above the BIGPIX2 near bottom */
-.PIX_BOX {
-   height:800px;
-}
+
   /* These overlays are for the small pictures near the bottom of the coverpage. */
 .overlay {
   position:relative;
   transform:scale(0);
 }
-.container:hover .overlay{
+/*container is for the Locust Point photos*/
+.container {
+  width:280px;
+  height:300px;
+}
+.container:hover .overlay1 {
     transform:scale(1.0);
     transition-timing-function:linear;
-    transition:5.0s;
+    transition:3.0s;
 }
-.overlay1 {
-  position:relative;
-  bottom:-116px;
-  transform:scale(0);
-}
-.container:hover .overlay1{
-    transform:scale(1.0);
-    transition-timing-function:linear;
-    transition:5.0s;
-}
+/*Overlay2 is for Wilhelm photo*/
 .overlay2 {
   position:relative;
-  bottom:-172px;
   transform: scale(0);
 }
-.container:hover .overlay2{
+.container:hover .overlay2 {
     transform:scale(1.0);
     transition-timing-function:linear;
-    transition:5.0s;
+    transition:3.0s;
 }
+/*container1 is for the Locust Point photos*/
+.container1 {
+  width:100%;
+  height:200px;
+}
+.container1:hover .overlay {
+    transform:scale(1.0);
+    transition-timing-function:linear;
+    transition:3.0s;
+}
+/*container2 is for the 1886 wedding photo of Theodor and Cathrine*/
+.container2 {
+  width: 300px;
+}
+
+.container2:hover .overlay {
+    transform:scale(1.0);
+    transition-timing-function:linear;
+    transition:3.0s;
+}
+/*container3 is a container needed to position the 3 pictures above the BIGPIX2 near bottom */
+.container3 {
+  height:500px;
+  width:auto;
+}
+/*container4 is for the BIGPIX2 near bottom */
+.container4 {
+  width: 100%;
+  height: 300px;
+  padding-top: 700px;
+  padding-bottom: 500px;
+}
+/*Overlay1 is for Theodor farm and Heiminghausen photos*/
+.overlay1 {
+  position:relative;
+  transform:scale(0);
+}
+
+
 /*This text is for the overlay on the wedding picture Theodor from 1886 */
 .text {
   width:350px;
+  height:auto;
   border-radius:10px;
   background-color:white;
   color:black;
   font-size:1.5em;
   margin-top:-1.0em;
 }
-/*This text is for overlay on the group of three photos near the bottom.*/
+/*This text is for the overlay on the group of three photos near the bottom.*/
 .text1 {
   width:300px;
   border-radius:10px;
@@ -146,7 +178,7 @@ body {
   font-size:1em;
   margin-top:-2.0em;
 }
-/*This text is for overlay on the Locust Point photo.*/
+/*This text is for the overlay on the Locust Point photo.*/
 .text2 {
   width:400px;
   height:auto;
@@ -171,7 +203,7 @@ margin-top:-1.0em;
 .para2 {
 font-size:20px;
 font-style:italic;
-margin-top:-3.55em;
+margin-top:-1.55em;
 }
 /*Theodor on the Farm and birthplace photos*/
 .image1 {
@@ -300,9 +332,6 @@ p {
 @-ms-keyframes fadein {
   0% {opacity:0;}
   100% {opacity:1;}
-}
-/*.bottom {
-  width:60%;
 }
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in1 {
