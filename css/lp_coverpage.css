@@ -17,6 +17,7 @@ body {
   font-size:3em;
   color:#832A0D;
   font-style:italic;
+  padding-bottom: 20px;
 }
 /*This instruction will cause the welcome greeting to change
  when a pointer is hovered on the phrase "Translation?"*/
@@ -95,119 +96,84 @@ body {
     background-color:white;
 }
 
-  /* These overlays are for the small pictures near the bottom of the coverpage. */
+/* This overlay is for the small photos near the bottom of the coverpage. */
 .overlay {
   position:relative;
   transform:scale(0);
 }
-/*container is for the Locust Point photos*/
+/*container is for the small photos near the bottem of the cover page. */
 .container {
-  width:280px;
-  height:300px;
+  width:450px;
+  padding-top: 20px;
 }
-.container:hover .overlay1 {
+.container:hover .overlay {
     transform:scale(1.0);
     transition-timing-function:linear;
     transition:3.0s;
+    transition-delay:2s;
 }
-/*Overlay2 is for Wilhelm photo*/
-.overlay2 {
-  position:relative;
-  transform: scale(0);
-}
-.container:hover .overlay2 {
-    transform:scale(1.0);
-    transition-timing-function:linear;
-    transition:3.0s;
-}
-/*container1 is for the Locust Point photos*/
-.container1 {
-  width:100%;
-  height:200px;
-}
-.container1:hover .overlay {
-    transform:scale(1.0);
-    transition-timing-function:linear;
-    transition:3.0s;
-}
-/*container2 is for the 1886 wedding photo of Theodor and Cathrine*/
-.container2 {
-  width: 300px;
-}
-
-.container2:hover .overlay {
-    transform:scale(1.0);
-    transition-timing-function:linear;
-    transition:3.0s;
-}
-/*container3 is a container needed to position the 3 pictures above the BIGPIX2 near bottom */
+/*container3 is for the BIGPIX2 near bottom */
 .container3 {
-  height:500px;
-  width:auto;
-}
-/*container4 is for the BIGPIX2 near bottom */
-.container4 {
   width: 100%;
   height: 300px;
-  padding-top: 700px;
+  padding-top: 800px;
   padding-bottom: 500px;
 }
-/*Overlay1 is for Theodor farm and Heiminghausen photos*/
-.overlay1 {
-  position:relative;
-  transform:scale(0);
-}
-
-
-/*This text is for the overlay on the wedding picture Theodor from 1886 */
-.text {
-  width:350px;
-  height:auto;
-  border-radius:10px;
-  background-color:white;
-  color:black;
-  font-size:1.5em;
-  margin-top:-1.0em;
-}
-/*This text is for the overlay on the group of three photos near the bottom.*/
+/*text1 colors the background of the text associated with the 1886 wedding photo*/
 .text1 {
-  width:300px;
-  border-radius:10px;
-  background-color:white;
+  width:350px;
+  border-radius:5px;
+  background-color:lightblue;
   color:black;
-  font-size:1em;
-  margin-top:-2.0em;
-}
-/*This text is for the overlay on the Locust Point photo.*/
-.text2 {
-  width:400px;
-  height:auto;
-  border-radius:10px;
-  background-color:white;
-  color:red;
   font-size:1.5em;
-  margin-top:3em;
+}
+/*text2 colors the background of the text associated with the Locust Point photo*/
+.text2 {
+  width:350px;
+  border-radius:5px;
+  background-color:lime;
+  color:black;
+  font-size:1.5em;
+  margin-top: 5.2em;
+}
+/*text3 colors the background of the text associated with the Wilhelm and Theodor's birthplace photo*/
+.text3 {
+  width:350px;
+  border-radius:5px;
+  background-color:chartreuse;
+  color:black;
+  font-size:1.25em;
+  margin-top: 2em;
+}
+/*text3 colors the background of the text associated with the Wilhelm and Theodor's birthplace photo*/
+.text4 {
+  width:350px;
+  border-radius:5px;
+  background-color:chartreuse;
+  color:black;
+  font-size:1.25em;
+  margin-top:5.4em;
 }
 /*This instruction is for the subtitles below the 6 wedding pictures*/
 .para {
 font-size:20px;
 font-style:italic;
 }
-/*This instruction is for the subtitle below the Theodor wedding pictures*/
+/*This instruction is for the subtitle below the Locust Point photo. */
 .para1 {
 font-size:20px;
 font-style:italic;
-margin-top:-1.0em;
+margin-top: -80px;
 }
-/*This instruction is for the subtitle below the Locust Point picture*/
+/*This instruction is for the subtitle below Theodor Wedding photo. */
 .para2 {
 font-size:20px;
 font-style:italic;
-margin-top:-1.55em;
+margin-top: -40px;
 }
 /*Theodor on the Farm and birthplace photos*/
 .image1 {
-    width:275px;
+    width:265px;
     height:175px;
     margin-top:5.5em;
     border:solid;
@@ -216,8 +182,8 @@ margin-top:-1.55em;
 }
 /*Theodor and Catherine wedding photo*/
 .image2 {
-    width:300px;
-    height:400px;
+    width:400px;
+    height:500px;
     border:25px ridge #2D383A;
     border-radius:20px;
 }
@@ -230,22 +196,12 @@ margin-top:-1.55em;
     border-radius:10px;
     border-color:black;
 }
-
 /*Locust Point photo*/
 .image4 {
     width:350px;
     height:250px;
     border:solid;
     border-radius:10px;
-}
-
-/*This will fade-in the image if you change the class associated with the image to "fadein"*/
-.fadein img {
-    transition:7s ease;
-}
-
-.fadein img:hover {
-    transition:7s ease;
 }
 /*This will grow the image if you change the class associated with the image to grow*/
 .grow img:hover {
@@ -255,7 +211,6 @@ margin-top:-1.55em;
     transition:3s;
     transition-timing-function:ease-in-out;
 }
-
 /*This will brighten the image if you change the class associated with the image to "brighten"*/
 .brighten img {
     -webkit-filter:brightness(30%);
@@ -265,17 +220,14 @@ margin-top:-1.55em;
     -ms-transition:all 3s ease;
     transition:all 3s ease;
 }
-
 .brighten img:hover {
     -webkit-filter:brightness(100%);
 }
-
 .color img {
      filter:grayscale(100%);
      -webkit-filter: grayscale(100%);
      -webkit-transition:all 1s ease;
 }
-
 .color img:hover {
     filter:grayscale(0%);
     filter:gray;
@@ -296,6 +248,7 @@ margin-top:-1.55em;
   float:right;
   width:50.0%;
 }
+/*This instruction establishes the Welcome translation item at the top of the cover page*/
 p {
     padding:6px;
     border:10px;
@@ -305,7 +258,7 @@ p {
     width:20em;
     font-size:50px;
 }
-/*This instruction will cause pictures to fade-in"*/
+/*This instruction will cause message and the title "Family Surnames" to fade in and out.*/
 .fade-in {
   animation:fadein 2.5s infinite alternate;
   -webkit-animation:fadein 2.5s infinite alternate;
@@ -335,6 +288,7 @@ p {
 }
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in1 {
+  transition-delay: 1s;
   animation:fadein 5s infinite alternate;
   -webkit-animation:fadein 5s infinite alternate;
   -moz-animation:fadein 5s infinite alternate;
