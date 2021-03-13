@@ -95,7 +95,24 @@ body {
     border-radius:10px;
     background-color:white;
 }
-
+.audio {
+  height:25px;
+  width:auto;
+  margin-left: 700px;
+  margin-right: 715px;
+  margin-top: 20px;
+  background-color:blue;
+  border-radius: 15px;
+}
+.audio1 {
+  height:25px;
+  width:auto;
+  margin-left: 700px;
+  margin-right: 715px;
+  margin-top: 20px;
+  background-color:#ff6347;
+  border-radius: 15px;
+}
 /* This overlay is for the small photos near the bottom of the coverpage. */
 .overlay {
   position:relative;
@@ -288,7 +305,7 @@ p {
 }
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in1 {
-  transition-delay: 1s;
+  transition-delay: .5s;
   animation:fadein 5s infinite alternate;
   -webkit-animation:fadein 5s infinite alternate;
   -moz-animation:fadein 5s infinite alternate;
