@@ -95,6 +95,7 @@ body {
     border-radius:10px;
     background-color:white;
 }
+/*The 3 audio instructions are for the players at the bottom of the cover page.*/
 .audio {
   height:25px;
   width:auto;
@@ -109,7 +110,7 @@ body {
   width:auto;
   margin-left: 700px;
   margin-right: 715px;
-  margin-top: -22px;
+  margin-top: -23px;
   background-color:Pink;
   border-radius: 15px;
 }
@@ -136,7 +137,7 @@ body {
     transform:scale(1.0);
     transition-timing-function:linear;
     transition:3.0s;
-    transition-delay:2s;
+    transition-delay:1s;
 }
 /*container3 is for the BIGPIX2 near bottom */
 .container3 {
@@ -286,11 +287,11 @@ p {
 }
 /*This instruction will cause message and the title "Family Surnames" to fade in and out.*/
 .fade-in {
-  animation:fadein 2.5s infinite alternate;
-  -webkit-animation:fadein 2.5s infinite alternate;
-  -moz-animation:fadein 2.5s infinite alternate;
-  -o-animation:fadein 2.5s infinite alternate;
-  -ms-animation:fadein 2.5s infinite alternate;
+  animation:fadein 2.0s infinite alternate;
+  -webkit-animation:fadein 2.0s infinite alternate;
+  -moz-animation:fadein 2.0s infinite alternate;
+  -o-animation:fadein 2.0s infinite alternate;
+  -ms-animation:fadein 2.0s infinite alternate;
 }
 @keyframes  fadein {
   0% {opacity:0;}
@@ -314,12 +315,12 @@ p {
 }
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in1 {
-  transition-delay: .5s;
-  animation:fadein 5s infinite alternate;
-  -webkit-animation:fadein 5s infinite alternate;
-  -moz-animation:fadein 5s infinite alternate;
-  -o-animation:fadein 5s infinite alternate;
-  -ms-animation:fadein 5s infinite alternate;
+  /*transition-delay: 2.5s;*/
+  animation:fadein 4s infinite alternate;
+  -webkit-animation:fadein 4s infinite alternate;
+  -moz-animation:fadein 4s infinite alternate;
+  -o-animation:fadein 4s infinite alternate;
+  -ms-animation:fadein 4s infinite alternate;
 }
 @keyframes  fadein {
   0% {opacity:0;}
