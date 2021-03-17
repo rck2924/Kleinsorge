@@ -136,7 +136,7 @@ body {
 .container:hover .overlay {
     transform:scale(1.0);
     transition-timing-function:linear;
-    transition:3.0s;
+    transition:2.0s;
     transition-delay:1s;
 }
 /*container3 is for the BIGPIX2 near bottom */
