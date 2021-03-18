@@ -4,7 +4,7 @@ body {
 }
 /*This is the title at the top of the Main page*/
 .tocTitle {
-  	margin-top:75px;
+  	margin-top:25px;
     padding:50px;
    	height:.5em;
     width:21em;
@@ -72,6 +72,7 @@ body {
     text-shadow:2px 3px black;
     width:38%;
     letter-spacing:10px;
+    margin-left: 20px;
 }
 
 /*This instruction positions the alphbetically listed Family Surnames*/
@@ -285,13 +286,13 @@ p {
     width:20em;
     font-size:50px;
 }
-/*This instruction will cause message and the title "Family Surnames" to fade in and out.*/
+/*This instruction will cause "message" and the title "Family Surnames" to fade in and out.*/
 .fade-in {
-  animation:fadein 2.0s infinite alternate;
-  -webkit-animation:fadein 2.0s infinite alternate;
-  -moz-animation:fadein 2.0s infinite alternate;
-  -o-animation:fadein 2.0s infinite alternate;
-  -ms-animation:fadein 2.0s infinite alternate;
+  animation:fadein 1.5s infinite alternate;
+  -webkit-animation:fadein 1.5s infinite alternate;
+  -moz-animation:fadein 1.5s infinite alternate;
+  -o-animation:fadein 1.5s infinite alternate;
+  -ms-animation:fadein 1.5s infinite alternate;
 }
 @keyframes  fadein {
   0% {opacity:0;}
@@ -315,9 +316,8 @@ p {
 }
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in1 {
-  /*transition-delay: 2.5s;*/
-  animation:fadein 4s infinite alternate;
-  -webkit-animation:fadein 4s infinite alternate;
+  animation:fadein 4.0s infinite alternate;
+  -webkit-animation:fadein 4.0s infinite alternate;
   -moz-animation:fadein 4s infinite alternate;
   -o-animation:fadein 4s infinite alternate;
   -ms-animation:fadein 4s infinite alternate;
