@@ -342,3 +342,10 @@ p {
   0% {opacity:0;}
   100% {opacity:1;}
 }
+/*This establishes seprating lines between elements on the cover page*/
+hr {
+  width:40%;
+  border-style: outset;
+  border-width: 5px;
+  border-color:black;
+}

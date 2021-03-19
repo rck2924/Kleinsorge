@@ -16,6 +16,13 @@
 	.pageTitle, #pTitle
    {
  		margin-left: 195px;
+    background-color:linen;
+    border: solid;
+    width:50%;
+    border-radius: 25px;
+    margin-left: 300px;
+    margin-top: 35px;
+    margin-bottom: 15px;
 	 }
 
 /*The below instruction for the "body" establishes the size of the tree and lights up names when you hover. Can't select a name without "z-index: 0;"*/
@@ -91,6 +98,8 @@
 	top: 18em;
 	left: 0em;
   height: 5em;
+  margin-top: 5px;
+  margin-left: 5px;
 	}
 #p1, #p2
 	{

@@ -4,13 +4,14 @@ a img {	border-style:none; margin:0px;}
 .reportBody, #rBody
 	{
 	padding: 30px;
-	border-style: solid;
+	background-color:slategrey;
+	border: 5px solid black;
 	border-radius: 15px;
 	}
 
 .pageBody, #pBody
 	{
-	padding-top: 100px;
+	padding-top: -50px;
 	margin-right: auto;
 	margin-bottom: 50px;
 	margin-left: auto;
