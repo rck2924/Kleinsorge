@@ -35,11 +35,15 @@ a img {	border-style: none; margin: 0px 3px; }
 	text-align: left;
 	}
 
-.psName >.psText
+.psName .psText
 	{
 	font-weight: bold;
 	font-size: 20px;
 	margin-left: 25px;
+	background-color:lightblue;
+	border: solid;
+	border-width: 3px;
+	border-radius: 5px;
 	}
 
 .psPicture img
@@ -71,12 +75,12 @@ div.psRecordEnd
 	text-align: right;
 	padding-right: 8px;
 	}
-
+/*This is what modifies the background color of the label "Name" and the spouse number*/
 .psTitle
 	{
 	font-weight: bold;
 	font-size: 1.1em;
-	background-color: gray;
+	background-color:lightgrey;
 	padding-right: 10px;
 	padding-left: 10px;
 	border-radius: 5px;

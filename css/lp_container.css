@@ -162,7 +162,7 @@ input[type=text]
 
 		transition: none;
 		}
-
+/*This instruction establishes the menu at the top of the webcards,personal sheets and the tree.*/
 	#menu li
 		{
 		margin: auto;
