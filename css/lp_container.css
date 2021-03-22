@@ -68,6 +68,10 @@ a.anchor
 	font-size: 1.2em;
 	padding: 10px;
 	text-align: left;
+	border-width: 5px;
+	border: 3px;
+	border-radius: 10px;
+	background-color: lightgrey;
 	}
 
 /* 	border: 1px solid black; */
@@ -159,7 +163,6 @@ input[type=text]
 		height: 37px;
 		line-height:37px;
 		vertical-align: middle;
-
 		transition: none;
 		}
 /*This instruction establishes the menu at the top of the webcards,personal sheets and the tree.*/
