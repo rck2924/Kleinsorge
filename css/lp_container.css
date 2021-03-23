@@ -190,6 +190,7 @@ input[type=text]
 	/* show the report title in the body of the report */
 	.pageTitle, .tocTitle
 		{
+			margin-left: -5px;
 		visibility: visible;
 		height: 38px;
 		line-height: 38px;

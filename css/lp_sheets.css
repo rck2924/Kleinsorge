@@ -11,6 +11,8 @@ a img {	border-style: none; margin: 0px 3px; }
 	/*The below instruction for the "body" establishes and modifies the border surrounding the content*/
 	.reportBody, #rBody
 		{
+    width:760px;
+		margin-left: 30px;
 		padding-top: 30px;
 		padding-bottom: 50px;
 		padding-left: 10px;
