@@ -7,10 +7,18 @@
 
 .pageBody, #pBody
 	{
-	padding-top: 20px;
-	margin-left: 325px;
+	/*padding-top: -50px;*/
+  padding-left:50px;
+  padding-right: 200px;
+  padding-bottom: 160px;
+	margin-left: 275px;
 	margin-right: auto;
-	width: 75em;
+  margin-top: 150px;
+	width: 175em;
+  height: 520px;
+  background-color: dimgrey;
+  border-width: 10px;
+  border-radius: 25px;
 	}
 /*This hides the title at the top of the page;"The Kleinsorge Family Tree - Tree"*/
 	.pageTitle, #pTitle
@@ -26,13 +34,14 @@
     margin-bottom: 15px;
 	 }
 
-/*The below instruction for the "body" establishes the size of the tree and lights up names when you hover. Can't select a name without "z-index: 0;"*/
+/*The below instruction for the "body" establishes the position of the tree and lights up names when you hover. Can't select a name without "z-index: 0;"*/
 .reportBody, #rBody
 	{
 	position: relative;
 	z-index: 0;
 	height: 43.5em;
 	width: 60.0em;
+  margin-top: -65px;
 	}
 
 /* Person box appearance */
@@ -44,7 +53,6 @@
 	height: 4.5em;
 	margin: 10px 0px;
 	padding: 2px;
-/*This puts a shadow behind the boxes on the tree*/
   border-radius: 5px;
 	box-shadow: 5px 5px dimgray;
 	}
