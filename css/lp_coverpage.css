@@ -124,6 +124,11 @@ body {
   background-color:#ff6347;
   border-radius: 15px;
 }
+.audio3 {
+  height:25px;
+  width:auto;
+  visibility:hidden;
+}
 /* This overlay is for the small photos near the bottom of the coverpage. */
 .overlay {
   position:relative;
