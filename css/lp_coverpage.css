@@ -15,7 +15,7 @@ body {
 .six_couples {
   border-bottom:outset 5px #832A0D;
   font-size:3em;
-  color:#832A0D;
+  color:black;
   font-style:italic;
   padding-bottom: 20px;
 }
@@ -58,7 +58,7 @@ body {
   text-align: center;
   border-radius: 10px;
   border: solid;
-  background-color: red;
+  background-color: white;
   font-size: 35px;
   font-weight: bolder;
   width:450px;
@@ -310,7 +310,7 @@ p {
     width:20em;
     font-size:50px;
 }
-/*This instruction will cause "message" and the title "Family Surnames" to fade in and out.*/
+/*This instruction will cause "mouse message" and the title "Family Surnames" to fade in and out.*/
 .fade-in {
   animation:fadein 1.5s infinite alternate;
   -webkit-animation:fadein 1.5s infinite alternate;
@@ -368,8 +368,8 @@ p {
 }
 /*This establishes seprating lines between elements on the cover page*/
 hr {
-  width:40%;
-  border-style: outset;
-  border-width: 5px;
+  width:60%;
+  border-style: groove;
+  border-width: 2px;
   border-color:black;
 }
