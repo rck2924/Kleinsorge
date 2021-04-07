@@ -51,7 +51,7 @@ body {
 .gotobutton:hover {
   background-color:black;
 }
-.bottom_button {
+.surnames {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
@@ -61,9 +61,8 @@ body {
   font-size: 35px;
   font-weight: bolder;
   width:450px;
-  margin-left: 600px;
 }
-.bottom_button1 {
+.top_of_page {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
@@ -73,7 +72,6 @@ body {
   font-size: 35px;
   font-weight: bolder;
   width:276px;
-  margin-left: 680px;
 }
 /*This is the title in the middle of the Main page that talks about 500 people*/
 .tocIntro {
@@ -155,6 +153,7 @@ body {
 /*container is for the small photos near the bottem of the cover page. */
 .container {
   width:450px;
+  height:400px;
   padding-top: 20px;
 }
 .container:hover .overlay {
@@ -172,38 +171,51 @@ body {
 }
 /*text1 colors the background of the text associated with the 1886 wedding photo*/
 .text1 {
-  width:350px;
+  width:450px;
   border-radius:5px;
   background-color:lightblue;
-  color:black;
   font-size:1.5em;
 }
 /*text2 colors the background of the text associated with the Locust Point photo*/
 .text2 {
-  width:350px;
+  width:400px;
   border-radius:5px;
   background-color:lime;
-  color:black;
   font-size:1.5em;
-  margin-top: 5.2em;
+  margin-top: 5.0em;
 }
-/*text3 colors the background of the text associated with the Wilhelm and Theodor's birthplace photo*/
+/*text3 colors and positions the background of the text associated with Theodor's birthplace photo*/
 .text3 {
   width:350px;
   border-radius:5px;
   background-color:chartreuse;
-  color:black;
   font-size:1.25em;
-  margin-top: 2em;
+  margin-top: 1.7em;
 }
-/*text3 colors the background of the text associated with the Wilhelm and Theodor's birthplace photo*/
+/*text4 colors and positions the background of the text associated with the Wilhelm and wife photo*/
 .text4 {
   width:350px;
   border-radius:5px;
   background-color:chartreuse;
-  color:black;
   font-size:1.25em;
-  margin-top:5.4em;
+  margin-top:5.2em;
+}
+/*text5 colors and positions the background of the text associated with Aunt Ruby's picture*/
+.text5 {
+  margin-left: -40px;
+  width:540px;
+  border-radius:5px;
+  background-color:lightblue;
+  font-size:1.5em;
+  margin-top:140px;
+}
+/*text5 colors and positions background of the text associated with photo of Bud and Ruby*/
+.text6 {
+  width:300px;
+  border-radius:5px;
+  background-color:lightblue;
+  font-size:1.5em;
+  margin-top:170px;
 }
 /*This instruction is for the subtitles below the 6 wedding pictures*/
 .para {
@@ -214,13 +226,18 @@ font-style:italic;
 .para1 {
 font-size:20px;
 font-style:italic;
-margin-top: -120px;
+margin-top: -140px;
 }
 /*This instruction is for the subtitle below Theodor Wedding photo. */
 .para2 {
 font-size:20px;
 font-style:italic;
 margin-top: -40px;
+}
+.para3 {
+font-size:20px;
+margin-top: 30px;
+margin-bottom: 25px;
 }
 /*Theodor on the Farm and birthplace photos*/
 .image1 {
@@ -251,6 +268,13 @@ margin-top: -40px;
 .image4 {
     width:350px;
     height:250px;
+    border:solid;
+    border-radius:10px;
+}
+/*Ruby Kleinsorge pictures*/
+.image5 {
+    width:300px;
+    height:400px;
     border:solid;
     border-radius:10px;
 }
@@ -286,11 +310,12 @@ margin-top: -40px;
     filter:none;
  transition:.5s ease;
 }
-/*The column instruction will align elements into colums based on the width percentage*/
+/*The column instruction will align elements into columns based on the width percentage*/
 .column6 {
   float:right;
   width:16.666666%;
   height:300px;
+  padding-top: 220px;
 }
 .column3 {
   float:left;
@@ -299,6 +324,7 @@ margin-top: -40px;
 .column2 {
   float:right;
   width:50.0%;
+  padding-top: 50px;
 }
 /*This instruction establishes the Welcome translation item at the top of the cover page*/
 p {
