@@ -68,7 +68,7 @@ body {
   text-align: center;
   border-radius: 10px;
   border: solid;
-  background-color: lime;
+  background-color: linen;
   font-size: 35px;
   font-weight: bolder;
   width:276px;
@@ -169,6 +169,11 @@ body {
   padding-top: 800px;
   padding-bottom: 500px;
 }
+/*container4 is for the Ruby's pictures near bottom */
+.container4 {
+  height: 300px;
+  padding-bottom: 200px;
+}
 /*text1 colors the background of the text associated with the 1886 wedding photo*/
 .text1 {
   width:450px;
@@ -200,10 +205,10 @@ body {
   font-size:1.25em;
   margin-top:5.2em;
 }
-/*text5 colors and positions the background of the text associated with Aunt Ruby's picture*/
+/*text5 colors and positions the background of the text associated with Aunt Ruby's 90th picture*/
 .text5 {
-  margin-left: -40px;
-  width:540px;
+  margin-left: 90px;
+  width:240px;
   border-radius:5px;
   background-color:lightblue;
   font-size:1.5em;
@@ -211,11 +216,19 @@ body {
 }
 /*text5 colors and positions background of the text associated with photo of Bud and Ruby*/
 .text6 {
-  width:300px;
+  width:240px;
   border-radius:5px;
   background-color:lightblue;
   font-size:1.5em;
-  margin-top:170px;
+  margin-top:90px;
+}
+/*text5 colors and positions background of the text associated with photo of Bud and Ruby*/
+.text7 {
+  width:410px;
+  border-radius:5px;
+  background-color:lightblue;
+  font-size:1.5em;
+  margin-top:30px;
 }
 /*This instruction is for the subtitles below the 6 wedding pictures*/
 .para {
@@ -232,17 +245,14 @@ margin-top: -140px;
 .para2 {
 font-size:20px;
 font-style:italic;
-margin-top: -40px;
+margin-top: -20px;
 }
-.para3 {
-font-size:20px;
-margin-top: 30px;
-margin-bottom: 25px;
-}
+/*This instruction is for the subtitle below Ruby wedding pix*/
 .para4 {
 font-size:20px;
 margin-top: -40px;
 margin-bottom: 125px;
+padding-left: 25px;
 }
 /*Theodor on the Farm and birthplace photos*/
 .image1 {
@@ -278,17 +288,19 @@ margin-bottom: 125px;
 }
 /*Ruby Kleinsorge pictures*/
 .image5 {
-    width:300px;
-    height:400px;
+    width:200px;
+    height:250px;
     border:solid;
     border-radius:10px;
+    margin-top: 100px;
 }
-/*Ruby Kleinsorge pictures*/
+
+/*Ruby Kleinsorge 90th picture*/
 .image6 {
-    width:400px;
-    height:300px;
-    border:solid;
-    border-radius:10px;
+    width:325px;
+    height:225px;
+    margin-top: 100px;
+    padding-left: 60px;
 }
 /*This will grow the image if you change the class associated with the image to grow*/
 .grow img:hover {
@@ -331,7 +343,8 @@ margin-bottom: 125px;
 }
 .column3 {
   float:left;
-  width:33.333333%;
+  width:33.33333%;
+  height:500px;
 }
 .column2 {
   float:right;
