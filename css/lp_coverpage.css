@@ -51,7 +51,7 @@ body {
 .gotobutton:hover {
   background-color:black;
 }
-.surnames {
+.back_to_surnames {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
@@ -60,6 +60,7 @@ body {
   background-color: white;
   font-size: 35px;
   font-weight: bolder;
+  color:lightgrey;
   width:450px;
 }
 .top_of_page {
@@ -68,10 +69,54 @@ body {
   text-align: center;
   border-radius: 10px;
   border: solid;
-  background-color: linen;
+  background-color: mintcream;
   font-size: 35px;
-  font-weight: bolder;
+  color:darkslategray;
   width:276px;
+}
+.rubys_story {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid;
+  background-color: mintcream;
+  font-size: 35px;
+  color:darkslategray;
+  width:276px;
+}
+.history_website {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid;
+  background-color: lightgrey;
+  font-size: 30px;
+  color:darkslategray;
+  width:400px;
+}
+.pix_download {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid;
+  background-color: lightgrey;
+  font-size: 30px;
+  color:darkslategray;
+  width:400px;
+}
+.back_to_surnames {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid;
+  background-color: lightgrey;
+  font-size: 30px;
+  color:darkslategray;
+  width:400px;
 }
 /*This is the title in the middle of the Main page that talks about 500 people*/
 .tocIntro {
@@ -169,10 +214,10 @@ body {
   padding-top: 800px;
   padding-bottom: 500px;
 }
-/*container4 is for the Ruby's pictures near bottom */
+/*container4 is for Ruby's pictures near bottom */
 .container4 {
-  height: 300px;
-  padding-bottom: 200px;
+  /*height: 350px;*/
+  /*padding-bottom:120px;*/
 }
 /*text1 colors the background of the text associated with the 1886 wedding photo*/
 .text1 {
@@ -251,7 +296,6 @@ margin-top: -20px;
 .para4 {
 font-size:20px;
 margin-top: -40px;
-margin-bottom: 125px;
 padding-left: 25px;
 }
 /*Theodor on the Farm and birthplace photos*/
