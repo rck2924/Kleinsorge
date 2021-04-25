@@ -17,6 +17,7 @@ hr
 	line-height: 40px;
 	margin-left: 2px;
 	margin-right: 2px;
+	letter-spacing: 2px;
 	}
 
 .idxBody
@@ -66,7 +67,7 @@ div.sur > div:first-child
 	{
 	display: block;
 	margin-left: 1.5em;
-	padding-top: .15em;
+	padding-top: 1.15em;
 	}
 
 .idxLetter
@@ -79,7 +80,7 @@ div.sur > div:first-child
 	font-weight: bold;
 	padding: 2pt;
 	margin: 0px;
-	margin-top: 4px;
+	margin-top: 30px;
 	margin-bottom: 1px;
 	}
 

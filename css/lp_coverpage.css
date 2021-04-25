@@ -22,18 +22,18 @@ body {
  when a pointer is hovered on the phrase "Translation?"*/
  .welcome {
      display:inline-block;
-     font-size:30px;
 }
-.top {
+.translation {
      height:2.5em;
      width:9.5em;
-     margin-left:-363px;
-     padding-bottom:90px;
+     margin-left:-40em;
+     padding-bottom:100px;
      transform:translate(-50%, -100%);
      position:absolute;
+     cursor:progress;
      display:none;
 }
-.welcome:hover .top{
+.welcome:hover .translation {
      display:inline-block;
 }
 /*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
@@ -146,7 +146,7 @@ body {
 	  text-align:center;
     width:80.0%;
 	  margin:2em;
-	  padding-top:.5em;
+	  padding-top:1.5em;
 	  border-top:solid;
 	  border-width:5px;
 	  font-size:15px;
@@ -156,11 +156,10 @@ body {
 /*This instruction adjust the size, color and position of the letter in the alphabet identifying the Surnames*/
 .surLetter {
     float:left;
-    margin-top:10px;
-    font-size:1.5em;
-	  width:2em;
+    font-size:1.75em;
+	  width:1.5em;
     border-radius:10px;
-    background-color:white;
+    background-color:linen;
 }
 /*The 3 audio instructions are for the players at the bottom of the cover page.*/
 .audio {
@@ -205,19 +204,7 @@ body {
     transform:scale(1.0);
     transition-timing-function:linear;
     transition:2.0s;
-    transition-delay:1s;
-}
-/*container3 is for the BIGPIX2 near bottom */
-.container3 {
-  width: 100%;
-  height: 300px;
-  padding-top: 800px;
-  padding-bottom: 500px;
-}
-/*container4 is for Ruby's pictures near bottom */
-.container4 {
-  /*height: 350px;*/
-  /*padding-bottom:120px;*/
+    transition-delay:.75s;
 }
 /*text1 colors the background of the text associated with the 1886 wedding photo*/
 .text1 {
@@ -267,7 +254,7 @@ body {
   font-size:1.5em;
   margin-top:90px;
 }
-/*text5 colors and positions background of the text associated with photo of Bud and Ruby*/
+/*text5 colors and positions background of the text associated with photo Ruby@97*/
 .text7 {
   width:410px;
   border-radius:5px;
@@ -330,7 +317,7 @@ padding-left: 25px;
     border:solid;
     border-radius:10px;
 }
-/*Ruby Kleinsorge pictures*/
+/*Ruby Kleinsorge pictures(wedding and 97th birthday)*/
 .image5 {
     width:200px;
     height:250px;
@@ -407,11 +394,11 @@ p {
 }
 /*This instruction will cause "mouse message" and the title "Family Surnames" to fade in and out.*/
 .fade-in {
-  animation:fadein 1.5s infinite alternate;
-  -webkit-animation:fadein 1.5s infinite alternate;
-  -moz-animation:fadein 1.5s infinite alternate;
-  -o-animation:fadein 1.5s infinite alternate;
-  -ms-animation:fadein 1.5s infinite alternate;
+  animation:fadein 2.5s infinite alternate;
+  -webkit-animation:fadein 2.5s infinite alternate;
+  -moz-animation:fadein 2.5s infinite alternate;
+  -o-animation:fadein 2.5s infinite alternate;
+  -ms-animation:fadein 2.5s infinite alternate;
 }
 @keyframes  fadein {
   0% {opacity:0;}
@@ -435,11 +422,11 @@ p {
 }
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in1 {
-  animation:fadein 4.0s infinite alternate;
-  -webkit-animation:fadein 4.0s infinite alternate;
-  -moz-animation:fadein 4s infinite alternate;
-  -o-animation:fadein 4s infinite alternate;
-  -ms-animation:fadein 4s infinite alternate;
+  animation:fadein ease-in-out 2.0s infinite alternate;
+  -webkit-animation:fadein ease-in-out 2.0s infinite alternate;
+  -moz-animation:fadein ease 2s infinite alternate;
+  -o-animation:fadein ease 2s infinite alternate;
+  -ms-animation:fadein ease 2s infinite alternate;
 }
 @keyframes  fadein {
   0% {opacity:0;}
@@ -461,10 +448,34 @@ p {
   0% {opacity:0;}
   100% {opacity:1;}
 }
-/*This establishes seprating lines between elements on the cover page*/
-hr {
-  width:60%;
-  border-style: groove;
-  border-width: 2px;
-  border-color:black;
+.fade-out {
+  animation: fadeOut ease 4s infinite alternate;
+  -webkit-animation: fadeOut ease 4s infinite alternate;
+  -moz-animation: fadeOut ease 4s infinite alternate;
+  -o-animation: fadeOut ease 4s infinite alternate;
+  -ms-animation: fadeOut ease 4s infinite alternate;
+}
+@keyframes fadeOut {
+  0% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@-moz-keyframes fadeOut {
+  0% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@-webkit-keyframes fadeOut {
+  0% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@-o-keyframes fadeOut {
+  0% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@-ms-keyframes fadeOut {
+  0% {opacity:1;}
+  100% {opacity:0;}
 }
