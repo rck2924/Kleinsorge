@@ -22,18 +22,38 @@ body {
  when a pointer is hovered on the phrase "Translation?"*/
  .welcome {
      display:inline-block;
+     font-size:30px;
 }
 .translation {
      height:2.5em;
      width:9.5em;
-     margin-left:-40em;
-     padding-bottom:100px;
+     margin-left:-440px;
+     padding-bottom:57px;
      transform:translate(-50%, -100%);
      position:absolute;
      cursor:progress;
      display:none;
 }
 .welcome:hover .translation {
+     display:inline-block;
+}
+/*This instruction will cause the "Goodbye message" to change
+ when a pointer is hovered on the phrase "Translation?"*/
+ .goodbye {
+     display:inline-block;
+}
+.translation1 {
+     background-color: darkgreen;
+     width:1000px;
+     margin-left: -70px;
+     margin-top: -20px;
+     border-radius: 15px;
+     transform:translate(-50%, -100%);
+     position:absolute;
+     cursor:progress;
+     display:none;
+}
+.goodbye:hover .translation1 {
      display:inline-block;
 }
 /*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
@@ -391,6 +411,16 @@ p {
     background-color:darkgreen;
     width:20em;
     font-size:50px;
+}
+p1 {
+    /*width:1400px;
+    text-align: center;
+    padding-top: -200px;
+    /*padding:6px;
+    border:10px;
+    border-radius:15px;
+    font-family:'Montserrat';
+    background-color:darkgreen;*/
 }
 /*This instruction will cause "mouse message" and the title "Family Surnames" to fade in and out.*/
 .fade-in {
