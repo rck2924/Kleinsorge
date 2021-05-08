@@ -18,7 +18,7 @@ body {
   font-style:italic;
   padding-bottom: 20px;
 }
-/*This instruction will cause the welcome greeting to change
+/*This instruction will cause the "Welcome message" to change
  when a pointer is hovered on the phrase "Translation?"*/
  .welcome {
      cursor:help;
@@ -42,10 +42,11 @@ body {
      cursor:help;
 }
 .translation1 {
-     background-color: darkgreen;
-     width:1000px;
-     margin-left: -70px;
-     margin-top: -55px;
+     background-color:green;
+     height:68px;
+     width:1010px;
+     margin-left: -75px;
+     margin-top: -52px;
      border-radius: 15px;
      transform:translate(-50%, -100%);
      position:absolute;
@@ -62,7 +63,6 @@ body {
   border:2px solid black;
   font-size:3.0em;
   width:30%;
-  cursor:progress;
   color:black;
   background-color:lightgrey;
   border-radius:15px;
@@ -78,7 +78,6 @@ body {
   border: solid;
   background-color: white;
   font-size: 35px;
-  font-weight: bolder;
   color:lightgrey;
   width:450px;
 }
@@ -110,9 +109,8 @@ body {
   text-align: center;
   border-radius: 10px;
   border: solid;
-  background-color: lightgrey;
+  background-color:white;
   font-size: 30px;
-  color:darkslategray;
   width:400px;
 }
 .pix_download {
@@ -302,7 +300,6 @@ margin-top: -20px;
 .para4 {
 font-size:20px;
 margin-top: -40px;
-padding-left: 25px;
 }
 /*Theodor on the Farm and birthplace photos*/
 .image1 {
@@ -407,19 +404,9 @@ p {
     border:10px;
     border-radius:15px;
     font-family:'Montserrat';
-    background-color:darkgreen;
+    background-color:green;
     width:20em;
     font-size:50px;
-}
-p1 {
-    /*width:1400px;
-    text-align: center;
-    padding-top: -200px;
-    /*padding:6px;
-    border:10px;
-    border-radius:15px;
-    font-family:'Montserrat';
-    background-color:darkgreen;*/
 }
 /*This instruction will cause "mouse message" and the title "Family Surnames" to fade in and out.*/
 .fade-in {
@@ -508,3 +495,51 @@ p1 {
   0% {opacity:1;}
   100% {opacity:0;}
 }
+
+/*The instruction below will cause the "h1" element to fade from one color to another*/
+h1 {
+  width:500px;
+  height:30px;
+  position:relative;
+  margin-top: 40px;
+  font-size: 25px;
+  border-radius: 10px;
+  animation: mouse_pointer 5.0s infinite;
+  animation-direction: alternate;
+}
+/* Changes the mouse message color with 10 different colors.  Has no movement*/
+/*@keyframes mouse_pointer {
+    0%   {background-color: chartreuse;}
+    10%  {background-color: aquamarine;}
+    20%  {background-color: greenyellow;}
+    30%  {background-color: darkslategray;}
+    40%  {background-color: white;}
+    50%  {background-color: darkmagenta;}
+    60%  {background-color: darkgreen;}
+    70%  {background-color: darkorange;}
+    80%  {background-color: darkviolet;}
+    90%  {background-color: fuchsia;}
+    100% {background-color: darkviolet;}
+  }
+/* Moves the mouse message up and down while changing colors*/
+/*  @keyframes mouse_pointer {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top:25px; left: 0px; background: chartreuse;}
+    75%  {top:0px; left: 0px; background: green;}
+    100% {top:25px; left: 0px; background: red;}
+  }
+/*Moves the mouse message up and down whilr shrinking and expanding*/
+  @keyframes mouse_pointer {
+  0%   {top: -30px; background: chartreuse; width: 600px;}
+  100% {top: 25px; background: yellow; width: 475px;}
+}
+/*Moves the message from center to left and back.  No color*/
+/*@keyframes mouse_pointer {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}*/
