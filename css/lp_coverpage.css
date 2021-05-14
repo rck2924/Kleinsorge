@@ -2,7 +2,7 @@ body {
     padding-bottom: 100px;
     padding-top: 10px;
 }
-/*This is the title at the top of the Main page*/
+/*This is the title (KleinsorgeFamily Tree) at the top of the Main page*/
 .tocTitle {
   	margin-top:25px;
     padding:50px;
@@ -116,18 +116,15 @@ body {
 .pix_download {
   margin-top: 35px;
   margin-bottom: 35px;
-  text-align: center;
   border-radius: 10px;
   border: solid;
-  background-color: lightgrey;
+  background-color: linen;
   font-size: 30px;
-  color:darkslategray;
   width:400px;
 }
 .back_to_surnames {
   margin-top: 25px;
   margin-bottom: 25px;
-  text-align: center;
   border-radius: 10px;
   border: solid;
   background-color: lightgrey;
@@ -148,8 +145,7 @@ body {
 }
 /*This instruction establishes the title "Family Surnames" in the middle of the page*/
 .surNames {
-    font-family:serif;
-    font-style:normal;
+    font-family: arial;
     color:#b67116;
     font-size:4.5em;
     text-shadow:2px 3px black;
@@ -223,14 +219,14 @@ body {
     transition:2.0s;
     transition-delay:.75s;
 }
-/*text1 colors the background of the text associated with the 1886 wedding photo*/
+/*text1 colors the background of the text associated with the popup on the 1886 wedding photo*/
 .text1 {
   width:450px;
   border-radius:5px;
   background-color:lightblue;
   font-size:1.5em;
 }
-/*text2 colors the background of the text associated with the Locust Point photo*/
+/*text2 colors the background of the text associated with the popup on the Locust Point photo*/
 .text2 {
   width:400px;
   border-radius:5px;
@@ -238,7 +234,7 @@ body {
   font-size:1.5em;
   margin-top: 5.0em;
 }
-/*text3 colors and positions the background of the text associated with Theodor's birthplace photo*/
+/*text3 colors and positions the background of the text associated with the popup on Theodor's birthplace photo*/
 .text3 {
   width:350px;
   border-radius:5px;
@@ -246,7 +242,7 @@ body {
   font-size:1.25em;
   margin-top: 1.7em;
 }
-/*text4 colors and positions the background of the text associated with the Wilhelm and wife photo*/
+/*text4 colors and positions the background of the text associated with the popup on the Wilhelm and wife photo*/
 .text4 {
   width:350px;
   border-radius:5px;
@@ -254,7 +250,7 @@ body {
   font-size:1.25em;
   margin-top:5.2em;
 }
-/*text5 colors and positions the background of the text associated with Aunt Ruby's 90th picture*/
+/*text5 colors and positions the background of the text associated with the popup on Aunt Ruby's 90th picture*/
 .text5 {
   margin-left: 90px;
   width:240px;
@@ -263,7 +259,7 @@ body {
   font-size:1.5em;
   margin-top:75px;
 }
-/*text5 colors and positions background of the text associated with photo of Bud and Ruby*/
+/*text5 colors and positions background of the text associated with the popup on the photo of Bud and Ruby*/
 .text6 {
   width:240px;
   border-radius:5px;
@@ -271,7 +267,7 @@ body {
   font-size:1.5em;
   margin-top:90px;
 }
-/*text5 colors and positions background of the text associated with photo Ruby@97*/
+/*text5 colors and positions background of the text associated with the popup on the photo Ruby@97*/
 .text7 {
   width:410px;
   border-radius:5px;
@@ -279,24 +275,24 @@ body {
   font-size:1.5em;
   margin-top:30px;
 }
-/*This instruction is for the subtitles below the 6 wedding pictures*/
+/*This instruction is for the verbage below the 6 wedding pictures*/
 .para {
 font-size:20px;
 font-style:italic;
 }
-/*This instruction is for the subtitle below the Locust Point photo. */
+/*This instruction is for the verbage below the Locust Point photo. */
 .para1 {
 font-size:20px;
 font-style:italic;
 margin-top: -140px;
 }
-/*This instruction is for the subtitle below Theodor Wedding photo. */
+/*This instruction is for the verbage below Theodor Wedding photo. */
 .para2 {
 font-size:20px;
 font-style:italic;
 margin-top: -20px;
 }
-/*This instruction is for the subtitle below Ruby wedding pix*/
+/*This instruction is for the verbage below Ruby wedding pix*/
 .para4 {
 font-size:20px;
 margin-top: -40px;
@@ -342,7 +338,7 @@ margin-top: -40px;
     margin-top: 100px;
 }
 
-/*Ruby Kleinsorge 90th picture*/
+/*Ruby Kleinsorge 90th birthday picture*/
 .image6 {
     width:325px;
     height:225px;
@@ -496,19 +492,33 @@ p {
   100% {opacity:0;}
 }
 
-/*The instruction below will cause the "h1" element to fade from one color to another*/
+/*The instruction below will cause the "h1" element to fade from one color to another and go up and down*/
 h1 {
-  width:500px;
-  height:30px;
   position:relative;
   margin-top: 40px;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 10px;
   animation: mouse_pointer 5.0s infinite;
   animation-direction: alternate;
 }
+/*Moves the mouse message up and down while shrinking and expanding*/
+  @keyframes mouse_pointer {
+  0%   {top: -30px; background: chartreuse; width: 600px;}
+  100% {top: 25px; background: yellow; width: 475px;}
+}
+/*The instruction below will cause the "h2" element to fade from one color to another through 10 colors*/
+h2 {
+  margin: 600px;
+  position:relative;
+  margin-top: 70px;
+  margin-bottom: auto;
+  font-size: 20px;
+  border-radius: 10px;
+  animation: mouse_pointer1 20.0s infinite;
+  animation-direction: alternate;
+}
 /* Changes the mouse message color with 10 different colors.  Has no movement*/
-/*@keyframes mouse_pointer {
+@keyframes mouse_pointer1 {
     0%   {background-color: chartreuse;}
     10%  {background-color: aquamarine;}
     20%  {background-color: greenyellow;}
@@ -528,11 +538,7 @@ h1 {
     75%  {top:0px; left: 0px; background: green;}
     100% {top:25px; left: 0px; background: red;}
   }
-/*Moves the mouse message up and down whilr shrinking and expanding*/
-  @keyframes mouse_pointer {
-  0%   {top: -30px; background: chartreuse; width: 600px;}
-  100% {top: 25px; background: yellow; width: 475px;}
-}
+
 /*Moves the message from center to left and back.  No color*/
 /*@keyframes mouse_pointer {
   from {
