@@ -106,6 +106,7 @@ body {
 .history_website {
   margin-top: 100px;
   margin-bottom: 100px;
+  padding-bottom: 10px;
   text-align: center;
   border-radius: 10px;
   border: solid;
@@ -130,7 +131,7 @@ body {
   background-color: lightgrey;
   font-size: 30px;
   color:darkslategray;
-  width:400px;
+  width:350px;
 }
 /*This is the title in the middle of the Main page that talks about 500 people*/
 .tocIntro {
@@ -434,11 +435,11 @@ p {
 }
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in1 {
-  animation:fadein ease-in-out 2.0s infinite alternate;
-  -webkit-animation:fadein ease-in-out 2.0s infinite alternate;
-  -moz-animation:fadein ease 2s infinite alternate;
-  -o-animation:fadein ease 2s infinite alternate;
-  -ms-animation:fadein ease 2s infinite alternate;
+  animation:fadein ease-in-out 3.0s infinite alternate;
+  -webkit-animation:fadein ease-in-out 3.0s infinite alternate;
+  -moz-animation:fadein ease 3s infinite alternate;
+  -o-animation:fadein ease 3s infinite alternate;
+  -ms-animation:fadein ease 3s infinite alternate;
 }
 @keyframes  fadein {
   0% {opacity:0;}
