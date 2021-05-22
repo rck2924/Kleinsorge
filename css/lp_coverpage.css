@@ -499,13 +499,8 @@ h1 {
   margin-top: 40px;
   font-size: 20px;
   border-radius: 10px;
-  animation: mouse_pointer 5.0s infinite;
+  animation: mouse_pointer1 5.0s infinite;
   animation-direction: alternate;
-}
-/*Moves the mouse message up and down while shrinking and expanding*/
-  @keyframes mouse_pointer {
-  0%   {top: -30px; background: chartreuse; width: 600px;}
-  100% {top: 25px; background: yellow; width: 475px;}
 }
 /*The instruction below will cause the "h2" element to fade from one color to another through 10 colors*/
 h2 {
@@ -515,11 +510,28 @@ h2 {
   margin-bottom: auto;
   font-size: 20px;
   border-radius: 10px;
-  animation: mouse_pointer1 20.0s infinite;
+  animation: mouse_pointer2 20.0s infinite;
   animation-direction: alternate;
 }
+/*The instruction below will cause the "h3" element to fade from one color to another and go up and down*/
+h3 {
+  position:relative;
+  width:300px;
+  margin-top: 40px;
+  margin-left: -75px;
+  font-size: 25px;
+  border-radius: 10px;
+  animation: mouse_pointer3 8.0s infinite;
+  /*animation-direction: alternate;*/
+}
+/*Moves the mouse message up and down while shrinking and expanding*/
+  @keyframes mouse_pointer1 {
+  0%   {top: -30px; background: chartreuse; width: 600px;}
+  100% {top: 25px; background: yellow; width: 475px;}
+}
+
 /* Changes the mouse message color with 10 different colors.  Has no movement*/
-@keyframes mouse_pointer1 {
+@keyframes mouse_pointer2 {
     0%   {background-color: chartreuse;}
     10%  {background-color: aquamarine;}
     20%  {background-color: greenyellow;}
@@ -532,6 +544,22 @@ h2 {
     90%  {background-color: fuchsia;}
     100% {background-color: darkviolet;}
   }
+  /*Changes the mouse message with an alternating up and down and right and left with changing colors*/
+  @keyframes mouse_pointer3 {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 50px; background: linen;}
+    50%  {bottom: 50px; left: 50px; background: yellow;}
+    75%  {top: 50px; left: 50px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+  }
+
+/*Moves the mouse message up and down while shrinking and expanding*/
+/*  @keyframes mouse_pointer2 {
+  0%   {top: -30px; background: chartreuse; width: 400px;}
+  100% {top: 25px; background: yellow; width: 475px;}
+}
+
+
 /* Moves the mouse message up and down while changing colors*/
 /*  @keyframes mouse_pointer {
     0%   {top: 0px; left: 0px; background: red;}
