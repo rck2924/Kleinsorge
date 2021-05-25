@@ -517,12 +517,12 @@ h2 {
 h3 {
   position:relative;
   width:300px;
-  margin-top: 40px;
-  margin-left: -75px;
+  margin-top: 60px;
+  margin-left: : -50px;
   font-size: 25px;
   border-radius: 10px;
-  animation: mouse_pointer3 8.0s infinite;
-  /*animation-direction: alternate;*/
+  animation: mouse_pointer3 7.0s infinite;
+  animation-direction: alternate;
 }
 /*Moves the mouse message up and down while shrinking and expanding*/
   @keyframes mouse_pointer1 {
@@ -546,11 +546,11 @@ h3 {
   }
   /*Changes the mouse message with an alternating up and down and right and left with changing colors*/
   @keyframes mouse_pointer3 {
-    0%   {top: 0px; left: 0px; background: red;}
-    25%  {top: 0px; left: 50px; background: linen;}
-    50%  {bottom: 50px; left: 50px; background: yellow;}
-    75%  {top: 50px; left: 50px; background: green;}
-    100% {top: 0px; left: 0px; background: red;}
+    0%   {top: 0px; left: -100px; background: red;}
+    /*25%  {top: 0px; left: 50px; background: linen;}*/
+    50%  {top: 0px; right: 50px; background: yellow;}
+    /*75%  {top: 50px; left: 50px; background: green;}*/
+    100% {top: 0px; left: 100px; background: chartreuse;}
   }
 
 /*Moves the mouse message up and down while shrinking and expanding*/
