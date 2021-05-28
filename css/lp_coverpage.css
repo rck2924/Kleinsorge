@@ -54,21 +54,6 @@ body {
 }
 .goodbye:hover .translation1 {
      display:inline-block;
-
-}
-/*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
-.gotobutton {
-  padding:10px;
-  margin-top:25px;
-  border:2px solid black;
-  font-size:3.0em;
-  width:30%;
-  color:black;
-  background-color:lightgrey;
-  border-radius:15px;
-}
-.gotobutton:hover {
-  background-color:black;
 }
 .back_to_surnames {
   margin-top: 50px;
@@ -103,14 +88,13 @@ body {
   color:darkslategray;
   width:276px;
 }
-.history_website {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding-bottom: 10px;
-  text-align: center;
+/*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
+button{
+  margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 10px;
   border: solid;
-  background-color:white;
+  background-color:green;
   font-size: 30px;
   width:400px;
 }
@@ -140,9 +124,6 @@ body {
     color:black;
     width:68%;
     border:outset Dimgray 9px;background-color:LightGray;padding:2px;
-}
-.tocIntro:hover {
-    background-color:lightblue;
 }
 /*This instruction establishes the title "Family Surnames" in the middle of the page*/
 .surNames {

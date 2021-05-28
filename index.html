@@ -56,8 +56,15 @@
     {background:url("img/Theodor Kleinsorge Family.jpg") no-repeat;
      background-position:center;}
 </style>
+
+<style>
+button:hover {
+  background-color: yellow;
+}
+</style>
 </head>
 <body>
+
 <!--This instructions centers everything from the big picture to the bottom of the cover page-->
 <div align="center">
 
@@ -82,9 +89,12 @@ This is the Kleinsorge Family Tree<br>There are more than 500 individuals on the
 </div>
 <!--The next command puts a button just above the Title "Surnames" on the cover page.
     It links you to the Kleinsorge History Website.-->
-<div class="history_website">
-<a href='https://sites.google.com/view/the-kleinsorge-family-tree/home'><strong>This will take you to the<em> Kleinsorge History Website</strong></em></a>
-</div>
+<button onclick="history()">This will take you to the Kleinsorge History Website</button>
+<script>
+function history() {
+  window.open("https://sites.google.com/view/the-kleinsorge-family-tree/home", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=200,width=1300,height=800");
+}
+</script>
 
 <a class="anchor" name="SURN"></a>
 <div class="surNames">
