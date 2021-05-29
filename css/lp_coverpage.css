@@ -491,7 +491,7 @@ h2 {
   margin-bottom: auto;
   font-size: 20px;
   border-radius: 10px;
-  animation: mouse_pointer2 20.0s infinite;
+  animation: mouse_pointer2 15.0s infinite;
   animation-direction: alternate;
 }
 /*The instruction below will cause the "h3" element to fade from one color to another and go up and down*/
@@ -516,12 +516,12 @@ h3 {
     0%   {background-color: chartreuse;}
     10%  {background-color: aquamarine;}
     20%  {background-color: greenyellow;}
-    30%  {background-color: darkslategray;}
+    30%  {background-color: linen;}
     40%  {background-color: white;}
     50%  {background-color: darkmagenta;}
-    60%  {background-color: darkgreen;}
+    60%  {background-color: cyan;}
     70%  {background-color: darkorange;}
-    80%  {background-color: darkviolet;}
+    80%  {background-color: lightblue;}
     90%  {background-color: fuchsia;}
     100% {background-color: darkviolet;}
   }
