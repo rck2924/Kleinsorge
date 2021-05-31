@@ -94,7 +94,7 @@ button{
   margin-bottom: 50px;
   border-radius: 10px;
   border: solid;
-  background-color:green;
+  background-color:lightgreen;
   font-size: 30px;
   width:400px;
 }
@@ -106,6 +106,15 @@ button{
   background-color: linen;
   font-size: 30px;
   width:400px;
+}
+.slideshow {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border-radius: 10px;
+  border: solid;
+  background-color: lightblue;
+  font-size: 30px;
+  width:525px;
 }
 .back_to_surnames {
   margin-top: 25px;
@@ -121,9 +130,10 @@ button{
 .tocIntro {
     margin-top:20px;
     font-size:25px;
+    font-weight:bolder;
     color:black;
     width:68%;
-    border:outset Dimgray 9px;background-color:LightGray;padding:2px;
+    border:outset lightblue 9px;background-color:linen;padding:2px;
 }
 /*This instruction establishes the title "Family Surnames" in the middle of the page*/
 .surNames {
