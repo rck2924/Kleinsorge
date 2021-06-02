@@ -89,32 +89,15 @@ body {
   width:276px;
 }
 /*This is the instruction that makes the "Kleinsorge History Website" button on the cover page*/
-button{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-radius: 10px;
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
   border: solid;
   background-color:lightgreen;
-  font-size: 30px;
-  width:400px;
-}
-.pix_download {
-  margin-top: 35px;
-  margin-bottom: 35px;
-  border-radius: 10px;
-  border: solid;
-  background-color: linen;
-  font-size: 30px;
-  width:400px;
-}
-.slideshow {
-  margin-top: 35px;
-  margin-bottom: 35px;
-  border-radius: 10px;
-  border: solid;
-  background-color: lightblue;
-  font-size: 30px;
-  width:525px;
+  font-size: 25px;
+  width:375px;
+  height:75px;
 }
 .back_to_surnames {
   margin-top: 25px;
@@ -245,10 +228,11 @@ button{
 /*text5 colors and positions the background of the text associated with the popup on Aunt Ruby's 90th picture*/
 .text5 {
   margin-left: 90px;
-  width:240px;
+  height:30px;
+  width:300px;
   border-radius:5px;
   background-color:lightblue;
-  font-size:1.5em;
+  font-size:1.75em;
   margin-top:75px;
 }
 /*text5 colors and positions background of the text associated with the popup on the photo of Bud and Ruby*/

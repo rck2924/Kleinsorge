@@ -84,20 +84,23 @@ button:hover {
 <div class="bigpix1"></div>
 
 <div class="tocIntro">
-This is the Kleinsorge Family Tree<br><br>There are more than 500 individuals on the tree.<br>See if you can find yourself on the tree using <em>Family Surnames</em> below.<br>HINT: When you locate your information card, click on the <sub>small</sub> <font color=darkgreen>GREEN</font> tree to the right of your name!
+The Kleinsorge Family Tree<br><br>There are more than 500 individuals on the tree.<br>See if you can find yourself on the tree using <em>Family Surnames</em> below.<br>HINT: When you locate your information card, click on the <sub>small</sub> <font color=darkgreen>GREEN</font> tree to the right of your name!
 </div>
 <!--The next command puts a button just above the Title "Surnames" on the cover page.
     It links you to the Kleinsorge History Website.-->
-<button onclick="history()">This will take you to the Kleinsorge History Website</button>
+<button onclick="History()"><em>This will take you to the <b>Kleinsorge History Website</b></em></button>
 <script>
-function history() {
+function History() {
   window.open("https://sites.google.com/view/the-kleinsorge-family-tree/home", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=133,left=167,width=1333,height=925");
 }
 </script>
-
-<div class="slideshow">
-<a href='https://drive.google.com/file/d/15n3oCNwHog1AHBj6rPIrAmyftzITnF-m/view?usp=sharing'>This will take you to a 20 min slideshow!<br>Click the <strong>"back" arrow</strong> to return here.</a>
-</div>
+<div></div>
+<button onclick="Movie()">This takes you to a 20 min <b>slideshow!</b></button>
+<script>
+function Movie() {
+  window.open("https://drive.google.com/file/d/15n3oCNwHog1AHBj6rPIrAmyftzITnF-m/view?usp=sharing", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=133,left=167,width=1333,height=925");
+}
+</script>
 
 <a class="anchor" name="SURN"></a>
 <div class="surNames">
@@ -245,9 +248,12 @@ function history() {
 
 <div class="bigpix2"></div>
 
-<div class="pix_download">
-<a href='https://drive.google.com/drive/folders/1xLgDII-vFPrNWkszqmOXqCa2HEG5zSvk?usp=sharing'>This will take you to some downloadable pictures!</a>
-</div>
+<button onclick="Pix()">This will take you to some downloadable pictures!</button>
+<script>
+function Pix() {
+  window.open("https://drive.google.com/drive/folders/1xLgDII-vFPrNWkszqmOXqCa2HEG5zSvk?usp=sharing", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=133,left=167,width=1333,height=925");
+}
+</script>
 
 <hr style="width:80%;color:black;border-color:black;"</style>
 
@@ -255,7 +261,7 @@ function history() {
     <div class="container">
        <div class="grow brighten"><img src="img/Ruby@90.jpg"class="image6"></div>
       <div class="overlay">
-       <div class="text5">September 9, 2010</div>
+       <div class="text5"><b><em>Happy Birthday, Aunt Ruby!</em></b></div>
       </div>
    </div>
        <div class="para4"><span style="font-size:25px;margin-left:75px;"><strong>Ruby's 90th Birthday<br>9/9/2010</strong></span></div>
@@ -283,11 +289,18 @@ function history() {
 
 <hr style="width:35%;color:black;border-color:black;"</style>
 
-<div class="rubys_story">
+<!--<div class="rubys_story">
 <a href="https://sites.google.com/view/the-kleinsorge-family-tree/home/ruby-kleinsorge-wittmans-story">This takes you to Ruby's Life Story</a>
-</div>
+</div>-->
 
-<hr style="width:35%;color:black;border-color:black;margin-top:-70px;"</style>
+<button onclick="Rubys_story()">This takes you to Ruby's Life Story</button>
+<script>
+function Rubys_story() {
+  window.open("https://sites.google.com/view/the-kleinsorge-family-tree/home/ruby-kleinsorge-wittmans-story", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=133,left=167,width=1333,height=925");
+}
+</script>
+
+<hr style="width:35%;color:black;border-color:black;"</style>
 
 <span style="color:#3c1414;font-size:30px;">This is how they pronouce <span style="font-size:45px;color:darkslategray;"><em>"Kleinsorge"</em></span> in Germany</span>
 <br>
@@ -337,7 +350,7 @@ Your browser does not support the audio element.
 </div>
 
 <p>Du bist hier immer willkommen!</p>
-<div class="goodbye"style="width:200px;margin-top:-25px;margin-bottom:50px;background-color:chartreuse;border-radius:10px;"><a><span style="font-size:30px;">Translation?</a>
+<div class="goodbye"style="width:200px;margin-top:25px;margin-bottom:50px;background-color:chartreuse;border-radius:10px;"><a><span style="font-size:30px;">Translation?</a>
 <div class="translation1">
 <div class="fade-in1"><span style="color:yellow;font-size:50px;">You are always welcome here!</span></div>
 </div>
