@@ -37,12 +37,22 @@ a.anchor
 	position: relative;
 	top: -50px;
 	}
+	#ddmenuspan
+		{
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		font-size: 1.2em;
+		z-index: 0;
+		padding: 11px 8px 6px 6px;
+		}
+
 #dDMButton img
 	{
 	margin-left: 4px;
 	vertical-align: middle;
 	}
-	
+
 #menu ul
 	{
 	font-weight: bolder;
