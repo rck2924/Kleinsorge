@@ -94,10 +94,10 @@ button {
   margin-bottom: 30px;
   border-radius: 15px;
   border: solid;
-  background-color:lightgreen;
-  font-size: 25px;
-  width:375px;
-  height:75px;
+  border-color: darkslategray;
+  border-width: 5px;
+  background-color:slategray;
+  width:500px;
 }
 .back_to_surnames {
   margin-top: 25px;
@@ -112,21 +112,35 @@ button {
 /*This is the title in the middle of the Main page that talks about 500 people*/
 .tocIntro {
     margin-top:20px;
+    padding-bottom: 20px;
     font-size:25px;
-    font-weight:bolder;
     color:black;
-    width:68%;
+    width:70%;
     border:outset lightblue 9px;background-color:linen;padding:2px;
 }
+
+.tocIntro:hover {
+  transition-timing-function: ease-out;
+  transition-duration: 2.0s;
+  border-bottom-right-radius: 75px;
+  border-top-left-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border-top-right-radius: 75px;
+  background-color: yellow;
+}
+
+
+
 /*This instruction establishes the title "Family Surnames" in the middle of the page*/
 .surNames {
     font-family: arial;
     color:#b67116;
     font-size:4.5em;
     text-shadow:2px 3px black;
-    width:38%;
+    width:50%;
     letter-spacing:10px;
     margin-left: 20px;
+    margin-top: 75px;
 }
 
 /*This instruction positions the alphbetically listed Family Surnames*/

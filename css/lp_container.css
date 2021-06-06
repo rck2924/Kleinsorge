@@ -52,7 +52,7 @@ a.anchor
 	{
 	margin-left: 4px;
 	vertical-align: middle;
-	}
+	}*/
 
 #menu ul
 	{
@@ -66,17 +66,15 @@ a.anchor
 	{
 	display: block;
 	font-size: 1.2em;
-	padding: 10px;
-	text-align: left;
 	border-width: 5px;
-	border: 3px;
-	border-radius: 10px;
-	background-color: lightgrey;
+	border: solid;
+	border-color: green;
+	background-color: linen;
 	}
 
 /* 	border: 1px solid black; */
 /* ***** Search Box ***** */
-#search
+/*#search
 	{
 	visibility: hidden;
 	margin: auto;
@@ -86,7 +84,7 @@ a.anchor
  	max-height: 24px;
 	text-align: center;
 	margin-top: 4px;
-	}
+	}*/
 
 #searchBox
 	{
@@ -96,44 +94,6 @@ a.anchor
 	font-size: 16px; /*if font is less than 16px, Safari on iOS will auto-zoom*/
 	}
 
-#closeButton
-	{
-	visibility: hidden;
-	margin-top: 8px;
-	margin-left: 7px;
-	margin-right: 5px;
-	}
-
-#tableBorder
-	{
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
-	max-height: 250px;
-	width: 85%;
-	max-width: 500px;
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-	margin: auto;
-	position: relative;
-	right: 12px;
-	visibility: hidden;
-	}
-
-table#results
-	{
-	visibility: hidden;
-	width: 100%;
-	margin: auto;
-	}
-
-input[type=text]
-	{
-	visibility: hidden;
-	border-radius: 0px;
-	border: 1px gray solid;
-	padding: 2px;
-	-webkit-appearance: none;
-	}
-
 	/* hide the menu button at the top-right of the header */
 	#ddmenuspan
 		{
@@ -141,7 +101,7 @@ input[type=text]
 		position: static;
 		top: 4px;
 		}
-
+/*The "menu" styles and modifies the menu atthe top of the page for web cards, personal sheets, and the tree page.*/
 	#menu
 		{
 		visibility: visible;
@@ -168,13 +128,20 @@ input[type=text]
 /*This instruction establishes the menu at the top of the webcards,personal sheets and the tree.*/
 	#menu li
 		{
-		margin: auto;
 		padding: 0px 5px 0px 5px;
 		display: inline-block;
 		text-shadow: none;
 		text-align: center;
 		}
-
+	#menu li:hover {
+	transition-timing-function: ease-in-out;
+  transition-duration: .5s;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+	background-color: yellow;
+   }
 	#searchBox
 		{
 		font-size: 1.2em;
@@ -190,7 +157,7 @@ input[type=text]
 	/* show the report title in the body of the report */
 	.pageTitle, .tocTitle
 		{
-			margin-left: -5px;
+		margin-left: -5px;
 		visibility: visible;
 		height: 38px;
 		line-height: 38px;
