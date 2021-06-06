@@ -177,10 +177,10 @@ input[type=text]
 		#menu li:hover {
 		transition-timing-function: ease-in-out;
 	  transition-duration: .25s;
-	  border-bottom-right-radius: 15px;
-	  border-top-left-radius: 15px;
-	  border-bottom-left-radius: 15px;
-	  border-top-right-radius: 15px;
+	  border-bottom-right-radius: 25px;
+	  border-top-left-radius: 25px;
+	  border-bottom-left-radius: 25px;
+	  border-top-right-radius: 25px;
 		background-color: yellow;
 	   }
 	#searchBox
