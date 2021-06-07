@@ -63,6 +63,34 @@ a.anchor
 	visibility: hidden;
 	}
 
+	#search
+		{
+		visibility: hidden;
+		margin: auto;
+	 	width: 100%;
+	 	max-width: 500px;
+	 	visibility: hidden;
+	 	max-height: 24px;
+		text-align: center;
+		margin-top: 4px;
+		}
+
+	#searchBox
+		{
+		visibility: hidden;
+		width: 85%;
+		max-width: 500px;
+		font-size: 16px; /*if font is less than 16px, Safari on iOS will auto-zoom*/
+		}
+
+	#closeButton
+		{
+		visibility: hidden;
+		margin-top: 8px;
+		margin-left: 7px;
+		margin-right: 5px;
+		}
+
 	#menu
 		{
 		visibility: visible;
