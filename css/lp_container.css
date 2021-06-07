@@ -38,22 +38,6 @@ a.anchor
 	top: -50px;
 	}
 
-#ddmenuspan
-	{
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	font-size: 1.2em;
-	z-index: 0;
-	padding: 11px 8px 6px 6px;
-	}
-
-#dDMButton img
-	{
-	margin-left: 4px;
-	vertical-align: middle;
-	}
-
 #menu ul
 	{
 	font-weight: bolder;
@@ -73,74 +57,11 @@ a.anchor
 	border-radius: 10px;
 	background-color: lightgrey;
 	}
-
-/* 	border: 1px solid black; */
-/* ***** Search Box ***** */
-#search
-	{
-	visibility: hidden;
-	margin: auto;
- 	width: 100%;
- 	max-width: 500px;
- 	visibility: hidden;
- 	max-height: 24px;
-	text-align: center;
-	margin-top: 4px;
-	}
-
+/*This hides the useless "search box".*/
 #searchBox
 	{
 	visibility: hidden;
-	width: 85%;
-	max-width: 500px;
-	font-size: 16px; /*if font is less than 16px, Safari on iOS will auto-zoom*/
 	}
-
-#closeButton
-	{
-	visibility: hidden;
-	margin-top: 8px;
-	margin-left: 7px;
-	margin-right: 5px;
-	}
-
-#tableBorder
-	{
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
-	max-height: 250px;
-	width: 85%;
-	max-width: 500px;
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-	margin: auto;
-	position: relative;
-	right: 12px;
-	visibility: hidden;
-	}
-
-table#results
-	{
-	visibility: hidden;
-	width: 100%;
-	margin: auto;
-	}
-
-input[type=text]
-	{
-	visibility: hidden;
-	border-radius: 0px;
-	border: 1px gray solid;
-	padding: 2px;
-	-webkit-appearance: none;
-	}
-
-	/* hide the menu button at the top-right of the header */
-	#ddmenuspan
-		{
-		visibility: hidden;
-		position: static;
-		top: 4px;
-		}
 
 	#menu
 		{
@@ -183,23 +104,9 @@ input[type=text]
 	  border-top-right-radius: 25px;
 		background-color: yellow;
 	   }
-	#searchBox
-		{
-		font-size: 1.2em;
-		}
-
 
 	/* hide the report title in the header */
 	#pTitle
 		{
 		visibility: hidden;
-		}
-
-	/* show the report title in the body of the report */
-	.pageTitle, .tocTitle
-		{
-			margin-left: -5px;
-		visibility: visible;
-		height: 38px;
-		line-height: 38px;
 		}
