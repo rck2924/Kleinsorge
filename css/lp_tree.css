@@ -52,9 +52,8 @@
 	width: 15em;
 	height: 4.5em;
 	margin: 10px 0px;
-	padding: 2px;
+	padding: 7px;
   border-radius: 5px;
-	box-shadow: 5px 5px dimgray;
 	}
 
 .male
@@ -106,14 +105,15 @@
   font-weight: bold;
 	top: 18em;
 	left: 0em;
-  height: 5em;
-  margin-top: 5px;
-  margin-left: 5px;
+  height: 4.5em;
+  padding-top: 30px;
 	}
 #p1, #p2
 	{
+  height:4em;
+  padding-top: 23px;
   font-weight: bold;
-	left: 10.5em;
+  left: 130px;
 	}
 #p1
 	{
@@ -125,6 +125,7 @@
 	}
 #gp1, #gp2, #gp3, #gp4
 	{
+  padding-top: 15px;
 	font-weight: bold;
 	margin-left: 110px;
 	}
@@ -149,79 +150,81 @@
 #ggp1, #ggp2, #ggp3, #ggp4, #ggp5, #ggp6, #ggp7, #ggp8
 	{
 	font-weight: bold;
+  height:30px;
 	left: 34em;
 	margin-left: 123px;
 	visibility: visible;
 	}
 #ggp1
 	{
-	top: 0em;
+	top: 3px;
 	}
 #ggp2
 	{
-	top: 5em;
+	top: 90px;
 	}
 #ggp3
 	{
-	top: 11em;
+	top: 145px;
 	}
 #ggp4
 	{
-	top: 16em;
+	top: 232px;
 	}
 #ggp5
 	{
-	top: 22.5em;
+	top: 288px;;
 	}
 #ggp6
 	{
-	top: 27.5em;
+	top: 375px;;
 	}
 #ggp7
 	{
-	top: 33.5em;
+	top: 430px;
 	}
 #ggp8
 	{
-	top: 38.5em;
+	top: 517px;
 	}
 /*The instructions below are for odd numbered gggrandparents*/
  #gggp1
   {
-	top: .5em;
+	top: 2px;
 	}
  #gggp3
   {
-	top: 5.5em;
+	top: 90px;
 	}
  #gggp5
   {
-	top: 11.5em;
+	top: 145px;
 	}
  #gggp7
   {
-	top: 16.5em;
+	top: 231px;
 	}
  #gggp9
   {
-	top: 23.0em;
+	top: 287px;
 	}
  #gggp11
   {
-	top: 28em;
+	top: 375px;
 	}
  #gggp13
   {
-	top: 34.0em;
+	top: 431px;
 	}
  #gggp15
   {
-	top: 39em;
+	top: 516px;
 	}
 
 #gggp1, #gggp2, #gggp3, #gggp4, #gggp5, #gggp6, #gggp7, #gggp8, #gggp9, #gggp10, #gggp11, #gggp12, #gggp13, #gggp14, #gggp15, #gggp16
 	{
-	height: 1.5em;
+	/*height: 1.5em;*/
+  height: 9px;
 	width: 28%;
 	left: 50em;
 	margin-left: 130px;
@@ -229,42 +232,42 @@
 /*The instructions below are for even numbered gggrandparents*/
 #gggp2
 	{
-	top: 2.5em;
+	top: 26px;
 	}
 
 #gggp4
 	{
-	top: 7.5em;
+	top: 114px;
 	}
 
 #gggp6
 	{
-	top: 13.5em;
+	top: 169px;
 	}
 
 #gggp8
 	{
-	top: 18.5em;
+	top: 255px;
 	}
 
 #gggp10
 	{
-	top: 25.0em;
+	top: 311px;
 	}
 
 #gggp12
 	{
-	top: 30em;
+	top: 399px;
 	}
 
 #gggp14
 	{
-	top: 36.0em;
+	top: 455px;
 	}
 
 #gggp16
 	{
-	top: 41em;
+	top: 540px;
 	}
 
 
@@ -324,26 +327,27 @@
 	#gp1, #gp2, #gp3, #gp4
 		{
 		left: 18em;
+    height: 45px;
 		}
 
 	#gp1
 		{
-		top: 2.5em;
+		top: 2.65em;
 		}
 
 	#gp2
 		{
-		top: 13.5em;
+		top: 13.75em;
 		}
 
 	#gp3
 		{
-		top: 24.5em;
+		top: 24.65em;
 		}
 
 	#gp4
 		{
-		top: 35.5em;
+		top: 35.75em;
 		}
 
 	#gp1SC, #gp1ShowSC, #gp2SC, #gp2ShowSC, #gp3SC, #gp3ShowSC, #gp4SC, #gp4ShowSC
@@ -367,10 +371,10 @@
 
 	#cnct2
 		{
-		top: 6.1em;
+		top: 6.4em;
 		}
 
 	#cnct3
 		{
-		top: 28.2em;
+		top: 28.5em;
 		}

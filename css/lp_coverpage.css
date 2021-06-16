@@ -120,8 +120,8 @@ button {
 }
 
 .tocIntro:hover {
-  transition-timing-function: ease-out;
-  transition-duration: 2.0s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 1.0s;
   border-bottom-right-radius: 75px;
   border-top-left-radius: 75px;
   border-bottom-left-radius: 75px;
