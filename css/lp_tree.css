@@ -7,7 +7,6 @@
 
 .pageBody, #pBody
 	{
-	/*padding-top: -50px;*/
   padding-left:50px;
   padding-right: 200px;
   padding-bottom: 160px;
@@ -15,9 +14,8 @@
 	margin-right: auto;
   margin-top: 150px;
 	width: 175em;
-  height: 520px;
+  height:40em;
   background-color: dimgrey;
-  border-width: 10px;
   border-radius: 25px;
 	}
 /*This hides the title at the top of the page;"The Kleinsorge Family Tree - Tree"*/
@@ -68,7 +66,7 @@
 
 .date
 	{
-	font-size: 0.83em;
+  font-size: 0.83em;
 	}
 
 #source .name
@@ -104,7 +102,7 @@
 	{
   font-weight: bold;
 	top: 18em;
-	left: 0em;
+	left: -2em;
   height: 4.5em;
   padding-top: 30px;
 	}
@@ -146,11 +144,11 @@
 	top: 36em;
 	}
 
-/*This locates position of Great Grandparents and GGGrandparents boxes*/
+/*This locates position of Great Grandparents boxes*/
 #ggp1, #ggp2, #ggp3, #ggp4, #ggp5, #ggp6, #ggp7, #ggp8
 	{
 	font-weight: bold;
-  height:30px;
+  height:2.3em;
 	left: 34em;
 	margin-left: 123px;
 	visibility: visible;
@@ -223,10 +221,10 @@
 
 #gggp1, #gggp2, #gggp3, #gggp4, #gggp5, #gggp6, #gggp7, #gggp8, #gggp9, #gggp10, #gggp11, #gggp12, #gggp13, #gggp14, #gggp15, #gggp16
 	{
-	/*height: 1.5em;*/
-  height: 9px;
-	width: 28%;
-	left: 50em;
+  font-weight: bold;
+  height:.692em;
+	width: 30%;
+	left: 51em;
 	margin-left: 130px;
 	}
 /*The instructions below are for even numbered gggrandparents*/
@@ -274,7 +272,7 @@
 /* Connecting line locations. cnct1 is the line between source and parents.  cnct2-3 connects parents to grandparents. cnct4-7 connects GGandparents to Gparents.*/
 #cnct1
 	{
-	margin-left: 55px;
+  margin-left: 2em;
 	top: 8em;
 	left: 0.5em;
 	height: 25em;
@@ -305,7 +303,7 @@
 
 #cnct5
 	{
-	top: 13.5em;
+  top: 13.6em;
 	}
 
 #cnct6
@@ -315,7 +313,7 @@
 
 #cnct7
 	{
-	top: 35.45em;
+  top: 35.7em;
 	}
 
 	#gp1, #gp2, #gp3, #gp4
