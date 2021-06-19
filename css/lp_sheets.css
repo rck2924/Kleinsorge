@@ -22,14 +22,14 @@ a img {	border-style: none; margin: 4px 13px; }
 		border-radius: 15px;
 		}
 
-/*.psFRecord, .psMRecord, .psRecord
+.psFRecord, .psMRecord, .psRecord
 	{
 	margin-top: 0;
 	margin-left: 0px;
 	margin-bottom: 0px;
 	vertical-align: top;
 	overflow: auto;
-	}*/
+	}
 
 .psName .psText
 	{
@@ -61,7 +61,7 @@ a img {	border-style: none; margin: 4px 13px; }
 
 div.psRecordEnd
 	{
-	clear: both;
+	clear:both;
 	height: 0em;
 	}
 
@@ -79,7 +79,7 @@ div.psRecordEnd
 	{
 	font-weight: bold;
 	font-size: 1.1em;
-	background-color:chartreuse;
+	background-color: chartreuse;
 	padding-right: 10px;
 	padding-left: 10px;
 	border-radius: 5px;
