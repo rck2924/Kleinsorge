@@ -7,16 +7,16 @@
 
 .pageBody, #pBody
 	{
-  padding-left:50px;
-  padding-right: 200px;
-  padding-bottom: 160px;
-	margin-left: 275px;
+  padding-left:11.53em;
+  padding-right: 20em;
+  padding-bottom: 10em;
+  margin-left: 16em;
 	margin-right: auto;
-  margin-top: 150px;
+  margin-top: 11.5em;
 	width: 175em;
   height:40em;
   background-color: dimgrey;
-  border-radius: 25px;
+  border-radius: 2em;
 	}
 /*This hides the title at the top of the page;"The Kleinsorge Family Tree - Tree"*/
 	.pageTitle, #pTitle
@@ -39,7 +39,7 @@
 	z-index: 0;
 	height: 43.5em;
 	width: 60.0em;
-  margin-top: -65px;
+  margin-top: -5em;
 	}
 
 /* Person box appearance */
@@ -102,7 +102,7 @@
 	{
   font-weight: bold;
 	top: 18em;
-	left: -2em;
+  left: -7em;
   height: 4.5em;
   padding-top: 30px;
 	}
@@ -111,7 +111,7 @@
   height:4em;
   padding-top: 23px;
   font-weight: bold;
-  left: 130px;
+  left: 5em;
 	}
 #p1
 	{
@@ -149,8 +149,9 @@
 	{
 	font-weight: bold;
   height:2.3em;
-	left: 34em;
-	margin-left: 123px;
+  width: 18em;
+  left: 36em;
+  margin-left: 4.5em;
 	visibility: visible;
 	}
 #ggp1
@@ -225,7 +226,7 @@
   height:.692em;
 	width: 30%;
 	left: 51em;
-	margin-left: 130px;
+	margin-left: 10em;
 	}
 /*The instructions below are for even numbered gggrandparents*/
 #gggp2
@@ -272,7 +273,7 @@
 /* Connecting line locations. cnct1 is the line between source and parents.  cnct2-3 connects parents to grandparents. cnct4-7 connects GGandparents to Gparents.*/
 #cnct1
 	{
-  margin-left: 2em;
+  margin-left: -2em;
 	top: 8em;
 	left: 0.5em;
 	height: 25em;
@@ -281,8 +282,7 @@
 
 #cnct2, #cnct3
 	{
-	margin-left: 115px;
-	left: 3em;
+  margin-left: 4em;
 	height: 11em;
 	width: 3em;
 	}
@@ -291,10 +291,10 @@
 #cnct4, #cnct5, #cnct6, #cnct7
  {
  visibility: visible;
- left: 33em;
+ left: 35em;
  height: 6.5em;
  width: 3em;
- margin-left: 95px;
+ margin-left: 2.30em;
  }
 #cnct4
 	{
@@ -318,13 +318,14 @@
 
 	#gp1, #gp2, #gp3, #gp4
 		{
-		left: 17.5em;
+		/*left: 18.5em;*/
 		}
 
 /*This establishes the location of grandparents boxes*/
 	#gp1, #gp2, #gp3, #gp4
 		{
-		left: 18em;
+		/*left: 18em;*/
+    left: 14em;
     height: 45px;
 		}
 
