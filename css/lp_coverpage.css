@@ -198,7 +198,7 @@ button {
 }
 /*container is for the small photos near the bottem of the cover page. */
 .container {
-  width:450px;
+  width:400px;
   height:400px;
   padding-top: 20px;
 }
@@ -221,7 +221,7 @@ button {
   border-radius:5px;
   background-color:lime;
   font-size:1.5em;
-  margin-top: 5.0em;
+  /*margin-top: 5.0em;*/
 }
 /*text3 colors and positions the background of the text associated with the popup on Theodor's birthplace photo*/
 .text3 {
