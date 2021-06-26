@@ -24,7 +24,7 @@ body, #pHeader, #ddmenuspan
 	font-size: 20px;
 	}
 
-.tocLinksTitle, .tocTitle, .tocIntroTitle, .tocContactTitle, .tocAuthor, #dDMButton
+.tocLinksTitle, .tocTitle, .tocIntroTitle, .tocContactTitle, .tocAuthor, /*#dDMButton*/
 	{
 	text-shadow: #a4a4a4 2px 2px 5px;
 	}

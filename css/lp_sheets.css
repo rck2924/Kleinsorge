@@ -1,26 +1,42 @@
 a img {	border-style: none; margin: 4px 13px; }
 
+/*The below instruction for the "body" establishes and modifies the border surrounding the content*/
+.reportBody, #rBody
+	{
+	width:760px;
+	margin-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color:slategray;
+	border: 5px solid black;
+	border-radius: 15px;
+	}
+
 .pageBody, #pBody
 	{
 	padding-top: 30px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 760px;
+	text-align: center;
 	}
 
-	/*The below instruction for the "body" establishes and modifies the border surrounding the content*/
-	.reportBody, #rBody
+
+/*	.pageBody, #pBody
 		{
-    width:760px;
-		margin-left: 30px;
 		padding-top: 30px;
-		padding-bottom: 50px;
-		padding-left: 10px;
-		padding-right: 10px;
-		background-color:slategray;
-		border: 5px solid black;
-		border-radius: 15px;
-		}
+		margin-right: auto;
+		margin-bottom: 50px;
+		margin-left: auto;
+		width: 61,5em;
+		text-align: center;
+		}*/
+
+
+
+
 
 .psFRecord, .psMRecord, .psRecord
 	{

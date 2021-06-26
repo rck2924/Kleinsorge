@@ -52,7 +52,7 @@ function hideMenuOnCorT(event)
 	if( !(document.getElementById("ddmenuspan").contains(event.target)) && window.getComputedStyle(document.getElementById("dDMButton"),null).visibility == "visible")
 		{//clear styles set in JS, forcing fallback to CSS style file
 		document.getElementById("menu").getElementsByTagName("ul")[0].style.width = "";
-		}
+	}
 
 	scViews = document.getElementsByClassName("scView");
 

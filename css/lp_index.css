@@ -2,7 +2,9 @@
 	{
 	margin-right: auto;
 	margin-left: auto;
-	width: 760px;
+	/*width: 760px;*/
+	width: 58.46em;
+	text-align: center;
 	}
 
 hr
