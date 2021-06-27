@@ -9,9 +9,9 @@ body, #pHeader, #ddmenuspan
 
 	#menu ul
 	 {
-		width: 500px;
-		margin-left: 545px;
-		padding-top: 30px;
+		/*width: 750px;*/
+		margin-left: -48px;
+		padding-top: 25px;
 	 }
 
 .reportBody, #rBody, #pHeader, #ddmenuspan
