@@ -165,31 +165,19 @@ button {
 }
 /*The 3 audio instructions are for the players at the bottom of the cover page.*/
 .audio {
-  height:25px;
-  width:auto;
   margin-left: 700px;
   margin-right: 715px;
   margin-top: -25px;
-  background-color:Blue;
-  border-radius: 15px;
 }
 .audio1 {
-  height:25px;
-  width:auto;
   margin-left: 700px;
   margin-right: 715px;
   margin-top: -23px;
-  background-color:Pink;
-  border-radius: 15px;
 }
 .audio2 {
-  height:25px;
-  width:auto;
   margin-left: 700px;
   margin-right: 715px;
   margin-top: 20px;
-  background-color:#ff6347;
-  border-radius: 15px;
 }
 /* This overlay is for the small photos near the bottom of the coverpage. */
 .overlay {
