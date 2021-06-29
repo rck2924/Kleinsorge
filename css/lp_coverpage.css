@@ -209,7 +209,7 @@ button {
   border-radius:5px;
   background-color:lime;
   font-size:1.5em;
-  /*margin-top: 5.0em;*/
+  margin-top: 5.0em;
 }
 /*text3 colors and positions the background of the text associated with the popup on Theodor's birthplace photo*/
 .text3 {
@@ -269,6 +269,7 @@ margin-top: -140px;
 font-size:20px;
 font-style:italic;
 margin-top: -20px;
+margin-left: 75px;
 }
 /*This instruction is for the verbage below Ruby wedding pix*/
 .para4 {
@@ -325,10 +326,27 @@ margin-top: -40px;
 }
 /*This will grow the image if you change the class associated with the image to grow*/
 .grow img:hover {
-    -webkit-transform:scale(2.0);
-    -ms-transform:scale(2.0);
-    transform:scale(2.0);
+    -webkit-transform:scale(2);
+    -ms-transform:scale(2);
+    transform:scale(2);
     transition:3s;
+    transition-timing-function:ease-in-out;
+}
+/*This will grow the image if you change the class associated with the image to grow*/
+.grow1 img:hover {
+    -webkit-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    transform:scale(1.25);
+    transition:2s;
+    transition-timing-function:ease-in-out;
+}
+
+/*This will grow the image if you change the class associated with the image to grow*/
+.grow2 img:hover {
+    -webkit-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    transform:scale(1.15);
+    transition:1.5s;
     transition-timing-function:ease-in-out;
 }
 /*This will brighten the image if you change the class associated with the image to "brighten"*/
