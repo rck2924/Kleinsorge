@@ -97,7 +97,7 @@ button {
   border-color: darkslategray;
   border-width: 5px;
   background-color:slategray;
-  width:500px;
+  width:400px;
 }
 .back_to_surnames {
   margin-top: 25px;
@@ -109,9 +109,11 @@ button {
   color:darkslategray;
   width:350px;
 }
+
 /*This is the title in the middle of the Main page that talks about 500 people*/
 .tocIntro {
-    margin-top:20px;
+    margin-top:40px;
+    margin-bottom: 70px;
     padding-bottom: 20px;
     font-size:25px;
     color:black;
@@ -163,22 +165,7 @@ button {
     border-radius:10px;
     background-color:linen;
 }
-/*The 3 audio instructions are for the players at the bottom of the cover page.*/
-.audio {
-  margin-left: 700px;
-  margin-right: 715px;
-  margin-top: -25px;
-}
-.audio1 {
-  margin-left: 700px;
-  margin-right: 715px;
-  margin-top: -23px;
-}
-.audio2 {
-  margin-left: 700px;
-  margin-right: 715px;
-  margin-top: 20px;
-}
+
 /* This overlay is for the small photos near the bottom of the coverpage. */
 .overlay {
   position:relative;
