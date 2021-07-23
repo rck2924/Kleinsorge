@@ -227,14 +227,14 @@ button {
   border-radius:5px;
   background-color:chartreuse;
   font-size:1.25em;
-  margin-top: 1.7em;
+  margin-top: 5em;
   margin-left: 1.8em;
 }
 /*text4 colors and positions the background of the text associated with the popup on the Wilhelm and wife photo*/
 .text4 {
   width:350px;
   border-radius:5px;
-  background-color:chartreuse;
+  background-color:ghostwhite;
   font-size:1.25em;
   margin-top:5.2em;
   margin-left: 1.8em;
@@ -302,6 +302,7 @@ margin-top: -40px;
 .image2 {
     width:400px;
     height:500px;
+    margin-top: -50px;
     border:25px ridge #2D383A;
     border-radius:20px;
 }
@@ -309,7 +310,7 @@ margin-top: -40px;
 .image3 {
     width:225px;
     height:auto;
-    margin-top:5em;
+    margin-top:7em;
     border:solid;
     border-radius:10px;
     border-color:black;
@@ -338,6 +339,14 @@ margin-top: -40px;
     padding-left: 60px;
 }
 /*This will grow the image if you change the class associated with the image to grow*/
+.growX3 img:hover {
+    -webkit-transform:scale(3);
+    -ms-transform:scale(3);
+    transform:scale(3);
+    transition:3s;
+    transition-timing-function:ease-in-out;
+}
+/*This will grow the image if you change the class associated with the image to grow*/
 .grow img:hover {
     -webkit-transform:scale(2);
     -ms-transform:scale(2);
@@ -346,7 +355,23 @@ margin-top: -40px;
     transition-timing-function:ease-in-out;
 }
 /*This will grow the image if you change the class associated with the image to grow*/
+.grow75 img:hover {
+    -webkit-transform:scale(1.75);
+    -ms-transform:scale(1.75);
+    transform:scale(1.75);
+    transition:2s;
+    transition-timing-function:ease-in-out;
+}
+/*This will grow the image if you change the class associated with the image to grow*/
 .grow1 img:hover {
+    -webkit-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    transform:scale(1.5);
+    transition:2s;
+    transition-timing-function:ease-in-out;
+}
+/*This will grow the image if you change the class associated with the image to grow*/
+.grow2 img:hover {
     -webkit-transform:scale(1.25);
     -ms-transform:scale(1.25);
     transform:scale(1.25);
@@ -355,7 +380,7 @@ margin-top: -40px;
 }
 
 /*This will grow the image if you change the class associated with the image to grow*/
-.grow2 img:hover {
+.grow3 img:hover {
     -webkit-transform:scale(1.15);
     -ms-transform:scale(1.15);
     transform:scale(1.15);
@@ -392,6 +417,11 @@ margin-top: -40px;
   width:16.666666%;
   height:300px;
   padding-top: 220px;
+}
+.column4 {
+  float:left;
+  width:25.0%;
+  height:500px;
 }
 .column3 {
   float:left;
