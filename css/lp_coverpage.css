@@ -105,13 +105,13 @@ button {
   cursor: progress;
   transition-timing-function: ease-in-out;
   transition-delay: .5s;
-  transition-duration: .4s;
+  transition-duration: .25s;
   border-bottom-right-radius: 100px;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
   font-size:20px;
-  width:10%;
+  width:16%;
   margin-bottom: 1.0em;
   background-color: yellow;
 }
@@ -170,13 +170,12 @@ button {
 
 /*This instruction positions the alphbetically listed Family Surnames */
 .surRecord {
-	  text-align:center;
     width:80.0%;
 	  margin:2em;
 	  padding-top:1.5em;
 	  border-top:solid;
-	  border-width:5px;
-	  font-size:15px;
+	  border-width:10px;
+	  font-size:16px;
     font-weight:bolder;
 }
 
@@ -187,6 +186,7 @@ button {
 	  width:1.5em;
     border-radius:10px;
     background-color:linen;
+    margin-left: -20px;
 }
 
 /* This overlay is for the small photos near the bottom of the coverpage. */
@@ -210,14 +210,14 @@ button {
 .text1 {
   width:450px;
   border-radius:5px;
-  background-color:lightblue;
+  background-color:ghostwhite;
   font-size:1.5em;
 }
 /*text2 colors the background of the text associated with the popup on the Locust Point photo*/
 .text2 {
   width:400px;
   border-radius:5px;
-  background-color:lime;
+  background-color:ghostwhite;
   font-size:1.5em;
   margin-top: 5.0em;
 }
@@ -225,7 +225,7 @@ button {
 .text3 {
   width:350px;
   border-radius:5px;
-  background-color:chartreuse;
+  background-color:ghostwhite;
   font-size:1.25em;
   margin-top: 5em;
   margin-left: 1.8em;
