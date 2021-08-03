@@ -88,9 +88,8 @@ button {
 
 /*.tocIntro:hover {
   border:inset blue 9px;background-color:white;
-}
+}*/
 
-/*This is the title in the middle of the Main page that talks about 500 people*/
 .history {
     margin-top:40px;
     margin-bottom: 70px;
@@ -102,7 +101,7 @@ button {
 }
 
 .history:hover {
-  cursor: progress;
+  cursor: pointer;
   transition-timing-function: ease-in-out;
   transition-delay: .5s;
   transition-duration: .25s;
@@ -193,25 +192,27 @@ button {
 .overlay {
   position:absolute;
   transform:scale(0);
+  opacity: 0;
 }
 /*container is for the small photos near the bottem of the cover page. */
 .container {
-  width:400px;
-  height:400px;
-  padding-top: 20px;
+  position: relative;
+  width: 75%;
+  max-width: 500px;
 }
 .container:hover .overlay {
     transform:scale(1.0);
-    transition-timing-function:linear;
-    transition:2.0s;
-    transition-delay:.25s;
+    transition:1.0s ease-in-out;
+    transition-delay:.5s;
+    opacity: 1;
 }
 /*text1 colors the background of the text associated with the popup on the 1886 wedding photo*/
 .text1 {
-  width:450px;
-  border-radius:5px;
-  background-color:ghostwhite;
-  font-size:1.5em;
+ border:solid;
+ border-radius:5px;
+ background-color:ghostwhite;
+ font-size:15px;
+ margin-left: 55px;
 }
 /*text2 colors the background of the text associated with the popup on the Locust Point photo*/
 .text2 {
@@ -223,12 +224,12 @@ button {
 }
 /*text3 colors and positions the background of the text associated with the popup on Theodor's birthplace photo*/
 .text3 {
-  width:350px;
+  width:400px;
   border-radius:5px;
   background-color:ghostwhite;
   font-size:1.25em;
-  margin-top: 5em;
-  margin-left: 1.8em;
+  margin-top: 75px;
+  margin-left: 50px;
 }
 /*text4 colors and positions the background of the text associated with the popup on the Wilhelm and wife photo*/
 .text4 {
@@ -241,13 +242,13 @@ button {
 }
 /*text5 colors and positions the background of the text associated with the popup on Aunt Ruby's 90th picture*/
 .text5 {
-  margin-left: 90px;
+  margin-left: 100px;
   height:30px;
   width:300px;
   border-radius:5px;
   background-color:lightblue;
   font-size:1.75em;
-  margin-top:75px;
+  margin-top:100px;
 }
 /*text5 colors and positions background of the text associated with the popup on the photo of Bud and Ruby*/
 .text6 {
@@ -255,7 +256,7 @@ button {
   border-radius:5px;
   background-color:lightblue;
   font-size:1.5em;
-  margin-top:90px;
+  margin-top:125px;
   margin-left: 4.0em;
 }
 /*text5 colors and positions background of the text associated with the popup on the photo Ruby@97*/
@@ -264,30 +265,17 @@ button {
   border-radius:5px;
   background-color:lightblue;
   font-size:1.5em;
-  margin-top:30px;
-  margin-left: -.25em
+  margin-top:50px;
+  margin-left:3px;
 }
 /*This instruction is for the verbage below the 6 wedding pictures*/
 .para {
 font-size:20px;
 font-style:italic;
 }
-/*This instruction is for the verbage below the Locust Point photo. */
-.para1 {
-font-size:20px;
-margin-top: -140px;
-}
-/*This instruction is for the verbage below Theodor Wedding photo. */
-.para2 {
-font-size:20px;
-font-style:italic;
-margin-top: 5px;
-margin-left: 75px;
-}
 /*This instruction is for the verbage below Ruby wedding pix*/
 .para4 {
 font-size:20px;
-margin-top: -40px;
 }
 /*Theodor on the Farm and birthplace photos*/
 .image1 {
@@ -298,22 +286,12 @@ margin-top: -40px;
     border-radius:10px;
     border-color:black;
 }
-/*Theodor and Catherine wedding photo*/
 .image2 {
     width:400px;
     height:500px;
     margin-top: -50px;
-    border:25px ridge #2D383A;
+    border:10px ridge black;
     border-radius:20px;
-}
-/*Wilhelm and Maria photo*/
-.image3 {
-    width:225px;
-    height:auto;
-    margin-top:7em;
-    border:solid;
-    border-radius:10px;
-    border-color:black;
 }
 /*Locust Point photo*/
 .image4 {
@@ -330,7 +308,6 @@ margin-top: -40px;
     border-radius:10px;
     margin-top: 100px;
 }
-
 /*Ruby Kleinsorge 90th birthday picture*/
 .image6 {
     width:325px;
@@ -338,78 +315,51 @@ margin-top: -40px;
     margin-top: 100px;
     padding-left: 60px;
 }
-/*This will grow the image if you change the class associated with the image to grow*/
-.growX3 img:hover {
-    -webkit-transform:scale(3);
-    -ms-transform:scale(3);
-    transform:scale(3);
-    transition:3s;
-    transition-timing-function:ease-in-out;
+
+.grow {
+transition: all 1.5s ease-in-out;
 }
-/*This will grow the image if you change the class associated with the image to grow*/
-.grow img:hover {
-    -webkit-transform:scale(2);
-    -ms-transform:scale(2);
-    transform:scale(2);
-    transition:3s;
-    transition-timing-function:ease-in-out;
-}
-/*This will grow the image if you change the class associated with the image to grow*/
-.grow75 img:hover {
-    -webkit-transform:scale(1.75);
-    -ms-transform:scale(1.75);
-    transform:scale(1.75);
-    transition:2s;
-    transition-timing-function:ease-in-out;
-}
-/*This will grow the image if you change the class associated with the image to grow*/
-.grow1 img:hover {
-    -webkit-transform:scale(1.5);
-    -ms-transform:scale(1.5);
-    transform:scale(1.5);
-    transition:2s;
-    transition-timing-function:ease-in-out;
-}
-/*This will grow the image if you change the class associated with the image to grow*/
-.grow2 img:hover {
-    -webkit-transform:scale(1.25);
-    -ms-transform:scale(1.25);
-    transform:scale(1.25);
-    transition:2s;
-    transition-timing-function:ease-in-out;
+.grow:hover {
+transform: scale(2.0);
 }
 
-/*This will grow the image if you change the class associated with the image to grow*/
-.grow3 img:hover {
-    -webkit-transform:scale(1.15);
-    -ms-transform:scale(1.15);
-    transform:scale(1.15);
-    transition:1.5s;
-    transition-timing-function:ease-in-out;
+.grow1 {
+transition: all 2.2s ease-in-out;
+}
+.grow1:hover {
+transform: scale(1.5);
+}
+
+.grow2 {
+transition: all 2.2s ease-in-out;
+}
+.grow2:hover {
+transform: scale(1.25);
+}
+.grow3 {
+transition: all 1.0s ease-in-out;
+}
+
+.grow3:hover {
+transform: scale(1.1);
 }
 /*This will brighten the image if you change the class associated with the image to "brighten"*/
 .brighten img {
     -webkit-filter:brightness(30%);
-    -webkit-transition:all 3s ease;
-    -moz-transition:all 3s ease;
-    -o-transition:all 3s ease;
-    -ms-transition:all 3s ease;
-    transition:all 3s ease;
 }
 .brighten img:hover {
     -webkit-filter:brightness(100%);
+     transition:1.5s ease;
 }
 .color img {
      filter:grayscale(100%);
      -webkit-filter: grayscale(100%);
-     -webkit-transition:all 1s ease;
 }
 .color img:hover {
     filter:grayscale(0%);
     filter:gray;
     -webkit-filter: grayscale(0%);
-    filter:none;
- transition:.5s ease;
+    transition:1.5s ease;
 }
 /*The column instruction will align elements into columns based on the width percentage*/
 .column6 {
@@ -417,11 +367,6 @@ margin-top: -40px;
   width:16.666666%;
   height:300px;
   padding-top: 220px;
-}
-.column4 {
-  float:left;
-  width:25.0%;
-  height:500px;
 }
 .column3 {
   float:left;
@@ -499,38 +444,6 @@ p {
   0% {opacity:0;}
   100% {opacity:1;}
 }
-.fade-out {
-  animation: fadeOut ease 4s infinite alternate;
-  -webkit-animation: fadeOut ease 4s infinite alternate;
-  -moz-animation: fadeOut ease 4s infinite alternate;
-  -o-animation: fadeOut ease 4s infinite alternate;
-  -ms-animation: fadeOut ease 4s infinite alternate;
-}
-@keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
-}
-
-@-moz-keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
-}
-
-@-webkit-keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
-}
-
-@-o-keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
-}
-
-@-ms-keyframes fadeOut {
-  0% {opacity:1;}
-  100% {opacity:0;}
-}
-
 /*The instruction below will cause the "h1" element to fade from one color to another and go up and down*/
 h1 {
   position:relative;
