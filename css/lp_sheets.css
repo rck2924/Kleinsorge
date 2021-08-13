@@ -1,3 +1,4 @@
+
 a img {	border-style: none; margin: 4px 13px; }
 
 /*The below instruction for the "body" establishes and modifies the border surrounding the content*/
@@ -37,7 +38,7 @@ a img {	border-style: none; margin: 4px 13px; }
 	font-weight: bold;
 	font-size: 1.32em;
 	margin-left: 1em;
-	padding-top: 12px;
+	padding-top: 10px;
 	padding-left: 12px;
 	padding-bottom: 4px;
 	background-color:lightblue;

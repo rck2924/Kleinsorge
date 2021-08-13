@@ -1,3 +1,4 @@
+
 body {
     padding-bottom: 100px;
     padding-top: 10px;
@@ -83,12 +84,13 @@ button {
     height:175px;
     width:70%;
     border:outset lightblue 9px;
-    background-color:ghostwhite;
+    background-color:linen;
 }
 
-/*.tocIntro:hover {
-  border:inset blue 9px;background-color:white;
-}*/
+.tocIntro:hover {
+  background-color:ghostwhite;
+  transition-duration:3s;
+}
 
 .history {
     margin-top:40px;
@@ -116,12 +118,13 @@ button {
 }
 
 .activate {
+    margin-top: 50px;
     margin-bottom: 70px;
     font-size:30px;
     height:40px;
     width:18%;
     border-radius: 15px;
-    border:outset blue 5px;background-color:ghostwhite;
+    border:outset blue 5px;background-color:lightblue;
 }
 
 .activate:hover {
@@ -132,16 +135,16 @@ button {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
-  background-color: yellow;
+  background-color: lightblue;
 }
 
 .activate1 {
-    margin-bottom: 70px;
+    margin-bottom:70px;
     font-size:30px;
-    height:40px;
+    height:30px;
     width:12%;
     border-radius: 15px;
-    border:outset blue 5px;background-color:ghostwhite;
+    border:outset blue 5px;background-color:lightblue;
 }
 
 .activate1:hover {
@@ -152,10 +155,9 @@ button {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
-  background-color: yellow;
+  background-color: lightblue;
 }
 
-/*This instruction establishes the title "Family Surnames" in the middle of the page*/
 .surNames {
     font-family: arial;
     color:#b67116;
@@ -167,7 +169,6 @@ button {
     margin-top: 75px;
 }
 
-/*This instruction positions the alphbetically listed Family Surnames */
 .surRecord {
     width:80.0%;
 	  margin:2em;
@@ -178,7 +179,6 @@ button {
     font-weight:bolder;
 }
 
-/*This instruction adjust the size, color and position of the letter in the alphabet identifying the Surnames*/
 .surLetter {
     float:left;
     font-size:1.75em;
@@ -188,13 +188,11 @@ button {
     margin-left: -20px;
 }
 
-/* This overlay is for the small photos near the bottom of the coverpage. */
 .overlay {
   position:absolute;
   transform:scale(0);
   opacity: 0;
 }
-/*container is for the small photos near the bottem of the cover page. */
 .container {
   position: relative;
   width: 75%;
@@ -228,7 +226,7 @@ button {
   border-radius:5px;
   background-color:ghostwhite;
   font-size:1.25em;
-  margin-top: 75px;
+  margin-top: 130px;
   margin-left: 50px;
 }
 /*text4 colors and positions the background of the text associated with the popup on the Wilhelm and wife photo*/
@@ -242,7 +240,7 @@ button {
 }
 /*text5 colors and positions the background of the text associated with the popup on Aunt Ruby's 90th picture*/
 .text5 {
-  margin-left: 100px;
+  margin-left: 50px;
   height:30px;
   width:300px;
   border-radius:5px;
@@ -265,7 +263,7 @@ button {
   border-radius:5px;
   background-color:lightblue;
   font-size:1.5em;
-  margin-top:50px;
+  margin-top:100px;
   margin-left:3px;
 }
 /*This instruction is for the verbage below the 6 wedding pictures*/
@@ -312,8 +310,9 @@ font-size:20px;
 .image6 {
     width:325px;
     height:225px;
+    border:solid;
+    border-radius:10px;
     margin-top: 100px;
-    padding-left: 60px;
 }
 
 .grow {
@@ -324,7 +323,7 @@ transform: scale(2.0);
 }
 
 .grow1 {
-transition: all 2.2s ease-in-out;
+transition: all 1.2s ease-in-out;
 }
 .grow1:hover {
 transform: scale(1.5);
@@ -341,15 +340,22 @@ transition: all 1.0s ease-in-out;
 }
 
 .grow3:hover {
-transform: scale(1.1);
+transform: scale(1.2);
 }
-/*This will brighten the image if you change the class associated with the image to "brighten"*/
+
 .brighten img {
     -webkit-filter:brightness(30%);
 }
 .brighten img:hover {
     -webkit-filter:brightness(100%);
      transition:1.5s ease;
+}
+.brighten3 img {
+    -webkit-filter:brightness(30%);
+}
+.brighten3 img:hover {
+    -webkit-filter:brightness(100%);
+     transition:2.0s ease-in-out;
 }
 .color img {
      filter:grayscale(100%);
@@ -360,6 +366,16 @@ transform: scale(1.1);
     filter:gray;
     -webkit-filter: grayscale(0%);
     transition:1.5s ease;
+}
+.color3 img {
+     filter:grayscale(100%);
+     -webkit-filter: grayscale(100%);
+}
+.color3 img:hover {
+    filter:grayscale(0%);
+    filter:gray;
+    -webkit-filter: grayscale(0%);
+    transition:1.0s ease-in-out;
 }
 /*The column instruction will align elements into columns based on the width percentage*/
 .column6 {
@@ -418,11 +434,11 @@ p {
 }
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in1 {
-  animation:fadein ease-in-out 3.0s infinite alternate;
-  -webkit-animation:fadein ease-in-out 3.0s infinite alternate;
-  -moz-animation:fadein ease 3s infinite alternate;
-  -o-animation:fadein ease 3s infinite alternate;
-  -ms-animation:fadein ease 3s infinite alternate;
+  animation:fadein ease-in-out 2.0s infinite alternate;
+  -webkit-animation:fadein ease-in-out 2.0s infinite alternate;
+  -moz-animation:fadein ease 2s infinite alternate;
+  -o-animation:fadein ease 2s infinite alternate;
+  -ms-animation:fadein ease 2s infinite alternate;
 }
 @keyframes  fadein {
   0% {opacity:0;}
