@@ -38,7 +38,8 @@ body
 .idxBar
 	{
 	border-color: #3F270F;
-	background-color: #C5B19A;
+	/*background-color: #C5B19A;*/
+	background-color: ghostwhite;
 	text-shadow: #888 2px 3px 2px;
 	}
 

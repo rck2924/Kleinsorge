@@ -3,7 +3,8 @@
 	{
 	margin-right: auto;
 	margin-left: auto;
-	width: 58.46em;
+	/*width: 58.46em;*/
+	width: 1000px;
 	text-align: center;
 	}
 
@@ -16,10 +17,12 @@ hr
 .idxBar
 	{
 	text-align: center;
+	width:900px;
 	line-height: 40px;
 	margin-left: 2px;
 	margin-right: 2px;
-	letter-spacing: 2px;
+	letter-spacing: 10px;
+	border-radius: 5px;
 	}
 
 .idxBody
