@@ -4,19 +4,20 @@
 <meta http-equiv="Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="Kleinsorge, Family, Genealogy, Tree">
-<meta name="description" content="Kleinsorge Family Tree">  
+<meta name="description" content="Kleinsorge Family Tree">
 <link href="css/lp_container.css" rel="stylesheet" type="text/css" />
 <link href="css/lp_font_timesnewroman.css" rel="stylesheet" type="text/css" />
 <link href="css/lp_coverpage.css" rel="stylesheet" type="text/css" />
 <link href="css/lp_text_default.css" rel="stylesheet" type="text/css" />
 <link href="css/lp_colorstyle_brownleather.css" rel="stylesheet" type="text/css" />
-<meta name="keywords" content="HTML, CSS, JavaScript, Tutorials">
+<!--<meta name="keywords" content="HTML, CSS, JavaScript, Tutorials">-->
 <style>
 .bigpix
-   {width:45%;
+   {width:42%;
     height:750px;
     background:url("img/Kleinsorge Family 1903 - Color.jpg") no-repeat;
     background-position:center;
+    border:solid;
     border-radius: 15px;
     margin-top:25px;
     margin-bottom:-25px;
@@ -36,7 +37,7 @@
       border:solid;
       border-radius:15px;
       border-color:lightgrey;
-      background:url("img/Theodor Kleinsorge.jpg") no-repeat;
+      background:url("img/Theodor Kleinsorge.jpg" ) no-repeat;
       background-position:center;
       transition:2.0s ease-in-out;
       transition-delay:.5s;}
@@ -44,8 +45,19 @@
     {background:url("img/Catherine Kloer.jpg") no-repeat;
     background-position:center;}
 </style>
+<style>
+.bigpix2
+     {width:25%;
+      height:600px;
+      background:url("img/earl.jpg") no-repeat;
+      background-position:center;
+      transition:2.0s ease-in-out;
+      transition-delay:.5s;}
+.bigpix2:hover
+    {background:url("img/dena.jpg") no-repeat;
+    background-position:center;}
+</style>
 </head>
-
 <body>
 <center>
 
@@ -148,7 +160,7 @@ function History() {
 <div class="container">
     <div class="grow3 brighten3"><img src="img/Wilhelm Kloer and Maria Sickman.jpg"class="image2"></div>
   <div class="overlay">
-    <div style="width:400px;border-radius:5px;background-color:ghostwhite;font-size:1.5em;margin-left:50px;margin-top:-20px;">Cathrine Kloer's parents<br>Photo from 1867</div>
+    <div style="width:400px;border-radius:5px;background-color:ghostwhite;font-size:1.5em;margin-left:50px;margin-top:-20px;"><strong>Cathrine Kloer's parents<br>Photo from 1867</strong></div>
   </div>
         <div class="para"><strong>Wilhelm Kloer and Maria Sickman</strong></div>
 </div>
@@ -158,7 +170,7 @@ function History() {
 <div class="container">
         <div class="grow3 color3"><img src="img/Theodor.jpeg"class="image2"></div>
    <div class="overlay">
-        <div style="width:425px;border-radius:5px;background-color:ghostwhite;font-size:1.5em;margin-left:35px;">This is what the original photo looks like from 1886</div>
+        <div style="width:425px;border-radius:5px;background-color:ghostwhite;font-size:1.5em;margin-left:35px;"><strong>This is what the original photo looks like from 1886</strong></div>
    </div>
         <div class="para"><strong>Theodor and Cathrine<br>8-16-1886</strong></div>
 </div>
@@ -228,13 +240,35 @@ function History() {
 <hr style="visibility:hidden;"</style>
 
 <div class="activate">
-<div onclick="Rubys_story()"><span style="font-size:35px;color:red"><strong>Ruby's Life Story</strong></span></div>
+<div onclick="Rubys_story()"><span style="font-size:35px;color:red"><a href="#"><strong>Ruby's Life Story</strong></span></div>
 <script>
 function Rubys_story() {
   window.open("https://sites.google.com/view/the-kleinsorge-family-tree/home/ruby-kleinsorge-wittmans-story", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=133,left=167,width=1333,height=925");
 }
 </script>
 </div>
+<hr style="width:75%;height:10px;background-color:black;">
+<div class="bigpix2"></div>
+
+<div class="activate">
+<div onclick="dena()"><span style="font-size:35px;color:red"><a href="#"><strong>Dena's 1949 Story</strong></span></div>
+<script>
+function dena() {
+  window.open("Dena.pdf#", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=133,left=167,width=1333,height=925");
+}
+</script>
+</div>
+<hr style="width:75%;height:10px;background-color:black;">
+
+<div class="button">
+<div onclick="pictures()"><a href="#"><strong>Downloadable Pictures</div>
+</div>
+<script>
+function pictures() {
+  window.location.href = "Pictures/pictures.html"
+}
+</script>
+
 <div class="activate1">
 <a href="#SURN"><span style="font-family:serif;font-size:23px;color:green;"><strong>Family Surnames</strong></span></a>
 </div>
@@ -243,18 +277,7 @@ function Rubys_story() {
 <a href="#TOP"><span style="font-family:serif;font-size: 25px;color:blue"><strong>Back to the Top</strong></span></a>
 </div>
 
-<div class="activate">
-<div onclick="Pix()">Downloadable pictures</div>
-</div>
-<script>
-function Pix() {
-  window.open("https://drive.google.com/drive/folders/1xLgDII-vFPrNWkszqmOXqCa2HEG5zSvk?usp=sharing", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=133,left=167,width=1333,height=925");
-}
-</script>
-
 <hr style="width:50%;color:black;border-color:black;margin-top:-50px;">
-
-
 
 <p>Du bist hier immer willkommen!</p>
 <div class="goodbye"style="width:200px;margin-top:25px;margin-bottom:50px;background-color:chartreuse;border-radius:10px;"><span style="font-size:25px;">Translation?</span>

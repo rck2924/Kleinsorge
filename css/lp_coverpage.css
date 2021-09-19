@@ -3,6 +3,7 @@ body {
     padding-bottom: 100px;
     padding-top: 10px;
 }
+
 /*This is the title (KleinsorgeFamily Tree) at the top of the Main page*/
 .tocTitle {
   	margin-top:25px;
@@ -10,6 +11,7 @@ body {
    	height:.5em;
     width:21em;
     border:outset Dimgray 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background:top url(titleGradient.png);
 }
 /*This is for the verbage below the 6 wedding pictures near the bottom of the cover page.*/
@@ -40,10 +42,11 @@ body {
 /*This instruction will cause the "Goodbye message" to change
  when a pointer is hovered on the phrase "Translation?"*/
 .translation1 {
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
      background-color:green;
      height:68px;
-     width:1000px;
-     margin-left: -60px;
+     width:1010px;
+     margin-left: -70px;
      margin-top: -52px;
      border-radius: 15px;
      transform:translate(-50%, -100%);
@@ -55,17 +58,6 @@ body {
 }
 .goodbye {
     cursor:help;}
-
-button {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-radius: 15px;
-  border: solid;
-  border-color: darkslategray;
-  border-width: 5px;
-  background-color:slategray;
-  width:400px;
-}
 
 .back_to_surnames {
   margin-top: 25px;
@@ -89,6 +81,7 @@ button {
 
 .tocIntro:hover {
   background-color:ghostwhite;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   transition-duration:3s;
 }
 
@@ -115,6 +108,7 @@ button {
   width:16%;
   margin-bottom: 1.0em;
   background-color: yellow;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .activate {
@@ -135,7 +129,8 @@ button {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
-  background-color: lightblue;
+  background-color: yellow;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .activate1 {
@@ -155,8 +150,28 @@ button {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
-  background-color: lightblue;
+  background-color: yellow;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+.activate2 {
+    height:30px;
+    width:60%;
+    border-radius: 15px;
+    border:outset blue 5px;background-color:lightblue;
+}
+
+.activate2:hover {
+  cursor: pointer;
+  transition-timing-function: ease-in-out;
+  transition-duration: .5s;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color:yellow;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 .surNames {
     font-family: arial;
@@ -204,22 +219,6 @@ button {
     transition-delay:.5s;
     opacity: 1;
 }
-/*text1 colors the background of the text associated with the popup on the 1886 wedding photo*/
-.text1 {
- border:solid;
- border-radius:5px;
- background-color:ghostwhite;
- font-size:15px;
- margin-left: 55px;
-}
-/*text2 colors the background of the text associated with the popup on the Locust Point photo*/
-.text2 {
-  width:400px;
-  border-radius:5px;
-  background-color:ghostwhite;
-  font-size:1.5em;
-  margin-top: 5.0em;
-}
 /*text3 colors and positions the background of the text associated with the popup on Theodor's birthplace photo*/
 .text3 {
   width:400px;
@@ -228,15 +227,6 @@ button {
   font-size:1.25em;
   margin-top: 130px;
   margin-left: 50px;
-}
-/*text4 colors and positions the background of the text associated with the popup on the Wilhelm and wife photo*/
-.text4 {
-  width:350px;
-  border-radius:5px;
-  background-color:ghostwhite;
-  font-size:1.25em;
-  margin-top:5.2em;
-  margin-left: 1.8em;
 }
 /*text5 colors and positions the background of the text associated with the popup on Aunt Ruby's 90th picture*/
 .text5 {
@@ -492,6 +482,16 @@ h3 {
   animation: mouse_pointer3 7.0s infinite;
   animation-direction: alternate;
 }
+h4 {
+  position:relative;
+  width:25%;
+  margin-top: 60px;
+  margin-left: : -50px;
+  font-size: 25px;
+  border-radius: 10px;
+  animation: mouse_pointer4 5.0s infinite;
+  animation-direction: alternate;
+}
 /*Moves the mouse message up and down while shrinking and expanding*/
   @keyframes mouse_pointer1 {
   0%   {top: -30px; background: chartreuse; width: 600px;}
@@ -520,3 +520,33 @@ h3 {
     /*75%  {top: 50px; left: 50px; background: green;}*/
     100% {top: 0px; left: 100px; background: chartreuse;}
   }
+
+  /*Changes the mouse message with an alternating up and down and right and left with changing colors*/
+  @keyframes mouse_pointer4 {
+    0%   {top: 0px; left: -100px; background: none;}
+    /*25%  {top: 0px; left: 50px; background: linen;}*/
+    50%  {top: 0px; right: 50px; background: none;}
+    /*75%  {top: 50px; left: 50px; background: green;}*/
+    100% {top: 0px; left: 100px; background: none;}
+  }
+   .button {
+         display: inline-block;
+         background-color: #7b38d8;
+         border-radius: 10px;
+         border: 4px double #cccccc;
+         color: #eeeeee;
+         text-align: center;
+         font-size: 28px;
+         padding: 10px 10px;
+         width:400px;
+         transition: all 0.5s;
+         cursor: pointer;
+         margin: 25px;
+       }
+
+       .button:hover {
+         background-color: yellow;
+         /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
+         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+         color:black;
+       }
