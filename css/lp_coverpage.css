@@ -1,63 +1,70 @@
-
 body {
-    padding-bottom: 100px;
-    padding-top: 10px;
+  padding-bottom: 100px;
+  padding-top: 10px;
 }
 
 /*This is the title (KleinsorgeFamily Tree) at the top of the Main page*/
 .tocTitle {
-  	margin-top:25px;
-    padding:50px;
-   	height:.5em;
-    width:21em;
-    border:outset Dimgray 10px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background:top url(titleGradient.png);
+  margin-top: 25px;
+  padding: 50px;
+  height: .5em;
+  width: 21em;
+  border: outset Dimgray 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background: top url(titleGradient.png);
 }
+
 /*This is for the verbage below the 6 wedding pictures near the bottom of the cover page.*/
 .six_couples {
-  font-size:2.5em;
-  color:darkslategrey;
-  font-style:italic;
+  font-size: 2.5em;
+  color: darkslategrey;
+  font-style: italic;
   padding-bottom: 20px;
 }
+
 /*This instruction will cause the "Welcome message" to change
  when a pointer is hovered on the phrase "Translation?"*/
- .welcome {
-     cursor:help;
-     font-size:30px;
+.welcome {
+  cursor: help;
+  font-size: 30px;
 }
+
 .translation {
-     height:2.5em;
-     width:9.5em;
-     margin-left:-440px;
-     padding-bottom:57px;
-     transform:translate(-50%, -100%);
-     position:absolute;
-     display:none;
+  height: 2.5em;
+  width: 9.5em;
+  margin-left: -440px;
+  padding-bottom: 57px;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  display: none;
 }
+
 .welcome:hover .translation {
-     display:inline-block;
+  display: inline-block;
 }
+
 /*This instruction will cause the "Goodbye message" to change
  when a pointer is hovered on the phrase "Translation?"*/
 .translation1 {
-     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-     background-color:green;
-     height:68px;
-     width:1010px;
-     margin-left: -70px;
-     margin-top: -52px;
-     border-radius: 15px;
-     transform:translate(-50%, -100%);
-     position:absolute;
-     display:none;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: green;
+  height: 68px;
+  width: 1010px;
+  margin-left: -70px;
+  margin-top: -52px;
+  border-radius: 15px;
+  transform: translate(-50%, -100%);
+  position: absolute;
+  display: none;
 }
+
 .goodbye:hover .translation1 {
-     display:inline-block;
+  display: inline-block;
 }
+
 .goodbye {
-    cursor:help;}
+  cursor: help;
+}
 
 .back_to_surnames {
   margin-top: 25px;
@@ -66,33 +73,34 @@ body {
   border: solid;
   background-color: lightgrey;
   font-size: 30px;
-  color:darkslategray;
-  width:350px;
+  color: darkslategray;
+  width: 350px;
 }
 
 /*This is the title in the middle of the Main page that talks about 500 people*/
 .tocIntro {
-    font-size:25px;
-    height:175px;
-    width:70%;
-    border:outset lightblue 9px;
-    background-color:linen;
+  font-size: 25px;
+  height: 175px;
+  width: 70%;
+  border: outset lightblue 9px;
+  background-color: linen;
 }
 
 .tocIntro:hover {
-  background-color:ghostwhite;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  transition-duration:3s;
+  background-color: ghostwhite;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 3s;
 }
 
 .history {
-    margin-top:40px;
-    margin-bottom: 70px;
-    padding-bottom: 15px;
-    font-size:30px;
-    width:18%;
-    border-radius: 40px;
-    border:outset blue 5px;background-color:ghostwhite;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  width: 18%;
+  border-radius: 40px;
+  border: outset blue 5px;
+  background-color: ghostwhite;
 }
 
 .history:hover {
@@ -104,21 +112,22 @@ body {
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
-  font-size:20px;
-  width:16%;
+  font-size: 20px;
+  width: 16%;
   margin-bottom: 1.0em;
   background-color: yellow;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .activate {
-    margin-top: 50px;
-    margin-bottom: 70px;
-    font-size:30px;
-    height:40px;
-    width:18%;
-    border-radius: 15px;
-    border:outset blue 5px;background-color:lightblue;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-size: 30px;
+  height: 40px;
+  width: 18%;
+  border-radius: 15px;
+  border: outset blue 5px;
+  background-color: lightblue;
 }
 
 .activate:hover {
@@ -130,16 +139,18 @@ body {
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   background-color: yellow;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .activate1 {
-    margin-bottom:70px;
-    font-size:30px;
-    height:30px;
-    width:12%;
-    border-radius: 15px;
-    border:outset blue 5px;background-color:lightblue;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  font-size: 30px;
+  height: 30px;
+  width: 15%;
+  border-radius: 15px;
+  border: outset blue 5px;
+  background-color: lightblue;
 }
 
 .activate1:hover {
@@ -151,13 +162,15 @@ body {
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   background-color: yellow;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
 .activate2 {
-    height:30px;
-    width:60%;
-    border-radius: 15px;
-    border:outset blue 5px;background-color:lightblue;
+  height: 30px;
+  width: 60%;
+  border-radius: 15px;
+  border: outset blue 5px;
+  background-color: lightblue;
 }
 
 .activate2:hover {
@@ -168,291 +181,381 @@ body {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
-  background-color:yellow;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: yellow;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .surNames {
-    font-family: arial;
-    color:#b67116;
-    font-size:4.5em;
-    text-shadow:2px 3px black;
-    width:50%;
-    letter-spacing:10px;
-    margin-left: 20px;
-    margin-top: 75px;
+  font-family: arial;
+  color: #b67116;
+  font-size: 4.5em;
+  text-shadow: 2px 3px black;
+  width: 50%;
+  letter-spacing: 10px;
+  margin-left: 20px;
+  margin-top: 75px;
 }
 
 .surRecord {
-    width:80.0%;
-	  margin:2em;
-	  padding-top:1.5em;
-	  border-top:solid;
-	  border-width:10px;
-	  font-size:16px;
-    font-weight:bolder;
+  width: 80.0%;
+  margin: 2em;
+  padding-top: 1.5em;
+  border-top: solid;
+  border-width: 10px;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 .surLetter {
-    float:left;
-    font-size:1.75em;
-	  width:1.5em;
-    border-radius:10px;
-    background-color:linen;
-    margin-left: -20px;
+  float: left;
+  font-size: 1.75em;
+  width: 1.5em;
+  border-radius: 10px;
+  background-color: linen;
+  margin-left: -20px;
 }
 
 .overlay {
-  position:absolute;
-  transform:scale(0);
+  position: absolute;
+  transform: scale(0);
   opacity: 0;
 }
+
 .container {
   position: relative;
   width: 75%;
   max-width: 500px;
 }
+
 .container:hover .overlay {
-    transform:scale(1.0);
-    transition:1.0s ease-in-out;
-    transition-delay:.5s;
-    opacity: 1;
+  transform: scale(1.0);
+  transition: 1.0s ease-in-out;
+  transition-delay: .5s;
+  opacity: 1;
 }
+
 /*text3 colors and positions the background of the text associated with the popup on Theodor's birthplace photo*/
 .text3 {
-  width:400px;
-  border-radius:5px;
-  background-color:ghostwhite;
-  font-size:1.25em;
+  width: 400px;
+  border-radius: 5px;
+  background-color: ghostwhite;
+  font-size: 1.25em;
   margin-top: 130px;
   margin-left: 50px;
 }
+
 /*text5 colors and positions the background of the text associated with the popup on Aunt Ruby's 90th picture*/
 .text5 {
   margin-left: 50px;
-  height:30px;
-  width:300px;
-  border-radius:5px;
-  background-color:lightblue;
-  font-size:1.75em;
-  margin-top:100px;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: lightblue;
+  font-size: 1.75em;
+  margin-top: 100px;
 }
+
 /*text5 colors and positions background of the text associated with the popup on the photo of Bud and Ruby*/
 .text6 {
-  width:240px;
-  border-radius:5px;
-  background-color:lightblue;
-  font-size:1.5em;
-  margin-top:125px;
+  width: 240px;
+  border-radius: 5px;
+  background-color: lightblue;
+  font-size: 1.5em;
+  margin-top: 125px;
   margin-left: 4.0em;
 }
+
 /*text5 colors and positions background of the text associated with the popup on the photo Ruby@97*/
 .text7 {
-  width:410px;
-  border-radius:5px;
-  background-color:lightblue;
-  font-size:1.5em;
-  margin-top:100px;
-  margin-left:3px;
+  width: 410px;
+  border-radius: 5px;
+  background-color: lightblue;
+  font-size: 1.5em;
+  margin-top: 100px;
+  margin-left: 3px;
 }
+
 /*This instruction is for the verbage below the 6 wedding pictures*/
 .para {
-font-size:20px;
-font-style:italic;
+  font-size: 20px;
+  font-style: italic;
 }
+
 /*This instruction is for the verbage below Ruby wedding pix*/
 .para4 {
-font-size:20px;
+  font-size: 20px;
 }
+
 /*Theodor on the Farm and birthplace photos*/
 .image1 {
-    width:265px;
-    height:175px;
-    margin-top:5.5em;
-    border:solid;
-    border-radius:10px;
-    border-color:black;
+  width: 265px;
+  height: 175px;
+  margin-top: 5.5em;
+  border: solid;
+  border-radius: 10px;
+  border-color: black;
 }
+
 .image2 {
-    width:400px;
-    height:500px;
-    margin-top: -50px;
-    border:10px ridge black;
-    border-radius:20px;
+  width: 400px;
+  height: 500px;
+  margin-top: -50px;
+  border: 10px ridge black;
+  border-radius: 20px;
 }
+
 /*Locust Point photo*/
 .image4 {
-    width:350px;
-    height:250px;
-    border:solid;
-    border-radius:10px;
+  width: 350px;
+  height: 250px;
+  border: solid;
+  border-radius: 10px;
 }
+
 /*Ruby Kleinsorge pictures(wedding and 97th birthday)*/
 .image5 {
-    width:200px;
-    height:250px;
-    border:solid;
-    border-radius:10px;
-    margin-top: 100px;
+  width: 200px;
+  height: 250px;
+  border: solid;
+  border-radius: 10px;
+  margin-top: 100px;
 }
+
 /*Ruby Kleinsorge 90th birthday picture*/
 .image6 {
-    width:325px;
-    height:225px;
-    border:solid;
-    border-radius:10px;
-    margin-top: 100px;
+  width: 325px;
+  height: 225px;
+  border: solid;
+  border-radius: 10px;
+  margin-top: 100px;
 }
 
 .grow {
-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
+
 .grow:hover {
-transform: scale(2.0);
+  transform: scale(2.5);
 }
 
 .grow1 {
-transition: all 1.2s ease-in-out;
+  transition: all 1.2s ease-in-out;
 }
+
 .grow1:hover {
-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .grow2 {
-transition: all 2.2s ease-in-out;
+  transition: all 2.2s ease-in-out;
 }
+
 .grow2:hover {
-transform: scale(1.25);
+  transform: scale(1.25);
 }
+
 .grow3 {
-transition: all 1.0s ease-in-out;
+  transition: all 1.0s ease-in-out;
 }
 
 .grow3:hover {
-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .brighten img {
-    -webkit-filter:brightness(30%);
+  -webkit-filter: brightness(30%);
 }
+
 .brighten img:hover {
-    -webkit-filter:brightness(100%);
-     transition:1.5s ease;
+  -webkit-filter: brightness(100%);
+  transition: 1.5s ease;
 }
+
 .brighten3 img {
-    -webkit-filter:brightness(30%);
+  -webkit-filter: brightness(30%);
 }
+
 .brighten3 img:hover {
-    -webkit-filter:brightness(100%);
-     transition:2.0s ease-in-out;
+  -webkit-filter: brightness(100%);
+  transition: 2.0s ease-in-out;
 }
+
 .color img {
-     filter:grayscale(100%);
-     -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
+
 .color img:hover {
-    filter:grayscale(0%);
-    filter:gray;
-    -webkit-filter: grayscale(0%);
-    transition:1.5s ease;
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  transition: 1.5s ease;
 }
+
 .color3 img {
-     filter:grayscale(100%);
-     -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
+
 .color3 img:hover {
-    filter:grayscale(0%);
-    filter:gray;
-    -webkit-filter: grayscale(0%);
-    transition:1.0s ease-in-out;
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  transition: 1.0s ease-in-out;
 }
+
 /*The column instruction will align elements into columns based on the width percentage*/
 .column6 {
-  float:right;
-  width:16.666666%;
-  height:300px;
+  float: right;
+  width: 16.666666%;
+  height: 300px;
   padding-top: 220px;
 }
+
 .column3 {
-  float:left;
-  width:33.33333%;
-  height:500px;
+  float: left;
+  width: 33.33333%;
+  height: 500px;
 }
+
 .column2 {
-  float:right;
-  width:50.0%;
+  float: right;
+  width: 50.0%;
   padding-top: 50px;
 }
+
 /*This instruction establishes the Welcome translation item at the top of the cover page*/
 p {
-    padding:6px;
-    border:10px;
-    border-radius:15px;
-    font-family:'Montserrat';
-    background-color:green;
-    width:20em;
-    font-size:50px;
+  padding: 6px;
+  border: 10px;
+  border-radius: 15px;
+  font-family: 'Montserrat';
+  background-color: green;
+  width: 20em;
+  font-size: 50px;
 }
+
 /*This instruction will cause "mouse message" and the title "Family Surnames" to fade in and out.*/
 .fade-in {
-  animation:fadein 2.5s infinite alternate;
-  -webkit-animation:fadein 2.5s infinite alternate;
-  -moz-animation:fadein 2.5s infinite alternate;
-  -o-animation:fadein 2.5s infinite alternate;
-  -ms-animation:fadein 2.5s infinite alternate;
+  animation: fadein 2.5s infinite alternate;
+  -webkit-animation: fadein 2.5s infinite alternate;
+  -moz-animation: fadein 2.5s infinite alternate;
+  -o-animation: fadein 2.5s infinite alternate;
+  -ms-animation: fadein 2.5s infinite alternate;
 }
-@keyframes  fadein {
-  0% {opacity:0;}
-  100% {opacity:1;}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @-moz-keyframes fadein {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @-webkit-keyframes fadein {
-  0% {opacity:0;}
-  1000% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+
+  1000% {
+    opacity: 1;
+  }
 }
+
 @-o-keyframes fadein {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @-ms-keyframes fadein {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 /*This instruction will cause "Welcome message to fade-in"*/
 .fade-in1 {
-  animation:fadein ease-in-out 2.0s infinite alternate;
-  -webkit-animation:fadein ease-in-out 2.0s infinite alternate;
-  -moz-animation:fadein ease 2s infinite alternate;
-  -o-animation:fadein ease 2s infinite alternate;
-  -ms-animation:fadein ease 2s infinite alternate;
+  animation: fadein ease-in-out 2.0s infinite alternate;
+  -webkit-animation: fadein ease-in-out 2.0s infinite alternate;
+  -moz-animation: fadein ease 2s infinite alternate;
+  -o-animation: fadein ease 2s infinite alternate;
+  -ms-animation: fadein ease 2s infinite alternate;
 }
-@keyframes  fadein {
-  0% {opacity:0;}
-  100% {opacity:1;}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @-moz-keyframes fadein {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @-webkit-keyframes fadein {
-  0% {opacity:0;}
-  1000% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+
+  1000% {
+    opacity: 1;
+  }
 }
+
 @-o-keyframes fadein {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @-ms-keyframes fadein {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 /*The instruction below will cause the "h1" element to fade from one color to another and go up and down*/
 h1 {
-  position:relative;
+  position: relative;
   margin-top: 40px;
   margin-left: 2.25em;
   font-size: 1.5em;
@@ -460,10 +563,11 @@ h1 {
   animation: mouse_pointer1 5.0s infinite;
   animation-direction: alternate;
 }
+
 /*The instruction below will cause the "h2" element to fade from one color to another through 10 colors*/
 h2 {
   margin: 600px;
-  position:relative;
+  position: relative;
   margin-top: 70px;
   margin-bottom: auto;
   font-size: 20px;
@@ -471,10 +575,11 @@ h2 {
   animation: mouse_pointer2 15.0s infinite;
   animation-direction: alternate;
 }
+
 /*The instruction below will cause the "h3" element to fade from one color to another and go up and down*/
 h3 {
-  position:relative;
-  width:300px;
+  position: relative;
+  width: 300px;
   margin-top: 60px;
   margin-left: : -50px;
   font-size: 25px;
@@ -482,9 +587,10 @@ h3 {
   animation: mouse_pointer3 7.0s infinite;
   animation-direction: alternate;
 }
+
 h4 {
-  position:relative;
-  width:25%;
+  position: relative;
+  width: 25%;
   margin-top: 60px;
   margin-left: : -50px;
   font-size: 25px;
@@ -492,61 +598,132 @@ h4 {
   animation: mouse_pointer4 5.0s infinite;
   animation-direction: alternate;
 }
+
 /*Moves the mouse message up and down while shrinking and expanding*/
-  @keyframes mouse_pointer1 {
-  0%   {top: -30px; background: chartreuse; width: 600px;}
-  100% {top: 25px; background: yellow; width: 475px;}
+@keyframes mouse_pointer1 {
+  0% {
+    top: -30px;
+    background: chartreuse;
+    width: 600px;
+  }
+
+  100% {
+    top: 25px;
+    background: yellow;
+    width: 475px;
+  }
 }
 
 /* Changes the mouse message color with 10 different colors.  Has no movement*/
 @keyframes mouse_pointer2 {
-    0%   {background-color: chartreuse;}
-    10%  {background-color: aquamarine;}
-    20%  {background-color: greenyellow;}
-    30%  {background-color: linen;}
-    40%  {background-color: white;}
-    50%  {background-color: darkmagenta;}
-    60%  {background-color: cyan;}
-    70%  {background-color: darkorange;}
-    80%  {background-color: lightblue;}
-    90%  {background-color: fuchsia;}
-    100% {background-color: darkviolet;}
-  }
-  /*Changes the mouse message with an alternating up and down and right and left with changing colors*/
-  @keyframes mouse_pointer3 {
-    0%   {top: 0px; left: -100px; background: red;}
-    /*25%  {top: 0px; left: 50px; background: linen;}*/
-    50%  {top: 0px; right: 50px; background: yellow;}
-    /*75%  {top: 50px; left: 50px; background: green;}*/
-    100% {top: 0px; left: 100px; background: chartreuse;}
+  0% {
+    background-color: chartreuse;
   }
 
-  /*Changes the mouse message with an alternating up and down and right and left with changing colors*/
-  @keyframes mouse_pointer4 {
-    0%   {top: 0px; left: -100px; background: none;}
-    /*25%  {top: 0px; left: 50px; background: linen;}*/
-    50%  {top: 0px; right: 50px; background: none;}
-    /*75%  {top: 50px; left: 50px; background: green;}*/
-    100% {top: 0px; left: 100px; background: none;}
+  10% {
+    background-color: aquamarine;
   }
-   .button {
-         display: inline-block;
-         background-color: #7b38d8;
-         border-radius: 10px;
-         border: 4px double #cccccc;
-         color: #eeeeee;
-         text-align: center;
-         font-size: 28px;
-         padding: 10px 10px;
-         width:400px;
-         transition: all 0.5s;
-         cursor: pointer;
-         margin: 25px;
-       }
 
-       .button:hover {
-         background-color: yellow;
-         /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
-         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-         color:black;
-       }
+  20% {
+    background-color: greenyellow;
+  }
+
+  30% {
+    background-color: linen;
+  }
+
+  40% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: darkmagenta;
+  }
+
+  60% {
+    background-color: cyan;
+  }
+
+  70% {
+    background-color: darkorange;
+  }
+
+  80% {
+    background-color: lightblue;
+  }
+
+  90% {
+    background-color: fuchsia;
+  }
+
+  100% {
+    background-color: darkviolet;
+  }
+}
+
+/*Changes the mouse message with an alternating up and down and right and left with changing colors*/
+@keyframes mouse_pointer3 {
+  0% {
+    top: 0px;
+    left: -100px;
+    background: red;
+  }
+
+  /*25%  {top: 0px; left: 50px; background: linen;}*/
+  50% {
+    top: 0px;
+    right: 50px;
+    background: yellow;
+  }
+
+  /*75%  {top: 50px; left: 50px; background: green;}*/
+  100% {
+    top: 0px;
+    left: 100px;
+    background: chartreuse;
+  }
+}
+
+/*Changes the mouse message with an alternating up and down and right and left with changing colors*/
+@keyframes mouse_pointer4 {
+  0% {
+    top: 0px;
+    left: -100px;
+    background: none;
+  }
+
+  /*25%  {top: 0px; left: 50px; background: linen;}*/
+  50% {
+    top: 0px;
+    right: 50px;
+    background: none;
+  }
+
+  /*75%  {top: 50px; left: 50px; background: green;}*/
+  100% {
+    top: 0px;
+    left: 100px;
+    background: none;
+  }
+}
+
+.button {
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px 10px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 25px;
+}
+
+.button:hover {
+  background-color: yellow;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
