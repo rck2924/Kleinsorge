@@ -1,83 +1,67 @@
+.psPicture img {
+  border-width: 2px;
+  border-style: solid;
+}
 
-.psPicture img
-	{
-	border-width: 2px;
-	border-style: solid;
-	}
+.fhName {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-top-width: 2px;
+  border-top-style: solid;
+}
 
-.fhName
-	{
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
+.idxBar {
+  /*border-bottom: 3px double;*/
+}
 
-	border-top-width: 2px;
-	border-top-style: solid;
-	}
+.surRecord {
+  border-top: 2px dotted;
+}
 
-.idxBar
-	{
-	/*border-bottom: 3px double;*/
-	}
+.idxSur {
+  border-bottom: 2px solid;
+  border-width: 10px;
+  border-radius: 15px;
+  width: 45%;
+  margin-left: 225px;
+}
 
-.surRecord
-	{
-	border-top: 2px dotted;
-	}
+.rrSpouseData {
+  border-top: 2px solid;
+}
 
-.idxSur
-	{
-	border-bottom: 2px solid;
-	border-width: 10px;
-	border-radius: 15px;
-	width:45%;
-	margin-left:225px;
-	}
+.psFRecord, .psMRecord, .psRecord {
+  border-width: 2px;
+  border-style: solid;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 
-.rrSpouseData
-	{
-	border-top: 2px solid;
-	}
-
-.psFRecord, .psMRecord, .psRecord
-	{
-	border-width: 2px;
-	border-style: solid;
-
-	overflow-x: hidden;
-	overflow-y: hidden;
-	}
-
-.psPicture img
-	{
-	margin-top: -1px;
-	margin-right: -1px;
-	margin-bottom: -1px;
-	}
+.psPicture img {
+  margin-top: -1px;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
 
 .rrPerson .psPicture img,
-.psPerson .psPicture img
-	{
-	margin: 0px;
-	}
+.psPerson .psPicture img {
+  margin: 0px;
+}
 
-.srcEntry
-	{
-	border-bottom: 2px solid;
-	}
+.srcEntry {
+  border-bottom: 2px solid;
+}
 
-.wcHFacts, .wcWFacts
-	{
-	border: 2px solid;
-	}
+.wcHFacts, .wcWFacts {
+  border: 2px solid;
+}
 
 .wcHFather, .wcHMother, .wcWFather, .wcWMother,
 .wcHusband, .wcWife, .wcFHusband, .wcMWife,
-.wcChild, .wcChildBold, .wcMChild, .wcFChild, .wcMChildBold, .wcFChildBold
-	{
-	border: 1px solid;
-
-	-moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -khtml-border-radius: 3px;
-    border-radius: 3px;
-	}
+.wcChild, .wcChildBold, .wcMChild, .wcFChild, .wcMChildBold, .wcFChildBold {
+  border: 1px solid;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}

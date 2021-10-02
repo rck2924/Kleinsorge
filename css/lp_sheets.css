@@ -1,116 +1,106 @@
-
-a img {	border-style: none; margin: 4px 13px; }
+a img {
+  border-style: none;
+  margin: 4px 13px;
+}
 
 /*The below instruction for the "body" establishes and modifies the border surrounding the content*/
-.reportBody, #rBody
-	{
-	width:760px;
-	margin-left: 30px;
-	padding-top: 30px;
-	padding-bottom: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
-	background-color:slategray;
-	border: 5px solid black;
-	border-radius: 15px;
-	}
+.reportBody, #rBody {
+  width: 760px;
+  margin-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: slategray;
+  border: 5px solid black;
+  border-radius: 15px;
+}
 
-.pageBody, #pBody
-	{
-	padding-top: 30px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 760px;
-	text-align: center;
-	}
+.pageBody, #pBody {
+  padding-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 760px;
+  text-align: center;
+}
 
-.psFRecord, .psMRecord, .psRecord
-	{
-	margin-top: 0;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	vertical-align: top;
-	overflow: auto;
-	}
+.psFRecord, .psMRecord, .psRecord {
+  margin-top: 0;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  vertical-align: top;
+  overflow: auto;
+}
 
-.psName .psText
-	{
-	font-weight: bold;
-	font-size: 1.32em;
-	margin-left: 1em;
-	padding-top: 10px;
-	padding-left: 12px;
-	padding-bottom: 4px;
-	background-color:lightblue;
-	border: solid;
-	border-width: 1px;
-	border-radius: 5px;
-	}
+.psName .psText {
+  font-weight: bold;
+  font-size: 1.32em;
+  margin-left: 1em;
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-bottom: 4px;
+  background-color: lightblue;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
 
-.psPicture img
-	{
-	width: 130px;
-	height: auto;
-	float: right;
-	}
+.psPicture img {
+  width: 130px;
+  height: auto;
+  float: right;
+}
 
-.psEvent, .psName, .psFact, .psParent, .psChild, .psSpouse, .psOtherSpouses
-	{
-	padding-top: 1px;
-	padding-bottom: 1px;
-	background-color: white;
-	}
+.psEvent, .psName, .psFact, .psParent, .psChild, .psSpouse, .psOtherSpouses {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: white;
+}
 
-div.psRecordEnd
-	{
-	clear:both;
-	height: 0em;
-	}
+div.psRecordEnd {
+  clear: both;
+  height: 0em;
+}
 
-.colFirst
-	{
-	display: inline-block;
-	line-height: 20px;
-	width: 100px;
-	font-weight: bold;
-	text-align: right;
-	padding-right: 8px;
-	}
+.colFirst {
+  display: inline-block;
+  line-height: 20px;
+  width: 100px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 8px;
+}
+
 /*This is what modifies the background color of the label "Name" and the spouse number*/
-.psTitle
-	{
-	font-weight: bold;
-	font-size: 1.1em;
-	background-color: chartreuse;
-	padding-right: 10px;
-	padding-left: 10px;
-	border-radius: 5px;
-	margin-left: 10px;
-	}
+.psTitle {
+  font-weight: bold;
+  font-size: 1.1em;
+  background-color: chartreuse;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
 
-.colSecond
-	{
-	display: inline;
-	line-height: 20px;
-	}
+.colSecond {
+  display: inline;
+  line-height: 20px;
+}
 
-.psSpousesTitle
-	{
-	font-weight: bolder;
-	margin-top: 50px;
-	}
+.psSpousesTitle {
+  font-weight: bolder;
+  margin-top: 50px;
+}
 
-.psChildren
-	{
-	margin-top: 1em;
-	margin-bottom: 0.5em;
-	font-size: 1.1em;
-	}
+.psChildren {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
 
-.psFooter
-	{
-	visibility: hidden;
-	padding: 0.6em;
-	margin-left: 0px;
-	margin-right: 0px;
-	}
+.psFooter {
+  visibility: hidden;
+  padding: 0.6em;
+  margin-left: 0px;
+  margin-right: 0px;
+}

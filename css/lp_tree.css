@@ -1,378 +1,341 @@
+#menu {
+  padding-top: 50px;
+}
 
-#menu
-    {
-    padding-top:50px;
-    }
 /*The below instruction for the "body" establishes the position of the tree and lights up names when you hover. Can't select a name without "z-index: 0;"*/
-.reportBody, #rBody
-  {
+.reportBody, #rBody {
   position: relative;
   z-index: 0;
   height: 43.5em;
   width: 60.0em;
   margin-top: -5em;
-  }
+}
 
-.pageBody, #pBody
-	{
-  padding-left:11.53em;
+.pageBody, #pBody {
+  padding-left: 11.53em;
   padding-right: 20em;
   padding-bottom: 10em;
   margin-left: 16em;
-	margin-right: auto;
+  margin-right: auto;
   margin-top: 11.5em;
-	width: 175em;
-  height:40em;
+  width: 175em;
+  height: 40em;
   background-color: dimgrey;
   border-radius: 2em;
   text-align: center;
-	}
+}
+
 /*This hides the title at the top of the page;"The Kleinsorge Family Tree - Tree"*/
-	.pageTitle, #pTitle
-   {
-    visibility:hidden;
- 		margin-left: 195px;
-    background-color:linen;
-    border: solid;
-    width:50%;
-    border-radius: 25px;
-    margin-left: 300px;
-    margin-top: -70px;
-    margin-bottom: 15px;
-	 }
+.pageTitle, #pTitle {
+  visibility: hidden;
+  margin-left: 195px;
+  background-color: linen;
+  border: solid;
+  width: 50%;
+  border-radius: 25px;
+  margin-left: 300px;
+  margin-top: -70px;
+  margin-bottom: 15px;
+}
 
 /* Person box appearance */
-.box
-	{
-	position: absolute;
+.box {
+  position: absolute;
   z-index: -1;
-	width: 15em;
-	height: 4.5em;
-	margin: 10px 0px;
-	padding: 7px;
+  width: 15em;
+  height: 4.5em;
+  margin: 10px 0px;
+  padding: 7px;
   border-radius: 5px;
-	}
+}
 
-.male
-	{
-	background-image: url(fillMale.jpg);
-	}
+.male {
+  background-image: url(fillMale.jpg);
+}
 
-.female
-	{
-	background-image: url(fillFemale.jpg);
-	}
+.female {
+  background-image: url(fillFemale.jpg);
+}
 
-.date
-	{
+.date {
   font-size: 0.83em;
-	}
+}
 
-#source .name
-	{
-	font-weight: bold;
-	}
+#source .name {
+  font-weight: bold;
+}
 
 /* Connecting line appearance */
-.connect
-	{
-	position: absolute;
-	z-index: -3;
-	border: 3px solid red;
-	border-right: none;
-	}
+.connect {
+  position: absolute;
+  z-index: -3;
+  border: 3px solid red;
+  border-right: none;
+}
 
 /*This instruction prevents data from being displayed on the tree screen for the Spouse/Children dropdown.*/
-.showSC
-	{
-	visibility: hidden;
-	position: absolute;
-	}
+.showSC {
+  visibility: hidden;
+  position: absolute;
+}
 
 /*This instruction prevents data from being displayed on the tree screen for the Spouse/Children popup menu.*/
-.scView
-	{
-	visibility: hidden;
-	position: absolute;
-	}
+.scView {
+  visibility: hidden;
+  position: absolute;
+}
 
 /* Person box locations */
-#source
-	{
+#source {
   font-weight: bold;
-	top: 18em;
+  top: 18em;
   left: -7em;
   height: 4.5em;
   padding-top: 30px;
-	}
-#p1, #p2
-	{
-  height:4em;
+}
+
+#p1, #p2 {
+  height: 4em;
   padding-top: 23px;
   font-weight: bold;
   left: 5em;
-	}
-#p1
-	{
-	top: 7.75em;
-	}
-#p2
-	{
-	top: 29.75em;
-	}
-#gp1, #gp2, #gp3, #gp4
-	{
+}
+
+#p1 {
+  top: 7.75em;
+}
+
+#p2 {
+  top: 29.75em;
+}
+
+#gp1, #gp2, #gp3, #gp4 {
   padding-top: 15px;
-	font-weight: bold;
-	margin-left: 110px;
-	}
-#gp1
-	{
-	top: 0em;
-	}
-#gp2
-	{
-	top: 11.5em;
-	}
-#gp3
-	{
-	top: 25em;
-	}
-#gp4
-	{
-	top: 36em;
-	}
+  font-weight: bold;
+  margin-left: 110px;
+}
+
+#gp1 {
+  top: 0em;
+}
+
+#gp2 {
+  top: 11.5em;
+}
+
+#gp3 {
+  top: 25em;
+}
+
+#gp4 {
+  top: 36em;
+}
 
 /*This locates position of Great Grandparents boxes*/
-#ggp1, #ggp2, #ggp3, #ggp4, #ggp5, #ggp6, #ggp7, #ggp8
-	{
-	font-weight: bold;
-  height:2.3em;
+#ggp1, #ggp2, #ggp3, #ggp4, #ggp5, #ggp6, #ggp7, #ggp8 {
+  font-weight: bold;
+  height: 2.3em;
   width: 19em;
   left: 36em;
   margin-left: 4.5em;
-	visibility: visible;
-	}
-#ggp1
-	{
-	top: 3px;
-	}
-#ggp2
-	{
-	top: 90px;
-	}
-#ggp3
-	{
-	top: 145px;
-	}
-#ggp4
-	{
-	top: 232px;
-	}
-#ggp5
-	{
-	top: 288px;;
-	}
-#ggp6
-	{
-	top: 375px;;
-	}
-#ggp7
-	{
-	top: 430px;
-	}
-#ggp8
-	{
-	top: 517px;
-	}
+  visibility: visible;
+}
+
+#ggp1 {
+  top: 3px;
+}
+
+#ggp2 {
+  top: 90px;
+}
+
+#ggp3 {
+  top: 145px;
+}
+
+#ggp4 {
+  top: 232px;
+}
+
+#ggp5 {
+  top: 288px;
+  ;
+}
+
+#ggp6 {
+  top: 375px;
+  ;
+}
+
+#ggp7 {
+  top: 430px;
+}
+
+#ggp8 {
+  top: 517px;
+}
+
 /*The instructions below are for odd numbered gggrandparents*/
- #gggp1
-  {
-	top: 2px;
-	}
- #gggp3
-  {
-	top: 90px;
-	}
- #gggp5
-  {
-	top: 145px;
-	}
- #gggp7
-  {
-	top: 231px;
-	}
- #gggp9
-  {
-	top: 287px;
-	}
- #gggp11
-  {
-	top: 375px;
-	}
- #gggp13
-  {
-	top: 431px;
-	}
- #gggp15
-  {
-	top: 516px;
-	}
+#gggp1 {
+  top: 2px;
+}
 
-#gggp1, #gggp2, #gggp3, #gggp4, #gggp5, #gggp6, #gggp7, #gggp8, #gggp9, #gggp10, #gggp11, #gggp12, #gggp13, #gggp14, #gggp15, #gggp16
-	{
+#gggp3 {
+  top: 90px;
+}
+
+#gggp5 {
+  top: 145px;
+}
+
+#gggp7 {
+  top: 231px;
+}
+
+#gggp9 {
+  top: 287px;
+}
+
+#gggp11 {
+  top: 375px;
+}
+
+#gggp13 {
+  top: 431px;
+}
+
+#gggp15 {
+  top: 516px;
+}
+
+#gggp1, #gggp2, #gggp3, #gggp4, #gggp5, #gggp6, #gggp7, #gggp8, #gggp9, #gggp10, #gggp11, #gggp12, #gggp13, #gggp14, #gggp15, #gggp16 {
   font-weight: bold;
-  height:.692em;
-	width: 20em;
-	left: 51em;
-	margin-left: 10em;
-	}
-/*The instructions below are for even numbered gggrandparents*/
-#gggp2
-	{
-	top: 26px;
-	}
+  height: .692em;
+  width: 20em;
+  left: 51em;
+  margin-left: 10em;
+}
 
-#gggp4
-	{
-	top: 114px;
-	}
+/*The instructions below are for even numbered gggrandparents*/
+#gggp2 {
+  top: 26px;
+}
 
-#gggp6
-	{
-	top: 169px;
-	}
+#gggp4 {
+  top: 114px;
+}
 
-#gggp8
-	{
-	top: 255px;
-	}
+#gggp6 {
+  top: 169px;
+}
 
-#gggp10
-	{
-	top: 311px;
-	}
+#gggp8 {
+  top: 255px;
+}
 
-#gggp12
-	{
-	top: 399px;
-	}
+#gggp10 {
+  top: 311px;
+}
 
-#gggp14
-	{
-	top: 455px;
-	}
+#gggp12 {
+  top: 399px;
+}
 
-#gggp16
-	{
-	top: 540px;
-	}
+#gggp14 {
+  top: 455px;
+}
 
+#gggp16 {
+  top: 540px;
+}
 
 /* Connecting line locations. cnct1 is the line between source and parents.  cnct2-3 connects parents to grandparents. cnct4-7 connects GGandparents to Gparents.*/
-#cnct1
-	{
+#cnct1 {
   margin-left: -2em;
-	top: 8em;
-	left: 0.5em;
-	height: 25em;
-	width: 3.5em;
-	}
+  top: 8em;
+  left: 0.5em;
+  height: 25em;
+  width: 3.5em;
+}
 
-#cnct2, #cnct3
-	{
+#cnct2, #cnct3 {
   margin-left: 4em;
-	height: 11em;
-	width: 3em;
-	}
+  height: 11em;
+  width: 3em;
+}
 
 /*These are the vertical lines that connect Gparents to GGrandparents*/
-#cnct4, #cnct5, #cnct6, #cnct7
- {
- visibility: visible;
- left: 35em;
- height: 6.5em;
- width: 3em;
- margin-left: 2.30em;
- }
-#cnct4
-	{
-	top: 2.50em;
-	}
+#cnct4, #cnct5, #cnct6, #cnct7 {
+  visibility: visible;
+  left: 35em;
+  height: 6.5em;
+  width: 3em;
+  margin-left: 2.30em;
+}
 
-#cnct5
-	{
+#cnct4 {
+  top: 2.50em;
+}
+
+#cnct5 {
   top: 13.6em;
-	}
+}
 
-#cnct6
-	{
-	top: 24.45em;
-	}
+#cnct6 {
+  top: 24.45em;
+}
 
-#cnct7
-	{
+#cnct7 {
   top: 35.7em;
-	}
+}
 
-	#gp1, #gp2, #gp3, #gp4
-		{
-		/*left: 18.5em;*/
-		}
+#gp1, #gp2, #gp3, #gp4 {
+  /*left: 18.5em;*/
+}
 
 /*This establishes the location of grandparents boxes*/
-	#gp1, #gp2, #gp3, #gp4
-		{
-		/*left: 18em;*/
-    left: 14em;
-    height: 45px;
-		}
+#gp1, #gp2, #gp3, #gp4 {
+  /*left: 18em;*/
+  left: 14em;
+  height: 45px;
+}
 
-	#gp1
-		{
-		top: 2.65em;
-		}
+#gp1 {
+  top: 2.65em;
+}
 
-	#gp2
-		{
-		top: 13.75em;
-		}
+#gp2 {
+  top: 13.75em;
+}
 
-	#gp3
-		{
-		top: 24.65em;
-		}
+#gp3 {
+  top: 24.65em;
+}
 
-	#gp4
-		{
-		top: 35.75em;
-		}
+#gp4 {
+  top: 35.75em;
+}
 
-	#gp1SC, #gp1ShowSC, #gp2SC, #gp2ShowSC, #gp3SC, #gp3ShowSC, #gp4SC, #gp4ShowSC
-		{
-		left: 21.7em;
-		}
+#gp1SC, #gp1ShowSC, #gp2SC, #gp2ShowSC, #gp3SC, #gp3ShowSC, #gp4SC, #gp4ShowSC {
+  left: 21.7em;
+}
 
 /*The following instructions position the vertical lines. cnct1 is the line connecting the source to parents. cnct1 and cnct2 connects grandparents to parents.*/
-	#cnct1
-		{
-		top: 12em;
-		left: 10em;
-		height: 21em;
-		}
+#cnct1 {
+  top: 12em;
+  left: 10em;
+  height: 21em;
+}
 
-	#cnct2, #cnct3
-		{
-		left: 16em;
-		height: 10em;
-		}
+#cnct2, #cnct3 {
+  left: 16em;
+  height: 10em;
+}
 
-	#cnct2
-		{
-		top: 6.4em;
-		}
+#cnct2 {
+  top: 6.4em;
+}
 
-	#cnct3
-		{
-		top: 28.5em;
-		}
+#cnct3 {
+  top: 28.5em;
+}
