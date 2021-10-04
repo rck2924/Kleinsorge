@@ -248,7 +248,7 @@ body {
 .text5 {
   margin-left: 50px;
   height: 30px;
-  width: 300px;
+  width: auto;
   border-radius: 5px;
   background-color: lightblue;
   font-size: 1.75em;
