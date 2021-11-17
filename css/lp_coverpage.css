@@ -14,14 +14,6 @@ body {
   background: top url(titleGradient.png);
 }
 
-/*This is for the verbage below the 6 wedding pictures near the bottom of the cover page.*/
-.six_couples {
-  font-size: 2.5em;
-  color: darkslategrey;
-  font-style: italic;
-  padding-bottom: 20px;
-}
-
 /*This instruction will cause the "Welcome message" to change
  when a pointer is hovered on the phrase "Translation?"*/
 .welcome {
@@ -91,6 +83,13 @@ body {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transition-duration: 3s;
 }
+/*This is for the verbage below the 6 wedding pictures near the bottom of the cover page.*/
+.six_couples {
+  font-size: 35px;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
+}
 
 .history {
   margin-top: 40px;
@@ -119,29 +118,6 @@ body {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.activate {
-  margin-top: 50px;
-  margin-bottom: 70px;
-  font-size: 30px;
-  height: 40px;
-  width: 18%;
-  border-radius: 15px;
-  border: outset blue 5px;
-  background-color: lightblue;
-}
-
-.activate:hover {
-  cursor: pointer;
-  transition-timing-function: ease-in-out;
-  transition-duration: .5s;
-  border-bottom-right-radius: 50px;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-top-right-radius: 50px;
-  background-color: yellow;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
 .activate1 {
   margin-bottom: 80px;
   margin-top: 30px;
@@ -154,26 +130,6 @@ body {
 }
 
 .activate1:hover {
-  cursor: pointer;
-  transition-timing-function: ease-in-out;
-  transition-duration: .5s;
-  border-bottom-right-radius: 50px;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-top-right-radius: 50px;
-  background-color: yellow;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.activate2 {
-  height: 30px;
-  width: 60%;
-  border-radius: 15px;
-  border: outset blue 5px;
-  background-color: lightblue;
-}
-
-.activate2:hover {
   cursor: pointer;
   transition-timing-function: ease-in-out;
   transition-duration: .5s;
@@ -234,66 +190,10 @@ body {
   opacity: 1;
 }
 
-/*text3 colors and positions the background of the text associated with the popup on Theodor's birthplace photo*/
-.text3 {
-  width: 400px;
-  border-radius: 5px;
-  background-color: ghostwhite;
-  font-size: 1.25em;
-  margin-top: 130px;
-  margin-left: 50px;
-}
-
-/*text5 colors and positions the background of the text associated with the popup on Aunt Ruby's 90th picture*/
-.text5 {
-  margin-left: 50px;
-  height: 30px;
-  width: auto;
-  border-radius: 5px;
-  background-color: lightblue;
-  font-size: 1.75em;
-  margin-top: 100px;
-}
-
-/*text5 colors and positions background of the text associated with the popup on the photo of Bud and Ruby*/
-.text6 {
-  width: 240px;
-  border-radius: 5px;
-  background-color: lightblue;
-  font-size: 1.5em;
-  margin-top: 225px;
-  margin-left: 4.0em;
-}
-
-/*text5 colors and positions background of the text associated with the popup on the photo Ruby@97*/
-.text7 {
-  width: 410px;
-  border-radius: 5px;
-  background-color: lightblue;
-  font-size: 1.5em;
-  margin-top: 100px;
-  margin-left: 3px;
-}
-
 /*This instruction is for the verbage below the 6 wedding pictures*/
 .para {
   font-size: 20px;
   font-style: italic;
-}
-
-/*This instruction is for the verbage below Ruby wedding pix*/
-.para4 {
-  font-size: 20px;
-}
-
-/*Theodor on the Farm and birthplace photos*/
-.image1 {
-  width: 265px;
-  height: 175px;
-  margin-top: 5.5em;
-  border: solid;
-  border-radius: 10px;
-  border-color: black;
 }
 
 .image2 {
@@ -304,54 +204,13 @@ body {
   border-radius: 20px;
 }
 
-/*Locust Point photo*/
-.image4 {
-  width: 350px;
-  height: 250px;
-  border: solid;
-  border-radius: 10px;
-}
-
-/*Ruby Kleinsorge pictures(wedding and 97th birthday)*/
-.image5 {
-  width: 200px;
-  height: 250px;
-  border: solid;
-  border-radius: 10px;
-  margin-top: 100px;
-}
-
-/*Ruby Kleinsorge 90th birthday picture*/
-.image6 {
-  width: 325px;
-  height: 225px;
-  border: solid;
-  border-radius: 10px;
-  margin-top: 100px;
-}
-
 .grow {
-  transition: all 1.5s ease-in-out;
+  transition: all 2.5s ease-in-out;
+  transition-delay: 1.0s;
 }
 
 .grow:hover {
-  transform: scale(2.5);
-}
-
-.grow1 {
-  transition: all 1.2s ease-in-out;
-}
-
-.grow1:hover {
-  transform: scale(1.5);
-}
-
-.grow2 {
-  transition: all 2.2s ease-in-out;
-}
-
-.grow2:hover {
-  transform: scale(1.25);
+  transform: scale(2.75);
 }
 
 .grow3 {
@@ -361,7 +220,13 @@ body {
 .grow3:hover {
   transform: scale(1.2);
 }
+.grow4 {
+  transition: all 1.0s ease-in-out;
+}
 
+.grow4:hover {
+  transform: scale(1.1);
+}
 .brighten img {
   -webkit-filter: brightness(30%);
 }
@@ -588,17 +453,6 @@ h3 {
   animation-direction: alternate;
 }
 
-h4 {
-  position: relative;
-  width: 25%;
-  margin-top: 60px;
-  margin-left: : -50px;
-  font-size: 25px;
-  border-radius: 10px;
-  animation: mouse_pointer4 5.0s infinite;
-  animation-direction: alternate;
-}
-
 /*Moves the mouse message up and down while shrinking and expanding*/
 @keyframes mouse_pointer1 {
   0% {
@@ -684,28 +538,7 @@ h4 {
   }
 }
 
-/*Changes the mouse message with an alternating up and down and right and left with changing colors*/
-@keyframes mouse_pointer4 {
-  0% {
-    top: 0px;
-    left: -100px;
-    background: none;
-  }
 
-  /*25%  {top: 0px; left: 50px; background: linen;}*/
-  50% {
-    top: 0px;
-    right: 50px;
-    background: none;
-  }
-
-  /*75%  {top: 50px; left: 50px; background: green;}*/
-  100% {
-    top: 0px;
-    left: 100px;
-    background: none;
-  }
-}
 
 .button {
   display: inline-block;
